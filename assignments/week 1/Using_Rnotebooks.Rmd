@@ -1,0 +1,10 @@
+---
+title: "R Markdown Documents - Part 1"
+subtitle: "Analysis of Environmental Data"
+author: "Evan Krause"
+date: "2022-09-07"
+output: html_document
+
+---
+
+My name is *Evan Krause* and my major is ""environmental science""

@@ -1,0 +1,2 @@
+"0","my_vec <- 1:6"
+"0","mat_1 <- matrix(my_vec, nrow = 3)"

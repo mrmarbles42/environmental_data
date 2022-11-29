@@ -1,0 +1,24 @@
+---
+title: "final_R_reference"
+author: "Evan Krause"
+date: "2022-11-27"
+output: html_document
+---
+
+# 
+
+## loading data and packages
+```{r}
+#load 'palmerpenguins' and 'here' packages
+library(palmerpenguins)
+require(here)
+
+#create dataframe of 2021 ginko data called "ginkgo"
+ginkgo <- read.csv(here("data", "ginkgo_data_2021.csv"))
+```
+
+##data structures
+```{r}
+
+```
+

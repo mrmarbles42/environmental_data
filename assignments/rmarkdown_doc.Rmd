@@ -1,0 +1,26 @@
+---
+title: "R Markdown Documents - Part 1"
+subtitle: "Analysis of Environmental Data"
+author: "Evan Krause"
+date: "2022-09-09"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+# Introduction
+
+Hello, my name is **Evan Krause** and my major is *Environmental Science*
+
+# Concepts list
+
+1. Modeling types and methods
+2. statistical analysis techniques
+3. study design
+
+# Course List
+
+* Mycology
+* Comparative literature: Good and Evil
+* Intro Ecology
+* 

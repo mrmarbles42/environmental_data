@@ -1,0 +1,3047 @@
+DBH_in,HeighttoTop_ft,Species,CanopyWidth_ft,MostSignificantDefect,Failure_Standardized,ProbabilityofFailure
+8,12.5,Chinese elm,13,Dead,whole,4
+8,16,Chinese elm,20,Decay,whole,3
+5.5,15.5,Crapemyrtle,15,Poor Tree Architecture,whole,1
+6.2,14,Crapemyrtle,24,Poor Tree Architecture,whole,1
+16,17,Crapemyrtle,27,Poor Tree Architecture,none,2
+15.2,20,Crapemyrtle,19,Poor Tree Architecture,none,2
+12.5,20.5,Crapemyrtle,21,Poor Tree Architecture,none,2
+14.8,20.5,Crapemyrtle,19,Poor Tree Architecture,none,2
+15.5,19.5,Crapemyrtle,25,Poor Tree Architecture,none,2
+20.7,22.5,Crapemyrtle,27,"",none,2
+16,20.5,Crapemyrtle,24,Poor Tree Architecture,none,2
+20,23.5,Crapemyrtle,26,Poor Tree Architecture,none,2
+8.9,21,baldcypress,,"",branch,1
+11.3,19.5,Weeping Bottlebrush,,"",none,2
+6.2,13.5,Weeping Bottlebrush,,"",none,2
+7.3,18,Weeping Bottlebrush,,"",none,1
+8.2,15.5,Weeping Bottlebrush,,"",none,2
+5.6,13.5,Weeping Bottlebrush,,"",none,1
+3,6,baldcypress,,"",none,3
+7.3,17,Weeping Bottlebrush,,"",none,2
+7.2,14,Weeping Bottlebrush,,"",none,1
+5.9,12.5,baldcypress,,"",none,1
+5,10.5,Weeping Bottlebrush,,"",none,1
+6.1,15.5,baldcypress,,"",none,1
+5.7,12,baldcypress,,"",none,1
+6.4,13,baldcypress,,"",none,1
+7.1,14,Weeping Bottlebrush,,"",none,1
+3.8,9.5,baldcypress,,"",none,1
+6.8,14.5,baldcypress,,"",none,1
+6.5,13,baldcypress,,"",none,1
+6,13.5,baldcypress,,"",none,1
+5.7,11.5,baldcypress,,"",none,1
+6.4,14,baldcypress,,"",none,1
+4.2,12,baldcypress,,"",none,1
+4,9.5,baldcypress,,"",none,1
+4.2,10,baldcypress,,"",none,1
+5.2,11.5,baldcypress,,"",none,1
+6.6,19,baldcypress,,"",none,1
+6,11,baldcypress,,"",none,1
+4.9,11.5,baldcypress,,"",none,1
+6.1,15,baldcypress,,"",none,1
+3.2,10.5,baldcypress,,"",none,1
+6.2,12.5,baldcypress,,"",none,1
+2.2,7.5,baldcypress,,"",none,1
+2.9,8,baldcypress,,"",none,1
+5.1,11.5,baldcypress,,"",none,1
+4.6,9.5,baldcypress,,"",none,1
+4.7,13.5,baldcypress,,"",none,1
+6,12.5,baldcypress,,"",none,1
+6.1,13,baldcypress,,"",none,1
+1.9,8,baldcypress,,"",none,2
+3.3,9.5,baldcypress,,"",none,1
+6.2,18,baldcypress,,"",none,1
+7.5,10.5,Crapemyrtle,19,Poor Tree Architecture,none,1
+14.9,20.5,Weeping Bottlebrush,32,Crack,branch,2
+5,20.5,Carolina Laurelcherry,19,Poor Tree Architecture,none,3
+47.2,55.5,Live oak,85,Poor Tree Architecture,none,1
+6.2,28,Carolina Laurelcherry,13,Poor Tree Architecture,none,2
+14.9,33,Live oak,27,Weak Branch Union,none,3
+6.7,28,Carolina Laurelcherry,13,Poor Tree Architecture,none,2
+8.7,29,Live oak,12,Poor Tree Architecture,none,2
+8.5,28.5,Carolina Laurelcherry,22,Poor Tree Architecture,none,2
+5.9,24,southern magnolia,18,Poor Tree Architecture,none,1
+23.5,37.5,Live oak,53,Weak Branch Union,none,2
+21.2,47.5,Live oak,38,Poor Tree Architecture,none,2
+22.3,62,slash pine,35,Dead,none,4
+52.2,48,Live oak,107,Decay,none,2
+57,69,Live oak,103,Weak Branch Union,none,2
+36.1,54.5,Live oak,92,"",none,2
+25.5,47,Live oak,53,"",none,2
+40.9,44,Live oak,92,Dead,none,4
+18.5,34.5,Live oak,39,Decay,none,3
+19.8,33,Live oak,43,Poor Tree Architecture,none,1
+22.6,40.5,Live oak,40,Weak Branch Union,none,2
+56.8,53.5,Live oak,80,Dead,none,4
+54.2,55.5,Live oak,99,Poor Tree Architecture,none,2
+7.4,32,Brazilian Pepper,44,Poor Tree Architecture,none,3
+41,53.5,Live oak,91,Weak Branch Union,none,3
+19.3,37.5,Live oak,60,Weak Branch Union,none,2
+5.2,25,Carolina Laurelcherry,15,Leaning Tree,none,2
+15.5,40.5,Live oak,26,Poor Tree Architecture,none,2
+10,38,Laurel Oak,29,Root Problems,none,3
+9.3,27,Live oak,26,Weak Branch Union,none,2
+5.8,30,Laurel Oak,20,Weak Branch Union,none,1
+6.5,20,Live oak,19,Poor Tree Architecture,none,2
+13.2,34,Live oak,28,Root Problems,none,2
+13.3,40,Laurel Oak,23,Decay,none,2
+13.2,37.5,Live oak,27,Poor Tree Architecture,none,2
+7.8,19.5,Laurel Oak,25,Weak Branch Union,none,2
+9.4,33,Live oak,22,Poor Tree Architecture,none,1
+9.3,26,Laurel Oak,27,Decay,none,2
+3.5,20.5,Laurel Oak,15,Leaning Tree,none,2
+6,22.5,Live oak,18,Poor Tree Architecture,none,1
+17,35.5,Laurel Oak,36,Poor Tree Architecture,none,3
+7.6,19,Live oak,19,Leaning Tree,none,2
+7.3,32,Laurel Oak,15,Weak Branch Union,none,1
+16.2,37,Live oak,45,Leaning Tree,none,2
+3.6,20,Crapemyrtle,22,Poor Tree Architecture,none,2
+3.3,22.5,Crapemyrtle,20,Poor Tree Architecture,none,2
+29.5,52,Live oak,76,Poor Tree Architecture,none,1
+2,16.5,Crapemyrtle,20,Poor Tree Architecture,none,2
+2.7,17,Crapemyrtle,21,Decay,none,2
+2.9,19.5,Crapemyrtle,20,Poor Tree Architecture,none,2
+2.9,22.5,Crapemyrtle,26,Poor Tree Architecture,none,2
+3.7,22,Crapemyrtle,24,Poor Tree Architecture,none,2
+3.5,21.5,Crapemyrtle,23,Poor Tree Architecture,none,2
+4.6,20.5,Crapemyrtle,17,"",none,1
+4.8,20.5,Crapemyrtle,16,Poor Tree Architecture,none,2
+51,53,Live oak,96,Dead,branch,4
+24,65.5,slash pine,38,"",branch,1
+22.8,20.5,Laurel Oak,41,Decay,whole,4
+29,38,red maple,37,Poor Tree Architecture,whole,3
+7.8,20,Laurel Oak,25,Dead,whole,3
+50.2,59.5,Live oak,73,Weak Branch Union,branch,3
+25.9,37.5,Live oak,64,Poor Tree Architecture,branch,2
+15.7,35,Live oak,28,Dead,branch,4
+20.6,38.5,Live oak,42,Leaning Tree,branch,2
+38.8,43,Live oak,90,Poor Tree Architecture,branch,2
+43.4,63,Live oak,74,Dead,whole,4
+31.5,35,Live oak,54,Poor Tree Architecture,none,2
+13.3,38.5,Laurel Oak,22,Poor Tree Architecture,none,2
+16.2,29,Laurel Oak,40,Decay,none,3
+5,16.5,Carolina Laurelcherry,9,Poor Tree Architecture,none,1
+7.4,16,Chinese elm,23,Root Problems,none,2
+6.5,18.5,Chinese elm,28,Root Problems,none,2
+17.9,9,Yew Podocarpus,11,Poor Tree Architecture,none,2
+11.2,28.5,Laurel Oak,33,Weak Branch Union,branch,1
+16.2,24,Laurel Oak,27,Decay,branch,3
+26.6,34.5,Live oak,60,Poor Tree Architecture,branch,2
+10.5,10.5,Melaleuca spp.,11,Decay,whole,4
+10.5,17,Melaleuca spp.,10,Decay,whole,4
+22.5,37.5,Laurel Oak,50,Weak Branch Union,branch,3
+18.5,48.5,Laurel Oak,22,Poor Tree Architecture,none,3
+15,47,Laurel Oak,33,Weak Branch Union,none,2
+9.4,45.5,Laurel Oak,25,Decay,none,3
+6,10.5,Crapemyrtle,12,Poor Tree Architecture,none,1
+3.8,8,Crapemyrtle,10,Poor Tree Architecture,none,1
+17.4,32.5,Red Mulberry,24,Decay,none,3
+20.8,36,Red Mulberry,35,Decay,none,3
+44.2,41,Live oak,70,Poor Tree Architecture,none,1
+19.7,34,Live oak,38,Weak Branch Union,none,2
+20,44,Live oak,34,Weak Branch Union,none,1
+24,45.5,Live oak,48,Poor Tree Architecture,none,1
+26.4,43.5,Live oak,49,Decay,branch,1
+32.7,49,Laurel Oak,57,Weak Branch Union,branch,3
+6.7,7,Arborvitae,9,"",none,1
+6.8,18.5,Live oak,17,Weak Branch Union,whole,2
+10.8,26.5,Live oak,30,Poor Tree Architecture,whole,1
+14.7,32.5,Live oak,38,Poor Tree Architecture,whole,1
+11.4,27.5,Live oak,27,Weak Branch Union,whole,2
+13.6,25.5,Live oak,39,Poor Tree Architecture,whole,2
+10.7,17.5,Live oak,30,Poor Tree Architecture,whole,2
+11.7,24.5,Live oak,28,Weak Branch Union,whole,3
+11.5,24.5,Live oak,27,Poor Tree Architecture,whole,2
+13.5,25.5,Live oak,37,Weak Branch Union,whole,2
+11.3,27.5,Live oak,29,Weak Branch Union,whole,2
+8.4,18,Live oak,23,Root Problems,whole,2
+9.2,21.5,Live oak,26,Root Problems,whole,2
+10.2,23.5,Live oak,25,Poor Tree Architecture,whole,2
+7.5,18,Live oak,30,Leaning Tree,whole,2
+9.5,19.5,Live oak,27,Root Problems,whole,2
+10.2,23.5,Live oak,24,Poor Tree Architecture,whole,1
+8.1,20,Live oak,29,Weak Branch Union,whole,1
+9,21.5,Live oak,27,Weak Branch Union,whole,1
+11.7,23,Live oak,34,Weak Branch Union,whole,2
+8.8,22.5,Live oak,26,Root Problems,whole,2
+8.5,23,Live oak,30,Weak Branch Union,whole,1
+12.3,26,Live oak,36,Poor Tree Architecture,whole,2
+8.3,21,Live oak,25,Weak Branch Union,whole,2
+11.7,27,Live oak,31,Weak Branch Union,whole,2
+9.2,22,Live oak,25,Weak Branch Union,whole,2
+9.7,26.5,Live oak,25,"",whole,
+11.4,28.5,Live oak,29,Weak Branch Union,whole,2
+13.9,31,Live oak,35,Poor Tree Architecture,none,2
+9.7,23,Live oak,27,Weak Branch Union,none,2
+7,18.5,Live oak,26,Root Problems,none,3
+8,17,Live oak,23,Decay,none,3
+7.2,22,Live oak,19,Weak Branch Union,none,3
+17.7,36,Yew Podocarpus,41,Poor Tree Architecture,none,3
+4,16.5,Crapemyrtle,16,"",none,1
+4.3,18,Crapemyrtle,15,"",none,1
+17.4,34.5,Yew Podocarpus,29,Weak Branch Union,none,1
+16.5,33.5,Yew Podocarpus,25,Leaning Tree,none,1
+13.5,30.5,Yew Podocarpus,28,Weak Branch Union,none,1
+7.4,19,Weeping Bottlebrush,13,Decay,none,3
+15.2,23,Laurel Oak,29,Weak Branch Union,branch,3
+16.9,36.5,Laurel Oak,16,Poor Tree Architecture,branch,3
+26.8,36,Laurel Oak,45,Poor Tree Architecture,branch,3
+36,44,Laurel Oak,53,Decay,branch,3
+16.7,35.5,Live oak,42,Poor Tree Architecture,none,1
+15.7,31,Live oak,29,Poor Tree Architecture,none,2
+18,34,Live oak,32,Poor Tree Architecture,none,2
+15.4,30,Live oak,33,Poor Tree Architecture,none,2
+11.2,26,Live oak,34,Weak Branch Union,none,1
+10.5,21.5,Live oak,34,Weak Branch Union,none,2
+17.5,29,Live oak,40,Decay,none,2
+23.8,40,Laurel Oak,41,Dead,whole,4
+19.3,29,Live oak,33,Poor Tree Architecture,branch,3
+20,35,Live oak,46,Root Problems,branch,1
+17,36.5,Live oak,48,Root Problems,none,2
+4.2,14,Yellow Tabebuia,18,Leaning Tree,whole,2
+11.7,22.5,Live oak,32,Poor Tree Architecture,none,1
+24.8,36,American Elm,48,Dead,whole,4
+4.9,10.5,Chinese elm,7,Dead,whole,4
+11.7,25.5,Live oak,36,Weak Branch Union,none,1
+12.1,24.5,Live oak,40,"",branch,1
+13.6,21.5,Live oak,36,Root Problems,none,2
+24.6,34.5,Live oak,64,Poor Tree Architecture,none,2
+36,54.5,Laurel Oak,63,Weak Branch Union,branch,3
+23.8,49.5,Laurel Oak,54,Root Problems,branch,2
+19.8,54.5,Laurel Oak,46,Leaning Tree,none,2
+9.3,23,Carolina Laurelcherry,22,Leaning Tree,none,2
+6,15,Brazilian Pepper,25,Poor Tree Architecture,whole,2
+4.3,17,Weeping Bottlebrush,15,Poor Tree Architecture,none,2
+4.2,13,Laurel Oak,9,Poor Tree Architecture,none,3
+8.4,22,Live oak,19,Poor Tree Architecture,none,2
+6.8,27,Laurel Oak,23,Root Problems,none,1
+4.5,13,Weeping Bottlebrush,7,Poor Tree Architecture,none,2
+5.5,14.5,Weeping Bottlebrush,14,Poor Tree Architecture,none,2
+4,12,Laurel Oak,10,Poor Tree Architecture,none,2
+4.3,24.5,slash pine,10,Dead,none,3
+10.7,34,Laurel Oak,17,Decay,none,4
+32,34,Laurel Oak,45,Decay,none,4
+31,56,Live oak,66,Dead,none,3
+4.9,17,Brazilian Pepper,24,Leaning Tree,none,1
+25,49,Live oak,47,Root Problems,none,1
+27,58.5,Laurel Oak,32,Decay,branch,4
+17.5,35,Laurel Oak,37,Dead,whole,3
+9.3,29,Carolina Laurelcherry,27,Poor Tree Architecture,none,2
+12.5,32,Live oak,32,Leaning Tree,none,1
+14.8,21,Weeping Bottlebrush,12,Dead,none,3
+10,11,Weeping Bottlebrush,6,Dead,none,3
+19.5,50.5,slash pine,43,Root Problems,none,1
+19.6,39,Live oak,42,Poor Tree Architecture,none,2
+26.2,41.5,Live oak,55,Dead,none,3
+18.3,23.5,Laurel Oak,30,Poor Tree Architecture,none,2
+27,41,Live oak,58,Weak Branch Union,none,1
+16.8,29.5,Laurel Oak,40,Decay,none,2
+19.4,54,sand live oak,36,"",none,
+9.1,30,sand live oak,15,Dead,none,4
+20.7,35.5,sand live oak,36,Decay,none,4
+21.8,38,sand live oak,30,Decay,none,3
+8.8,27,sand live oak,18,Decay,none,4
+9.9,44.5,Live oak,26,Poor Tree Architecture,none,1
+21,45,Live oak,55,Dead,none,3
+17.5,46.5,sand live oak,36,Leaning Tree,none,2
+14.2,51,sand live oak,40,Decay,none,2
+14.5,45.5,sand live oak,30,Leaning Tree,none,2
+13.3,48,sand live oak,46,Leaning Tree,none,2
+13.3,45.5,sand live oak,33,Leaning Tree,none,2
+13.1,45.5,sand live oak,32,Dead,none,3
+8.2,37,Live oak,24,Dead,none,3
+18.2,52.5,Live oak,36,Poor Tree Architecture,none,1
+17.1,42.5,Live oak,35,"",none,2
+13.8,42.5,Live oak,24,Leaning Tree,none,2
+18.8,49,Live oak,46,Dead,none,3
+26.4,34,Live oak,52,"",none,2
+10.6,35,Live oak,15,Root Problems,none,2
+18.6,39,Live oak,40,Weak Branch Union,none,1
+17.3,29.5,Live oak,58,Decay,none,3
+13.7,47.5,Live oak,33,Dead,none,3
+17,48.5,Live oak,32,Dead,none,3
+37,38.5,Live oak,60,Dead,none,3
+36.5,58,Live oak,86,Dead,none,3
+10.9,34,Live oak,26,"",none,3
+16.2,43.5,Live oak,33,Dead,none,3
+18.5,48,Live oak,43,Dead,none,3
+25.3,35.5,sand live oak,50,Dead,none,3
+16.1,49.5,Live oak,36,Poor Tree Architecture,none,1
+18.1,45,Live oak,33,Weak Branch Union,none,2
+10.9,37,Live oak,24,Decay,none,2
+17,35.5,Live oak,30,Poor Tree Architecture,none,1
+12.9,37,Live oak,33,"",none,1
+14,33,Live oak,33,Leaning Tree,none,1
+11.8,33,Live oak,34,Leaning Tree,none,1
+25.2,39,Live oak,37,Leaning Tree,none,2
+30,35,Live oak,64,Leaning Tree,none,1
+25.5,45,Live oak,49,Dead,branch,3
+23.5,39.5,Live oak,49,Dead,branch,3
+19.4,54,Live oak,55,Weak Branch Union,branch,2
+20.6,25,Crapemyrtle,30,Leaning Tree,whole,2
+49.4,54,Laurel Oak,76,Dead,whole,3
+15.6,25,Chinaberry,29,Dead,none,4
+6.2,22,Carolina Laurelcherry,13,Leaning Tree,none,2
+12.9,34,Southern Redcedar,16,Decay,none,4
+22.5,37,Live oak,43,Leaning Tree,none,2
+11.5,43.5,Southern Redcedar,12,Decay,none,2
+12.5,35,Southern Redcedar,12,Leaning Tree,none,2
+9,43,Southern Redcedar,9,"",none,3
+4.4,32,Carolina Laurelcherry,13,Leaning Tree,none,1
+13.8,25.5,Carolina Laurelcherry,28,Poor Tree Architecture,none,3
+8.9,19.5,Carolina Laurelcherry,23,"",none,
+32.2,46.5,sand live oak,80,Poor Tree Architecture,none,1
+8.7,25,Carolina Laurelcherry,28,Poor Tree Architecture,none,2
+27.2,37.5,Live oak,72,Weak Branch Union,none,3
+22.3,32.5,sand live oak,50,Leaning Tree,none,1
+60,59.5,Live oak,95,Poor Tree Architecture,none,3
+8.5,12,Arborvitae,8,"",none,1
+13.4,43,Southern Redcedar,11,Decay,branch,2
+17.7,46.5,Carolina Laurelcherry,24,Poor Tree Architecture,branch,2
+4.5,20,Red Mulberry,15,Poor Tree Architecture,whole,2
+16.5,48.5,Southern Redcedar,16,Dead,branch,3
+10.6,35,Carolina Laurelcherry,22,Dead,branch,4
+35.5,66.5,Laurel Oak,72,Weak Branch Union,whole,2
+8,44,Southern Redcedar,11,Leaning Tree,branch,3
+10.5,39,Chinaberry,38,Leaning Tree,branch,3
+15.5,25,American Elm,40,Poor Tree Architecture,branch,3
+9.6,36.5,slash pine,18,"",none,3
+12.7,26.5,sand live oak,2,Leaning Tree,none,2
+5,24,Carolina Laurelcherry,17,Leaning Tree,none,2
+5.8,25.5,Carolina Laurelcherry,15,Weak Branch Union,none,2
+9.5,33.5,slash pine,20,Dead,none,3
+11.2,25,sand live oak,25,Poor Tree Architecture,none,3
+12.3,23,sand live oak,26,Decay,none,2
+16,24,Camphor Tree,27,Dead,none,4
+46.5,36,sand live oak,45,Decay,none,4
+13.3,35.5,Red Mulberry,48,Poor Tree Architecture,none,3
+16.7,40,sand live oak,35,Poor Tree Architecture,none,3
+35,42.5,Live oak,60,Poor Tree Architecture,none,2
+4,11,Yew Podocarpus,10,"",none,1
+12.2,32.5,Laurel Oak,40,Poor Tree Architecture,none,2
+11.2,23,Carolina Laurelcherry,30,Weak Branch Union,none,2
+17.5,24,Laurel Oak,40,Decay,none,3
+10.4,30,Laurel Oak,32,Poor Tree Architecture,none,2
+4.7,20.5,Carolina Laurelcherry,14,Poor Tree Architecture,none,2
+13,27,Camphor Tree,36,Poor Tree Architecture,none,1
+7,24,Laurel Oak,12,Poor Tree Architecture,none,3
+5.5,26,Camphor Tree,17,Poor Tree Architecture,none,2
+4,15,Red Mulberry,28,Poor Tree Architecture,none,2
+6.8,26,Camphor Tree,13,Poor Tree Architecture,none,2
+6.1,29,Carolina Laurelcherry,20,Poor Tree Architecture,none,2
+5.4,32,Carolina Laurelcherry,13,Leaning Tree,none,2
+32,47.5,sand live oak,77,Dead,none,4
+6.4,22.5,Camphor Tree,11,Leaning Tree,whole,2
+4,25,Laurel Oak,9,Decay,none,3
+26,32,Laurel Oak,47,Dead,none,4
+26.7,40,sand live oak,45,Weak Branch Union,branch,3
+14.7,24.5,Carolina Laurelcherry,34,Dead,branch,4
+6.3,32,Laurel Oak,29,Poor Tree Architecture,branch,2
+27,40,Laurel Oak,50,Decay,none,3
+4,25,Norfolk Island Pine,9,"",none,1
+5,15,Norfolk Island Pine,12,"",none,2
+5,19.5,Norfolk Island Pine,15,"",none,1
+4.2,25,Norfolk Island Pine,10,"",none,1
+7,25,Norfolk Island Pine,11,"",none,1
+8.3,40.5,Carolina Laurelcherry,26,Poor Tree Architecture,none,2
+43.5,41,Live oak,34,Decay,none,3
+35,44.5,Live oak,73,Poor Tree Architecture,branch,1
+34.5,45.5,Live oak,34,Weak Branch Union,branch,2
+10.5,18,Live oak,30,Decay,branch,3
+27.6,39.5,Live oak,41,Dead,branch,4
+30.3,47,Live oak,56,Poor Tree Architecture,none,1
+13,23.5,Red Mulberry,32,Poor Tree Architecture,none,3
+15,36.5,Laurel Oak,37,Poor Tree Architecture,whole,3
+14,27.5,Live oak,40,Decay,whole,3
+34,36,Camphor Tree,38,Dead,branch,4
+34.2,59,Laurel Oak,46,Weak Branch Union,branch,2
+28,50,Live oak,60,Poor Tree Architecture,none,3
+21.4,59,Laurel Oak,33,Poor Tree Architecture,none,3
+12.6,23,Live oak,33,Poor Tree Architecture,none,2
+8.8,18,Caribbean Trumpet,13,Leaning Tree,whole,3
+7.3,16,Caribbean Trumpet,13,"",whole,3
+4.8,14,Caribbean Trumpet,13,Poor Tree Architecture,none,3
+7,14,Caribbean Trumpet,13,"",none,3
+6.3,17.5,Caribbean Trumpet,9,"",none,3
+5.8,12,Caribbean Trumpet,13,Poor Tree Architecture,none,3
+5.3,18.5,Live oak,15,Weak Branch Union,none,1
+9.1,19,Caribbean Trumpet,12,"",none,3
+10.2,18.5,Caribbean Trumpet,14,"",none,3
+5.8,18.5,Live oak,13,"",none,1
+5.5,21,Live oak,16,Weak Branch Union,none,1
+8.8,17.5,Caribbean Trumpet,16,"",none,3
+9.5,15.5,Caribbean Trumpet,13,"",none,3
+9.8,22,Red Mulberry,20,Weak Branch Union,none,2
+24,23,Melaleuca spp.,18,Poor Tree Architecture,none,3
+29.3,40,Laurel Oak,54,Weak Branch Union,none,4
+6.7,29.5,Chinaberry,14,"",none,2
+21.2,22.5,Laurel Oak,28,Decay,none,3
+50.4,71,Laurel Oak,62,Dead,branch,4
+20,42,American Elm,39,Poor Tree Architecture,none,1
+14.8,41.5,Live oak,32,Poor Tree Architecture,none,1
+14.8,44.5,Live oak,34,"",none,2
+17,33,Live oak,28,Weak Branch Union,none,1
+18.4,47,Live oak,42,Weak Branch Union,none,2
+18.2,41,Live oak,45,Weak Branch Union,none,1
+13.9,33,Live oak,27,Weak Branch Union,none,3
+13.7,37.5,Live oak,29,"",none,2
+14.5,33.5,Live oak,34,Weak Branch Union,none,2
+13.4,39,Live oak,36,Weak Branch Union,none,3
+14,41,Live oak,39,Weak Branch Union,none,2
+4.5,13.5,Japanese Privet,17,Poor Tree Architecture,none,2
+4.3,13,Japanese Privet,19,Poor Tree Architecture,none,2
+13.9,34.5,Live oak,33,Leaning Tree,none,1
+4.5,13,Japanese Privet,17,Poor Tree Architecture,none,2
+15.5,31,Live oak,42,Dead,none,3
+15.2,44.5,Live oak,41,Weak Branch Union,none,2
+16.3,32.5,Live oak,39,Weak Branch Union,none,2
+14.6,47.5,Live oak,33,Weak Branch Union,none,2
+16.3,46.5,Live oak,38,Root Problems,none,1
+17.6,40.5,Live oak,44,"",none,2
+16.7,36.5,Live oak,39,Root Problems,none,2
+10,32.5,Live oak,20,Root Problems,none,3
+3.4,12,Yellow Tabebuia,16,Dead,none,3
+14,33,Live oak,33,Weak Branch Union,none,2
+14.4,40.5,Live oak,40,Weak Branch Union,none,3
+16.5,35.5,Live oak,48,Weak Branch Union,none,2
+3.4,11.5,Yellow Tabebuia,13,Dead,none,3
+14.5,31.5,Live oak,28,Weak Branch Union,none,2
+5.3,12,Japanese Privet,24,Poor Tree Architecture,none,2
+16,40,Live oak,37,Weak Branch Union,none,2
+5.1,16,Japanese Privet,22,Poor Tree Architecture,none,2
+3,10.5,Japanese Privet,13,Poor Tree Architecture,none,2
+15.4,39.5,Live oak,31,Poor Tree Architecture,none,2
+12.2,25,Live oak,32,Weak Branch Union,none,2
+16.2,37.5,Live oak,35,Weak Branch Union,none,2
+5,12.5,Japanese Privet,20,Poor Tree Architecture,none,2
+4.3,12.5,Japanese Privet,17,"",none,2
+18.9,40.5,Live oak,41,Weak Branch Union,none,2
+11.6,38,red maple,29,Weak Branch Union,branch,2
+6.1,13,Japanese Privet,17,Poor Tree Architecture,none,2
+16,30.5,Live oak,37,Weak Branch Union,none,2
+14.8,32.5,Live oak,33,"",none,1
+16.8,33,Live oak,41,Root Problems,none,3
+12.6,35,Live oak,35,Weak Branch Union,none,2
+14.1,30,red maple,28,"",whole,3
+4,11.5,Yellow Tabebuia,15,Dead,none,3
+13,31,Live oak,38,Leaning Tree,none,1
+13.7,29,Live oak,36,Weak Branch Union,none,2
+15.5,39,Live oak,29,Leaning Tree,none,2
+16.5,40,Live oak,35,Weak Branch Union,none,2
+3.5,10,Japanese Privet,18,Poor Tree Architecture,none,2
+12.6,47.5,red maple,22,Poor Tree Architecture,branch,2
+9,28.5,baldcypress,12,"",none,1
+7.5,27,baldcypress,12,"",none,1
+7.4,24.5,baldcypress,10,"",none,1
+13,38.5,Live oak,34,Weak Branch Union,none,2
+13,27,Live oak,34,Root Problems,none,2
+9.7,26,Live oak,29,Poor Tree Architecture,none,1
+14.7,35,Live oak,35,Weak Branch Union,none,2
+13.7,41.5,Live oak,24,Weak Branch Union,none,3
+5.6,25,Yellow Tabebuia,12,Leaning Tree,none,3
+5.5,23.5,southern magnolia,13,Decay,none,2
+4.2,18,Yellow Tabebuia,10,Dead,none,4
+6.1,21,red maple,13,Decay,none,3
+6.2,23.5,southern magnolia,11,Decay,none,3
+13.3,37,Live oak,34,Weak Branch Union,none,2
+15.1,27,Live oak,32,Poor Tree Architecture,none,2
+14,36,Live oak,34,Poor Tree Architecture,none,3
+6,25.5,baldcypress,11,"",none,1
+11.7,29.5,red maple,18,Root Problems,none,3
+15.3,35,Live oak,35,Weak Branch Union,none,3
+9.8,39.5,baldcypress,14,"",none,1
+7,32.5,baldcypress,10,"",none,1
+15.3,39,Live oak,27,Poor Tree Architecture,none,2
+14.1,34,Live oak,24,Weak Branch Union,none,2
+14,30.5,Live oak,34,Weak Branch Union,none,3
+14.9,36,Live oak,35,Poor Tree Architecture,none,2
+14,31.5,Live oak,28,Weak Branch Union,none,2
+14.5,35.5,Live oak,25,Poor Tree Architecture,none,3
+12.2,22.5,Live oak,29,Root Problems,none,3
+3.5,13.5,Japanese Privet,19,Poor Tree Architecture,none,2
+4.1,12,Japanese Privet,14,Poor Tree Architecture,none,2
+3.5,12,Japanese Privet,16,Poor Tree Architecture,none,2
+15.3,34,Live oak,40,Poor Tree Architecture,none,2
+12.5,31.5,Live oak,26,Weak Branch Union,none,2
+14.2,33.5,Live oak,42,Poor Tree Architecture,none,2
+3.5,11,Crapemyrtle,,"",none,1
+6,21,Crapemyrtle,,"",none,1
+5.6,21,Crapemyrtle,,"",none,1
+6.2,21,Crapemyrtle,,"",none,1
+5.7,21,Crapemyrtle,,"",none,1
+5.8,21,Crapemyrtle,,"",none,1
+5.8,21,Crapemyrtle,,"",none,1
+6,21,Crapemyrtle,,"",none,1
+5.8,21,Crapemyrtle,,"",none,1
+5.8,21,Crapemyrtle,,"",none,1
+6.1,21,Crapemyrtle,,"",none,1
+5.6,21,Crapemyrtle,,"",none,1
+5.3,21,Crapemyrtle,,"",none,1
+5.9,21,Crapemyrtle,,"",none,1
+6.3,21,Crapemyrtle,,"",none,1
+6.1,21,Crapemyrtle,,"",none,1
+1,10,Crapemyrtle,,"",whole,1
+7.1,24,Crapemyrtle,,"",whole,1
+6.5,21,Crapemyrtle,,"",whole,1
+2.6,12,Crapemyrtle,,"",none,1
+1,8,Oleander,,"",none,1
+1,8,Oleander,,"",none,1
+6.6,20,Crapemyrtle,,"",none,1
+6.6,21.5,Crapemyrtle,,"",none,1
+7.8,21.5,Crapemyrtle,,"",none,1
+6.2,19.5,Crapemyrtle,,"",none,1
+6.8,21,Crapemyrtle,,"",none,1
+6.1,21,Crapemyrtle,,"",none,1
+6.3,22,Crapemyrtle,,"",none,1
+6.2,19,Crapemyrtle,,"",none,2
+6.1,22,Crapemyrtle,,"",none,2
+6.1,21,Crapemyrtle,,"",none,1
+6.2,21,Crapemyrtle,,"",none,1
+5.7,20,Crapemyrtle,,"",none,1
+6.2,19,Crapemyrtle,,"",none,1
+5.7,19,Crapemyrtle,,"",none,1
+7.5,20,Crapemyrtle,,"",none,1
+5.5,17.5,Crapemyrtle,,"",none,2
+7.7,22,Crapemyrtle,,"",none,1
+7.3,23.5,Crapemyrtle,,"",none,1
+6.7,22,Crapemyrtle,,"",none,1
+4.7,18,Crapemyrtle,,"",none,1
+6.5,20,Crapemyrtle,,"",none,1
+7,20,Crapemyrtle,,"",none,1
+6.9,19,Crapemyrtle,,"",none,1
+7.4,21.5,Crapemyrtle,,"",none,1
+6.5,22.6,Crapemyrtle,,"",none,1
+18,30.5,Laurel Oak,,"",none,2
+6.4,18,Live oak,,"",none,1
+4,12,Carolina Laurelcherry,,"",none,1
+5,20,Oleander,,"",none,1
+1,10,Carolina Laurelcherry,,"",none,1
+1,10,Carolina Laurelcherry,,"",none,1
+3,20,Carolina Laurelcherry,,"",none,1
+4,15,Oleander,,"",none,1
+21,18,Yew Podocarpus,,"",none,1
+7,42.5,slash pine,,"",none,1
+3.5,42.5,slash pine,,"",none,1
+6,42.5,slash pine,,"",none,1
+16,25.5,Live oak,,"",none,1
+16,15,Laurel Oak,,"",none,3
+3.5,19.5,Live oak,,"",none,1
+1,12,Crapemyrtle,,"",none,1
+20.5,38,Live oak,,"",none,1
+15.5,32,Live oak,,"",none,1
+3.5,10,Live oak,,"",none,2
+20,28,Live oak,,"",none,2
+26.5,53,Live oak,,"",none,2
+1.5,7,Crapemyrtle,,"",none,1
+24.7,37.5,Live oak,,"",none,2
+19,28.5,Live oak,,"",none,1
+14,29,Live oak,,"",none,1
+19.5,27.5,Live oak,,"",none,1
+10,34,red maple,,"",none,2
+18,22.5,Live oak,,"",none,1
+3,11,Live oak,,"",none,2
+16,26.5,Live oak,,"",none,2
+14,28,Live oak,,"",none,1
+16.5,27.5,Live oak,,"",none,1
+15.4,28,Live oak,,"",none,1
+15.5,42.5,slash pine,,"",none,2
+13.5,25.5,Live oak,,"",none,1
+19.1,36.5,Live oak,,"",none,1
+20.5,39,Live oak,,"",none,1
+17.2,38,Live oak,,"",none,2
+18,43.5,Live oak,,"",none,2
+15,24,Live oak,,"",none,1
+18.5,31.5,Live oak,,"",none,2
+13.5,24,Live oak,,"",none,1
+23.5,31.5,Live oak,,"",none,1
+25.5,44.5,Live oak,,"",none,1
+8.5,18.5,Live oak,,"",none,1
+17,28,Live oak,,"",none,1
+12,25.5,Live oak,,"",none,1
+0.5,3,Crapemyrtle,,"",none,1
+24.5,43,Laurel Oak,,"",none,2
+3.5,15,Camphor Tree,,"",none,1
+14.5,32,Live oak,,"",none,2
+16.5,30.5,Live oak,,"",none,1
+14.2,27,Live oak,,"",none,1
+12.4,27.5,Live oak,,"",none,1
+1.7,12.5,Crapemyrtle,,"",none,1
+31.5,48,Live oak,,"",none,1
+20.8,42,southern magnolia,,"",none,2
+17,26,Live oak,,"",none,1
+7,19.5,Live oak,,"",none,1
+4,15,Crapemyrtle,,"",none,1
+8,23,Flamegold,,"",whole,1
+15,32,Live oak,,"",whole,1
+31,46,Laurel Oak,,"",branch,2
+11,42,slash pine,,"",whole,2
+2.5,15,Crapemyrtle,,"",none,1
+14.8,30,Live oak,,"",none,1
+18.1,35.5,Live oak,,"",none,2
+12.5,28,Live oak,,"",none,2
+26.2,50.5,Laurel Oak,,"",none,1
+17.6,33.5,Live oak,,"",none,2
+15,37.5,Flamegold,,"",none,2
+15.5,30.5,Live oak,,"",none,1
+15,25.5,Live oak,,"",none,2
+9,22,Live oak,,"",none,2
+2,12,Live oak,,"",none,1
+2,12,Live oak,,"",none,1
+11.5,24,Live oak,,"",none,1
+21.2,44.5,Live oak,,"",none,1
+9.6,35.5,Live oak,,"",none,1
+17.3,48.5,Live oak,,"",none,1
+12.2,27.5,Laurel Oak,,"",none,1
+9,17.5,Live oak,,"",none,1
+12.3,24.5,Live oak,,"",none,2
+3,12,Flamegold,,"",none,2
+38,47,Live oak,,"",none,2
+18.3,36,Live oak,,"",none,1
+14,29.5,Live oak,,"",none,1
+26,26,Yew Podocarpus,,"",none,1
+26,26,Yew Podocarpus,,"",none,2
+4,10,Live oak,,"",none,1
+9.5,23,Live oak,,"",none,1
+15,28,Live oak,,"",none,2
+8,21,Live oak,,"",none,1
+10.5,21,Flamegold,,"",none,2
+37.2,63.5,Live oak,,"",none,2
+4,18,slash pine,,"",none,1
+26,46.5,Laurel Oak,,"",branch,2
+21.5,44.5,Laurel Oak,,"",whole,1
+11.4,20,Live oak,,"",branch,1
+20,36,Live oak,,"",branch,1
+32.6,51,Laurel Oak,,"",branch,2
+8,28.5,Live oak,,"",none,1
+2.5,15,southern magnolia,,"",none,1
+47,57.5,Live oak,,"",none,2
+4,18,slash pine,,"",none,1
+10.5,26.5,Live oak,,"",none,1
+3,9,Arborvitae,,"",none,1
+2,10,Arborvitae,,"",none,1
+20,39.5,Live oak,,"",none,2
+5.5,16,southern magnolia,,"",none,2
+12,28,Live oak,,"",none,1
+16,42.5,southern magnolia,,"",none,2
+15.9,32.5,Live oak,,"",none,1
+22,33,Flamegold,,"",whole,3
+34.3,47.5,Live oak,,"",branch,2
+14,23.5,Live oak,,"",none,2
+10.9,22.5,Live oak,,"",none,2
+13.6,28.5,Live oak,,"",none,2
+13.5,33.5,Live oak,,"",none,1
+9.5,24,Live oak,,"",none,1
+21.5,27.5,Live oak,,"",none,2
+18.5,32,Laurel Oak,,"",none,2
+17.8,44,Laurel Oak,,"",none,2
+2.5,10,Live oak,,"",whole,3
+48,51,Laurel Oak,,"",branch,3
+27,48.5,Laurel Oak,,"",branch,2
+19.4,31.5,Live oak,,"",branch,1
+2.5,10,Live oak,,"",whole,3
+37,62.5,Live oak,,"",branch,1
+1,6,Crapemyrtle,,"",whole,1
+9.5,25.5,Live oak,,"",none,2
+13.7,24,Live oak,,"",none,2
+3.1,12,Crapemyrtle,,"",none,1
+17.5,40,Live oak,,"",none,2
+13.4,30,Live oak,,"",none,2
+18.2,38.5,Live oak,,"",none,2
+15.1,34,Live oak,,"",none,1
+9.5,16.5,Live oak,,"",none,1
+12,24,Live oak,,"",none,1
+26.3,53.5,Live oak,,"",none,2
+15.9,42,Live oak,,"",none,1
+22,36,Live oak,,"",none,2
+19,48.5,Laurel Oak,,"",none,1
+18,56,Live oak,,"",none,2
+18.5,28.5,Live oak,,"",none,1
+19,28.5,Live oak,,"",none,1
+8.8,28.5,Chinese elm,,"",none,2
+24.1,39.5,Live oak,,"",none,2
+26,48.5,Laurel Oak,,"",branch,1
+17.6,47.5,Laurel Oak,,"",branch,1
+13.7,24,Live oak,,"",branch,2
+20.6,44.5,Live oak,,"",branch,2
+54,64.5,Laurel Oak,,"",whole,2
+67,51,Live oak,,"",branch,2
+20.5,37,Laurel Oak,,"",branch,2
+5.8,17.5,Yellow Tabebuia,,"",none,1
+3.5,12.5,Yellow Tabebuia,,"",none,1
+10.8,29.5,Live oak,,"",none,1
+6.1,21.5,Live oak,,"",none,2
+6.8,21,Live oak,,"",none,1
+5.8,16.5,Live oak,,"",none,1
+3.2,11.5,Yellow Tabebuia,,"",none,1
+3,11.5,Yellow Tabebuia,,"",none,2
+3,10.5,Yellow Tabebuia,,"",none,2
+10.2,30,Live oak,,"",none,2
+7.2,23.5,Live oak,,"",none,2
+3,12.5,Yellow Tabebuia,,"",none,2
+9.8,24,Live oak,,"",none,2
+3,9,Yellow Tabebuia,,"",none,2
+5,12.5,Live oak,,"",none,2
+9.7,24.5,Live oak,,"",none,1
+5.6,16,Live oak,,"",none,1
+2.5,11,Yellow Tabebuia,,"",none,1
+4.2,14,Yellow Tabebuia,,"",none,2
+3.9,15.5,Yellow Tabebuia,,"",none,1
+7.2,22.5,Live oak,,"",none,1
+8,23.5,Live oak,,"",none,1
+4,27.5,Live oak,,"",none,2
+3,14.5,Live oak,,"",none,2
+11.6,40,slash pine,,"",none,2
+36.6,48.5,Live oak,,"",none,1
+24.5,40.5,Live oak,,"",none,1
+32.1,40,Live oak,,"",none,2
+32.1,37,Live oak,,"",none,2
+49,74,Live oak,,"",none,2
+2.2,16,Crapemyrtle,,"",none,1
+10.6,49,slash pine,,"",none,2
+16.4,44,slash pine,,"",none,2
+20.6,32.5,Laurel Oak,,"",none,2
+0.5,5,Crapemyrtle,,"",none,1
+51.9,55.5,Live oak,,"",none,2
+38.7,40,Live oak,,"",none,2
+3,24.5,Carolina Laurelcherry,,"",none,1
+3,22,Carolina Laurelcherry,,"",none,1
+3,22,Carolina Laurelcherry,,"",none,1
+3,24.5,Carolina Laurelcherry,,"",none,2
+1,12,Carolina Laurelcherry,,"",none,1
+1,12,Carolina Laurelcherry,,"",none,1
+1,12,Carolina Laurelcherry,,"",none,2
+1,12,Carolina Laurelcherry,,"",none,2
+4.8,13.5,Brazilian Pepper,,"",none,2
+29.5,45,Live oak,,"",none,2
+47,45.5,Live oak,,"",none,2
+3.1,20,Oleander,,"",none,2
+68.7,45,Live oak,,"",none,2
+26.7,45,Live oak,,"",none,2
+32.2,46,slash pine,,"",none,2
+6,27.5,slash pine,,"",none,2
+8.8,36.5,slash pine,,"",none,2
+41.3,44.5,Live oak,,"",none,2
+41.2,57.5,Live oak,,"",none,2
+45.7,62.5,Laurel Oak,,"",none,2
+16.4,32,Laurel Oak,,"",none,2
+53,58.5,Live oak,,"",none,2
+1.5,15,Carolina Laurelcherry,,"",none,1
+1.8,10,Flamegold,,"",none,1
+21,49.5,Melaleuca spp.,,"",none,2
+21,49.5,Melaleuca spp.,,"",none,2
+21,49.5,Melaleuca spp.,,"",none,2
+21,49.5,Melaleuca spp.,,"",none,2
+21,49.5,Melaleuca spp.,,"",none,2
+21,49.5,Melaleuca spp.,,"",none,2
+21,49.5,Melaleuca spp.,,"",none,2
+33,49.5,Melaleuca spp.,,"",none,2
+26.7,30,Live oak,,"",none,2
+14.3,30,Live oak,,"",none,2
+40,62,Live oak,,"",none,2
+17.5,52.5,slash pine,,"",none,2
+1.5,12.5,Chinese elm,,"",none,1
+3.5,20,Arborvitae,,"",none,1
+3.5,20,Arborvitae,,"",none,1
+1.5,12.5,Chinese elm,,"",none,1
+3.5,20,Arborvitae,,"",none,1
+3,20,Arborvitae,,"",none,1
+3,20,Arborvitae,,"",none,1
+3,20,Arborvitae,,"",none,1
+3,20,Arborvitae,,"",none,1
+3,20,Arborvitae,,"",none,1
+1.5,12.5,Chinese elm,,"",none,1
+16,34,Live oak,,"",none,1
+19.5,50,Laurel Oak,,"",none,2
+3,12,Brazilian Pepper,,"",none,1
+3,15,Arborvitae,,"",none,1
+3,12,Brazilian Pepper,,"",none,1
+3,7,Brazilian Pepper,,"",none,1
+35.3,45,Live oak,,"",none,2
+36.9,47.5,Live oak,,"",none,1
+2.6,12,Live oak,,"",whole,1
+7,23.5,Live oak,,"",whole,1
+2.7,10,Yellow Tabebuia,,"",whole,3
+3.4,13,Yellow Tabebuia,,"",whole,1
+5.2,15.5,Yellow Tabebuia,,"",whole,1
+2.6,15,Yellow Tabebuia,,"",whole,2
+2.5,11,Live oak,,"",whole,2
+2.7,11,Live oak,,"",whole,1
+24,51.5,slash pine,,"",branch,2
+46,59,Live oak,,"",branch,2
+32.5,52.5,Live oak,,"",whole,2
+3,10,Carolina Laurelcherry,,"",whole,1
+4.5,25,Brazilian Pepper,,"",whole,1
+21,49.5,Melaleuca spp.,,"",branch,2
+33,49.5,Melaleuca spp.,,"",branch,2
+43.5,52,Live oak,,"",branch,2
+41.5,50,Live oak,,"",branch,2
+38.5,50,Live oak,,"",branch,2
+11,21,Live oak,,"",branch,2
+51.8,40,Live oak,,"",branch,2
+24.5,51,Laurel Oak,,"",branch,1
+21.5,37.5,Laurel Oak,,"",branch,3
+13.4,25,slash pine,,"",none,2
+48,63.5,Live oak,,"",branch,2
+48.5,54.5,Live oak,,"",branch,2
+20,36.5,Live oak,,"",branch,2
+1,7.5,Crapemyrtle,,"",none,1
+1,7,Norfolk Island Pine,,"",none,1
+1,7,Norfolk Island Pine,,"",none,1
+10.2,53.5,Laurel Oak,,"",none,1
+8.9,24,Live oak,,"",none,1
+10,24,Live oak,,"",none,2
+26,27,Live oak,,"",none,
+1,7,southern magnolia,,"",none,1
+11,44.5,Laurel Oak,,"",none,1
+11.4,50.5,Laurel Oak,,"",none,1
+14.7,60,Laurel Oak,,"",none,2
+1,7,Crapemyrtle,,"",none,1
+3,20,Brazilian Pepper,,"",none,2
+19.6,32,southern magnolia,,"",none,2
+5,22,Brazilian Pepper,,"",none,1
+6.9,21.5,Laurel Oak,,"",none,1
+20.3,41,Live oak,,"",branch,2
+13,48,Melaleuca spp.,,"",none,3
+19.4,52.5,Laurel Oak,,"",none,2
+1,7,Brazilian Pepper,,"",none,1
+5,25,Brazilian Pepper,,"",none,3
+16.6,33.5,Laurel Oak,,"",none,2
+18.2,43,Laurel Oak,,"",none,2
+26.5,41,Live oak,,"",none,3
+11,48,Melaleuca spp.,,"",none,3
+13,48,Melaleuca spp.,,"",none,3
+13,48,Melaleuca spp.,,"",none,3
+24,31,Brazilian Pepper,,"",none,2
+13,48,Melaleuca spp.,,"",none,3
+1,7,Red Mulberry,,"",whole,1
+21.4,42,Laurel Oak,,"",branch,1
+13,48,Melaleuca spp.,,"",none,3
+13,48,Melaleuca spp.,,"",none,3
+13,48,Melaleuca spp.,,"",none,3
+13,48,Melaleuca spp.,,"",none,3
+13,48,Melaleuca spp.,,"",none,3
+32.5,42,Laurel Oak,,"",branch,2
+13,48,Melaleuca spp.,,"",none,3
+13,48,Melaleuca spp.,,"",none,3
+18.8,30,Camphor Tree,,"",none,2
+24,48,slash pine,,"",none,3
+40.4,47.5,Live oak,,"",none,2
+1,12,Brazilian Pepper,,"",none,1
+12.3,30,southern magnolia,,"",none,2
+36.1,44.5,Live oak,,"",none,3
+38,55,Live oak,,"",none,2
+22.2,40,Live oak,,"",none,3
+1.8,8,Yellow Tabebuia,,"",none,3
+13.6,30,Chinaberry,,"",none,3
+41,54,Live oak,,"",none,2
+34,64,Live oak,,"",none,3
+20.3,41,Laurel Oak,,"",none,2
+19.6,35.5,Laurel Oak,,"",none,2
+23.6,46,Laurel Oak,,"",none,2
+11,47,Laurel Oak,,"",none,2
+25.6,48,Laurel Oak,,"",none,2
+20,25,Laurel Oak,,"",none,2
+36,57.5,Laurel Oak,,"",branch,2
+13.9,20,Laurel Oak,,"",none,4
+15.9,42.5,Live oak,,"",none,2
+11.8,25,Laurel Oak,,"",none,2
+8,25,Laurel Oak,,"",none,3
+7.5,22.5,Live oak,,"",none,2
+9.2,24.5,Live oak,,"",none,2
+8,21,Live oak,,"",none,2
+21.9,45,Live oak,,"",none,3
+28,48,Melaleuca spp.,,"",whole,3
+11,48,Melaleuca spp.,,"",whole,3
+13,48,Melaleuca spp.,,"",branch,3
+7.5,18,Live oak,,"",none,2
+12,32,Live oak,,"",none,1
+11.5,36,Live oak,,"",none,2
+13.3,38,Live oak,,"",none,2
+17.7,55,Laurel Oak,,"",none,2
+13,42,Live oak,,"",none,2
+21.7,42,Laurel Oak,,"",none,2
+15.3,31.5,Live oak,,"",none,2
+10,35.5,Live oak,,"",none,3
+6.8,23.5,Live oak,,"",none,1
+8,27,Live oak,,"",none,2
+13,48,Melaleuca spp.,,"",whole,3
+19.6,38.5,red maple,,"",branch,3
+31.4,60,Laurel Oak,,"",branch,2
+36,45,Laurel Oak,,"",branch,3
+32.5,43.5,Laurel Oak,,"",whole,4
+15.7,40.5,Laurel Oak,,"",whole,2
+19.1,47.5,Laurel Oak,,"",branch,2
+16.5,36,Laurel Oak,,"",branch,2
+20.8,25,Laurel Oak,,"",branch,3
+29.5,45,Laurel Oak,,"",branch,4
+27,42,Live oak,,"",branch,2
+33.6,42,Live oak,,"",whole,3
+21.6,45.5,Laurel Oak,,"",branch,2
+24.5,45.5,Laurel Oak,,"",branch,2
+33,35,Camphor Tree,21,Poor Tree Architecture,none,3
+42,32.5,Camphor Tree,35,Poor Tree Architecture,none,3
+21.3,32.5,Camphor Tree,47,Weak Branch Union,none,3
+47,54,Camphor Tree,70,Poor Tree Architecture,none,2
+25.3,62,Laurel Oak,44,Weak Branch Union,none,2
+19,44,Laurel Oak,40,Decay,none,3
+39,39,Camphor Tree,48,Poor Tree Architecture,none,3
+19.5,30.5,Laurel Oak,34,Poor Tree Architecture,none,3
+5,11,Crapemyrtle,9,Poor Tree Architecture,none,1
+3.8,10,Crapemyrtle,11,Poor Tree Architecture,none,1
+5.4,11,Crapemyrtle,9,Poor Tree Architecture,none,1
+25.3,56,Live oak,52,Weak Branch Union,none,1
+2.7,14,Live oak,12,Weak Branch Union,none,1
+14.2,27.5,Yew Podocarpus,22,Weak Branch Union,none,1
+18.6,42,Laurel Oak,30,Dead,none,3
+16.6,25,Camphor Tree,25,Decay,none,3
+2,14.5,Live oak,12,Weak Branch Union,none,1
+22,49.5,Live oak,63,Weak Branch Union,none,2
+24.8,21,Camphor Tree,40,Decay,none,2
+4.7,21,Live oak,12,Weak Branch Union,none,1
+33.9,53,Live oak,57,Weak Branch Union,none,1
+9.4,21.5,Live oak,22,Weak Branch Union,none,2
+2.3,13,Crapemyrtle,14,Poor Tree Architecture,none,1
+4.2,34,Live oak,10,Weak Branch Union,none,1
+4.1,25,Live oak,12,Weak Branch Union,none,1
+4.7,33.5,Live oak,13,Weak Branch Union,none,1
+6.7,18.5,Live oak,19,Weak Branch Union,none,1
+5.7,20.5,Live oak,17,Weak Branch Union,none,1
+6.7,17.5,Live oak,17,Weak Branch Union,none,1
+8.5,20.5,Live oak,24,Weak Branch Union,none,1
+3,16.5,Live oak,13,Weak Branch Union,none,1
+4.2,6,Crapemyrtle,8,Poor Tree Architecture,none,1
+10.3,31,Live oak,24,Weak Branch Union,none,1
+8.8,23,Live oak,19,Weak Branch Union,none,1
+4.4,19,southern magnolia,12,Weak Branch Union,none,1
+1.8,10.5,Crapemyrtle,6,Poor Tree Architecture,none,1
+7.8,26,Live oak,26,Weak Branch Union,none,1
+10.8,33,Live oak,28,Weak Branch Union,none,2
+4.1,16.5,southern magnolia,15,Weak Branch Union,none,2
+4.4,11.5,Live oak,15,Decay,none,1
+1,8,Crapemyrtle,11,Poor Tree Architecture,none,1
+16.9,43,Live oak,38,Weak Branch Union,none,1
+13.2,33,Live oak,34,Weak Branch Union,none,2
+11.9,43,Live oak,31,Weak Branch Union,none,2
+8.5,41,Live oak,37,Weak Branch Union,none,2
+8.4,32.5,Live oak,20,Weak Branch Union,none,1
+11.8,32,Live oak,33,Decay,none,2
+15,43,Live oak,43,Weak Branch Union,none,1
+13.4,38.5,Live oak,34,Weak Branch Union,none,1
+9.4,33,Live oak,27,Weak Branch Union,none,1
+14.3,38.5,Live oak,36,Weak Branch Union,none,1
+25.7,53,Live oak,77,Weak Branch Union,none,1
+2.8,18.5,red maple,13,Weak Branch Union,none,1
+3.6,10.5,Chinese elm,12,Poor Tree Architecture,none,2
+13.1,30.5,Live oak,26,Root Problems,none,2
+7.2,30.5,Live oak,22,Weak Branch Union,none,1
+15.6,40,Laurel Oak,34,Dead,none,3
+28.2,46.5,Live oak,50,Decay,none,1
+17,43.5,Live oak,40,Dead,none,3
+5.8,11.5,Chinese elm,19,Poor Tree Architecture,none,2
+17.4,31,Live oak,25,Decay,none,1
+6.6,20.5,Live oak,23,Weak Branch Union,none,1
+21.4,42.5,Live oak,60,Weak Branch Union,none,1
+2.3,13.5,baldcypress,9,"",none,1
+2.3,10.5,baldcypress,11,"",none,1
+3.4,16,baldcypress,9,"",none,1
+3.2,14.5,baldcypress,10,Root Problems,none,2
+8.6,24.5,winged elm,34,Weak Branch Union,none,2
+4,18.5,baldcypress,15,"",none,1
+3,15.5,baldcypress,9,"",none,1
+1,7.5,Crapemyrtle,13,Poor Tree Architecture,none,1
+2.5,16.5,Crapemyrtle,18,Poor Tree Architecture,none,1
+3.2,14,baldcypress,9,"",none,1
+19.2,34,sand live oak,45,Decay,none,3
+6.5,20.5,Live oak,18,Dead,none,3
+1,7,Japanese Privet,9,Poor Tree Architecture,none,1
+6.3,18.5,Live oak,15,Dead,none,3
+0.8,6,Japanese Privet,9,Poor Tree Architecture,none,1
+1.3,14,Crapemyrtle,12,Weak Branch Union,none,1
+8.4,25,winged elm,39,Weak Branch Union,none,2
+13.6,38,Live oak,24,Weak Branch Union,none,1
+6.5,20,Live oak,24,Root Problems,none,1
+7.1,20,Live oak,20,Weak Branch Union,none,1
+21.5,53,Live oak,42,Weak Branch Union,none,1
+0.2,4,Carolina laurelcherry,5,"",none,1
+4.3,23.5,Live oak,12,Weak Branch Union,none,1
+13.1,41.5,American elm,29,Dead,none,3
+20,46,Laurel Oak,34,Weak Branch Union,branch,2
+17.3,37.5,Laurel Oak,39,Weak Branch Union,branch,2
+16.9,32.5,Live oak,51,Weak Branch Union,none,1
+20.7,42.5,American elm,49,Weak Branch Union,none,2
+7,17,Live oak,21,Dead,none,3
+24.3,27.5,Camphor Tree,34,Dead,none,3
+4.3,29,Live oak,11,Weak Branch Union,none,1
+20.6,18.5,Camphor Tree,19,Decay,none,2
+4.7,11.5,Crapemyrtle,13,Weak Branch Union,none,1
+8.6,25,Live oak,26,Weak Branch Union,none,2
+1.3,11,Crapemyrtle,12,Poor Tree Architecture,none,1
+13.9,38.5,Live oak,47,Weak Branch Union,none,2
+20.8,44.5,Live oak,31,Weak Branch Union,none,1
+15.8,40,Live oak,31,Weak Branch Union,none,1
+15.5,26.5,Live oak,29,Weak Branch Union,none,1
+33.2,30,Camphor Tree,39,Dead,none,3
+2.1,12.5,Live oak,11,Weak Branch Union,none,1
+15.5,27,Live oak,39,Poor Tree Architecture,none,1
+12,37,Live oak,32,Weak Branch Union,none,1
+10.6,22,Live oak,26,Poor Tree Architecture,none,1
+9.3,17.5,Live oak,23,Weak Branch Union,none,2
+22.9,28.5,Camphor Tree,27,"",branch,3
+16.8,29,Camphor Tree,33,Dead,branch,3
+12.8,36.5,Live oak,35,Weak Branch Union,branch,2
+13.4,33,Live oak,33,Weak Branch Union,branch,1
+23,45,Live oak,39,Weak Branch Union,branch,2
+25.8,42.5,Live oak,62,Weak Branch Union,branch,2
+31.5,51.5,Live oak,48,Weak Branch Union,branch,1
+3.2,12.5,Live oak,13,Weak Branch Union,whole,2
+8.5,27,winged elm,39,Weak Branch Union,whole,2
+3,13,Live oak,11,Poor Tree Architecture,whole,1
+9.5,25.5,Live oak,19,Dead,branch,3
+29.2,50.5,Live oak,50,Dead,whole,3
+20,33,Live oak,40,Dead,branch,3
+21.4,48,Live oak,43,Weak Branch Union,branch,1
+7.7,21.5,Live oak,19,"",none,3
+4.6,25,Live oak,11,Weak Branch Union,none,1
+18.1,53,Live oak,34,Dead,none,3
+4.5,23,Live oak,13,"",none,1
+15.5,37.5,Live oak,34,Weak Branch Union,none,2
+9,17,Live oak,20,Weak Branch Union,none,2
+13.6,32.5,Live oak,29,Dead,none,3
+12.7,30.5,Live oak,34,Weak Branch Union,none,1
+2.5,14.5,Live oak,10,Weak Branch Union,none,1
+1.1,6.5,Crapemyrtle,7,Weak Branch Union,none,1
+34.5,55,Live oak,60,Dead,none,2
+10.7,24.5,Live oak,22,Weak Branch Union,none,2
+3.2,19.5,Live oak,14,Weak Branch Union,none,1
+28.8,51.5,Live oak,35,Weak Branch Union,none,1
+0.3,5,Live oak,5,Leaning Tree,none,1
+4.6,24,Live oak,12,Weak Branch Union,none,1
+24.5,45.5,sand live oak,40,Decay,none,3
+4.2,22.5,Live oak,11,Weak Branch Union,none,1
+4,19.5,Live oak,13,Weak Branch Union,none,1
+5.2,22.5,Live oak,14,Weak Branch Union,none,1
+13.3,36,Live oak,45,Leaning Tree,none,1
+25.2,58.5,Live oak,40,Weak Branch Union,none,1
+4.3,23,Live oak,12,Weak Branch Union,none,1
+1.5,13.5,surinam cherry,11,Poor Tree Architecture,none,1
+18.1,47.5,Live oak,44,Decay,none,2
+16.1,47,Laurel Oak,40,Dead,none,3
+5,26,Live oak,12,Poor Tree Architecture,none,1
+9.5,31.5,Live oak,27,Weak Branch Union,none,1
+1.5,19.5,surinam cherry,13,Weak Branch Union,none,1
+0.8,7.5,surinam cherry,5,Poor Tree Architecture,none,2
+23.6,65,Live oak,46,Weak Branch Union,none,1
+11.3,47,Live oak,23,Poor Tree Architecture,none,2
+1.5,18.5,surinam cherry,8,Leaning Tree,none,1
+24.4,61.5,Live oak,44,Dead,none,3
+8.4,22,Live oak,23,Weak Branch Union,none,1
+28.8,58,Live oak,72,Dead,none,3
+10.8,30,Live oak,31,Weak Branch Union,none,1
+18.3,50,Live oak,41,Weak Branch Union,none,1
+2,15.5,surinam cherry,10,Poor Tree Architecture,none,2
+4.5,26.5,Live oak,12,Poor Tree Architecture,none,1
+8.6,17,Crapemyrtle,22,Poor Tree Architecture,none,1
+4.8,22,Live oak,13,Weak Branch Union,none,1
+6.5,23,Live oak,29,Poor Tree Architecture,none,1
+9.2,17,Crapemyrtle,13,Poor Tree Architecture,none,1
+4.4,20.5,Live oak,16,Weak Branch Union,none,1
+8.8,17,Crapemyrtle,14,Poor Tree Architecture,none,1
+4.8,21,Live oak,12,Poor Tree Architecture,none,1
+4.2,23,Live oak,12,Weak Branch Union,none,1
+4.5,25,Live oak,15,Weak Branch Union,none,1
+6.5,18.5,Live oak,17,Poor Tree Architecture,none,1
+25,51.5,Live oak,53,Dead,none,3
+1.6,7.5,Crapemyrtle,7,Decay,none,3
+13.1,36,Chinese elm,29,Poor Tree Architecture,none,1
+21.8,49.5,Live oak,55,Weak Branch Union,none,1
+4.8,24.5,Live oak,12,Weak Branch Union,none,1
+32.3,64.5,Live oak,86,Dead,none,3
+5,16,Live oak,16,"",none,3
+23.1,47,Laurel Oak,48,Decay,none,3
+12,36,Live oak,30,"",none,1
+4.2,22,Live oak,11,Weak Branch Union,none,1
+5,23.5,Live oak,10,Weak Branch Union,none,1
+32.3,42,Live oak,70,Decay,none,2
+10,24,Crapemyrtle,19,Dead,none,3
+6.2,12,Crapemyrtle,17,Poor Tree Architecture,none,1
+11.5,44,Chinese elm,33,Decay,none,1
+2.6,11,Live oak,9,Poor Tree Architecture,none,1
+8.7,30.5,Live oak,29,Root Problems,none,2
+10.3,33.5,Chinese elm,26,Decay,none,1
+7,31,Live oak,22,Weak Branch Union,none,1
+4.8,21.5,Live oak,13,Weak Branch Union,none,1
+3,17.5,Crapemyrtle,22,Poor Tree Architecture,none,1
+13,33.5,Live oak,30,Dead,none,3
+28,56,Live oak,73,Weak Branch Union,none,2
+13.1,23,Live oak,33,Weak Branch Union,none,1
+19.5,38.5,Camphor Tree,29,Dead,none,3
+10.6,27.5,Crapemyrtle,16,Weak Branch Union,none,1
+4.8,20,Live oak,14,Weak Branch Union,none,1
+2.8,18,Crapemyrtle,23,Poor Tree Architecture,none,1
+26.1,48,Live oak,40,Weak Branch Union,none,1
+10,35.5,Chinese elm,12,Poor Tree Architecture,none,3
+0.5,7,Crapemyrtle,9,Poor Tree Architecture,none,1
+20.5,50,Live oak,40,Weak Branch Union,none,1
+1.7,7.5,Crapemyrtle,7,Decay,none,1
+0.8,6.5,Crapemyrtle,7,Poor Tree Architecture,none,1
+38.5,57,Live oak,70,Dead,none,3
+22.3,40.5,Live oak,51,Weak Branch Union,none,1
+1.3,4.5,Crapemyrtle,6,Decay,none,2
+2.2,10.5,Live oak,8,Weak Branch Union,none,1
+13,38,Live oak,30,Poor Tree Architecture,none,1
+1,8,Crapemyrtle,7,Decay,none,2
+12.8,34.5,Chinese elm,33,Decay,none,2
+2.5,7.5,Crapemyrtle,7,Dead,none,3
+9.6,21.5,Chinese elm,31,Decay,none,2
+2.5,9,Crapemyrtle,17,Decay,none,3
+2.5,8.5,Crapemyrtle,11,Decay,none,2
+30.5,36.5,Camphor Tree,36,Weak Branch Union,none,2
+21,52.5,Live oak,48,Weak Branch Union,none,1
+9.8,29,Chinese elm,31,Decay,none,1
+1.5,7.5,Crapemyrtle,6,Poor Tree Architecture,none,1
+5.7,21.5,Live oak,13,Weak Branch Union,none,1
+16,40.5,Live oak,39,Dead,none,3
+14.5,24.5,Camphor Tree,25,Weak Branch Union,none,2
+14.1,37.5,Live oak,30,Weak Branch Union,none,2
+16.8,41,Live oak,40,Poor Tree Architecture,none,1
+19.7,39.5,Laurel Oak,41,Weak Branch Union,none,2
+16.5,47.5,Live oak,33,Poor Tree Architecture,none,1
+1.5,7.5,Crapemyrtle,7,Poor Tree Architecture,none,1
+1.8,7,Crapemyrtle,6,Poor Tree Architecture,none,1
+14.8,45.5,Live oak,33,Decay,none,3
+1.5,9.5,Crapemyrtle,9,Decay,none,2
+18.5,47,Live oak,48,Weak Branch Union,none,2
+33.9,41.5,Camphor Tree,29,Poor Tree Architecture,none,1
+22,39.5,Live oak,43,Dead,none,3
+22.8,35.5,Live oak,49,Weak Branch Union,none,1
+1.5,6,Crapemyrtle,10,Poor Tree Architecture,none,1
+2.3,15,Crapemyrtle,12,Decay,none,2
+2.7,12,Live oak,10,Poor Tree Architecture,none,1
+11.2,29.5,Laurel Oak,37,Decay,none,2
+4.3,17,Live oak,16,Weak Branch Union,none,1
+17.5,39.5,Live oak,32,Weak Branch Union,none,1
+26.5,45,Live oak,52,Root Problems,none,1
+7.3,20,Crapemyrtle,13,Poor Tree Architecture,none,2
+13.4,30,Laurel Oak,34,Decay,none,2
+1,9.5,surinam cherry,7,Poor Tree Architecture,none,1
+4.4,23,Live oak,12,Weak Branch Union,none,1
+18.5,36,Live oak,53,Dead,none,3
+1.3,7.5,Crapemyrtle,5,Poor Tree Architecture,none,1
+6.1,24.5,Live oak,18,Root Problems,none,3
+7.6,22.5,Live oak,18,Weak Branch Union,none,1
+5.3,21,Chinese elm,27,Root Problems,none,2
+4.8,21,Live oak,19,Weak Branch Union,none,1
+1.6,9.5,surinam cherry,7,Poor Tree Architecture,none,1
+21.1,45.5,Live oak,40,Root Problems,none,2
+20,48.5,Camphor Tree,20,Poor Tree Architecture,none,1
+13.8,35,Live oak,26,Poor Tree Architecture,none,1
+1.3,9.5,surinam cherry,7,Poor Tree Architecture,none,1
+7,25.5,Live oak,23,Poor Tree Architecture,none,1
+1.2,9.5,surinam cherry,7,"",none,1
+1.2,10,surinam cherry,6,Poor Tree Architecture,none,1
+4.5,22,Live oak,13,Weak Branch Union,none,1
+15.1,23.5,Laurel Oak,21,Decay,none,3
+25.9,39.5,Camphor Tree,53,Decay,none,2
+3.9,19.5,Live oak,12,Weak Branch Union,none,1
+26.5,45.5,Live oak,62,Dead,none,3
+22.7,54.5,Live oak,53,Weak Branch Union,none,1
+16.4,28,Live oak,30,Weak Branch Union,none,2
+17.7,44,Live oak,38,Poor Tree Architecture,none,1
+3.5,14.5,Crapemyrtle,17,Dead,none,3
+16,36,Camphor Tree,23,Poor Tree Architecture,none,1
+7,24,Live oak,14,Weak Branch Union,none,1
+4.6,24,Live oak,13,Weak Branch Union,none,1
+5.5,23,Crapemyrtle,27,Poor Tree Architecture,none,1
+28.5,42,Live oak,71,Root Problems,none,2
+0.2,5,Carolina laurelcherry,5,"",none,1
+3.9,16.5,Live oak,13,Weak Branch Union,none,1
+16.7,43.5,Live oak,27,Weak Branch Union,none,2
+10.2,33.5,Crapemyrtle,31,Weak Branch Union,none,1
+29.3,44,Live oak,54,Dead,none,3
+1.5,5.5,Crapemyrtle,5,Decay,none,2
+7.4,25.5,Live oak,23,Weak Branch Union,none,1
+4.2,21,Live oak,20,Dead,none,3
+10.3,34.5,Live oak,26,Weak Branch Union,none,1
+4.6,21.5,Live oak,14,Weak Branch Union,none,1
+10.6,25.5,Crapemyrtle,27,Weak Branch Union,none,1
+9.4,28,Live oak,28,Root Problems,none,3
+10.1,29,Live oak,28,Crack,none,3
+4.5,19,Live oak,12,Weak Branch Union,none,1
+9.9,24,Live oak,25,Weak Branch Union,none,1
+5,15,Live oak,16,Weak Branch Union,none,1
+15.3,40.5,Live oak,47,Weak Branch Union,none,1
+18.5,49,Live oak,43,Weak Branch Union,none,1
+4.8,26,Live oak,15,Weak Branch Union,none,1
+30.2,32,Camphor Tree,55,Dead,none,3
+6.9,22,Laurel Oak,21,Weak Branch Union,none,2
+24.7,55,Live oak,40,Dead,none,3
+11.5,22,Live oak,28,Dead,none,3
+22.3,46.5,Live oak,51,Dead,none,3
+9.6,22.5,Crapemyrtle,26,Weak Branch Union,none,1
+17.6,41.5,Live oak,43,Dead,none,1
+23.5,30.5,Laurel Oak,46,Decay,none,4
+27.6,45,Laurel Oak,48,Weak Branch Union,none,3
+15.3,55.5,American elm,42,Decay,none,2
+21.3,37,Live oak,49,Weak Branch Union,none,1
+25.7,55,Live oak,40,Dead,none,3
+14.9,33.5,Live oak,30,Weak Branch Union,none,1
+16.4,27,Live oak,39,Dead,none,3
+9.1,29,Crapemyrtle,29,Weak Branch Union,none,1
+11.7,36,Live oak,34,Weak Branch Union,none,3
+24.2,50.5,Live oak,52,Weak Branch Union,none,1
+29.3,61.5,Laurel Oak,55,Weak Branch Union,none,3
+9.2,31.5,Crapemyrtle,21,Weak Branch Union,none,1
+7.3,33.5,Live oak,20,Root Problems,none,1
+2.8,14.5,Live oak,10,Weak Branch Union,none,2
+9,28.5,Live oak,31,Root Problems,none,2
+20,42.5,Live oak,38,Weak Branch Union,none,1
+6.3,23.5,Live oak,21,Poor Tree Architecture,none,2
+17.6,48,Live oak,39,Weak Branch Union,none,2
+12.3,34.5,Live oak,30,Dead,none,3
+16.9,49.5,Live oak,38,Weak Branch Union,none,2
+2.6,12,Live oak,11,Poor Tree Architecture,none,1
+9,28.5,Live oak,33,Weak Branch Union,none,1
+17,44,Live oak,40,Weak Branch Union,none,3
+23.7,44.5,Live oak,55,Weak Branch Union,none,2
+22.3,54.5,Live oak,43,Weak Branch Union,none,2
+14.8,35,southern magnolia,26,Decay,none,2
+7.4,45,Live oak,25,Poor Tree Architecture,none,1
+17.8,28.5,Live oak,34.5,Poor Tree Architecture,none,1
+24.4,65.5,Live oak,47,Decay,none,2
+9.8,26.5,Live oak,24,Poor Tree Architecture,none,2
+24,42,Live oak,47,Weak Branch Union,none,2
+18.1,40,Live oak,34,Weak Branch Union,none,1
+17.3,49.5,Live oak,41,Weak Branch Union,none,2
+22.9,34.5,Live oak,44,Weak Branch Union,none,1
+14.7,40,Live oak,27,Weak Branch Union,none,2
+10.7,22.5,Live oak,23.5,Crack,none,2
+12.5,37.5,Live oak,33,Weak Branch Union,none,1
+15.2,39,Live oak,38,Dead,none,3
+26.9,63,Live oak,45,"",none,3
+12,28,Live oak,42,Weak Branch Union,none,2
+10.8,32,Live oak,34,Weak Branch Union,none,1
+28.2,55.5,Live oak,47,Dead,none,3
+10.8,38,Live oak,22,Weak Branch Union,none,2
+16.6,35.5,Live oak,33,Weak Branch Union,none,2
+23.7,57,Live oak,46,Dead,none,3
+8.4,26.5,Live oak,25,Weak Branch Union,none,1
+33.4,48,Camphor Tree,41,Dead,none,3
+16.2,38,Live oak,46,Root Problems,none,2
+0.1,5,Carolina laurelcherry,7,"",none,1
+25.6,40.5,Camphor Tree,43,Decay,none,2
+17.2,34,Live oak,36,Weak Branch Union,none,2
+21.2,39,Live oak,61,Weak Branch Union,none,1
+21.2,42.5,Live oak,51,Weak Branch Union,none,1
+23.8,50,Laurel Oak,54,Weak Branch Union,none,2
+39.3,49,Laurel Oak,42,Decay,none,3
+28.7,46.5,Camphor Tree,44,Dead,none,3
+26.2,54.5,Live oak,44,Weak Branch Union,none,2
+25.1,31,Camphor Tree,42,Dead,none,3
+15.8,45.5,Live oak,37,Weak Branch Union,none,2
+9.9,42,American elm,35,Weak Branch Union,none,2
+22.9,50,Live oak,49,Decay,none,2
+25.2,57,Live oak,45,Poor Tree Architecture,none,1
+26.7,43.5,Live oak,67,Dead,none,3
+27.7,53.5,Laurel Oak,56,Weak Branch Union,none,2
+25.8,45.5,Live oak,53,Weak Branch Union,none,2
+8.5,38,American elm,26,Weak Branch Union,none,2
+16.3,51,Live oak,29,Weak Branch Union,none,1
+23.4,34,Camphor Tree,52,Decay,none,2
+25.3,57.5,Live oak,56,Weak Branch Union,none,1
+3.6,22.5,Live oak,11,Weak Branch Union,none,1
+7.2,21,Laurel Oak,20,Weak Branch Union,none,2
+14,44.5,Laurel Oak,33,"",none,1
+16.6,46.5,Live oak,26,Root Problems,none,2
+3.8,21,Live oak,10,"",none,3
+4.6,17,Chinese elm,21,Root Problems,none,2
+13.2,31,Live oak,37,Weak Branch Union,none,2
+18.6,35.5,Live oak,42,Weak Branch Union,none,2
+21.2,67,Live oak,35,Poor Tree Architecture,none,1
+15.2,37.5,Live oak,38,Dead,branch,3
+20.7,53.5,Live oak,39,Weak Branch Union,branch,1
+38.6,42,Live oak,68,Decay,whole,2
+10,32,Live oak,18,Dead,branch,3
+21.6,43,Live oak,37,Weak Branch Union,none,2
+8.1,26.5,Live oak,21,"",none,2
+24,50,Live oak,44,Dead,none,3
+8.1,29,Live oak,31,Weak Branch Union,none,2
+4,20.5,Laurel Oak,15,Poor Tree Architecture,none,2
+20.4,30,Laurel Oak,50,Decay,none,2
+2,7.5,Crapemyrtle,12,Poor Tree Architecture,none,1
+13.9,47.5,Live oak,39,Weak Branch Union,none,1
+6.5,10,Crapemyrtle,10,Weak Branch Union,none,1
+1.9,6.5,Crapemyrtle,4,Poor Tree Architecture,none,2
+18,53.5,Live oak,47,Poor Tree Architecture,none,1
+16.3,21,Crapemyrtle,23,Root Problems,none,2
+11.5,18,Crapemyrtle,17,Weak Branch Union,none,1
+3,11.5,Crapemyrtle,12,Weak Branch Union,none,1
+2.3,23,Crapemyrtle,19,Weak Branch Union,none,1
+1,6,Crapemyrtle,8,Poor Tree Architecture,none,2
+25.5,29.5,Camphor Tree,37,Decay,none,3
+2.1,7.5,Crapemyrtle,5,Poor Tree Architecture,none,3
+4.1,23.5,Live oak,11,Weak Branch Union,none,1
+0.2,5,Carolina laurelcherry,5,"",none,1
+7.8,27.5,Laurel Oak,17,"",none,2
+13.4,34,Live oak,33,Dead,none,3
+0.8,8.5,Carolina laurelcherry,5,"",none,1
+11.4,37,Live oak,25,Poor Tree Architecture,none,1
+4.8,22.5,Live oak,14,Weak Branch Union,none,1
+4.3,20,Live oak,15,Weak Branch Union,none,1
+0.1,3,Carolina laurelcherry,4,"",none,1
+20.8,42,Live oak,55,Weak Branch Union,none,2
+20.2,46,Live oak,60,Weak Branch Union,none,1
+9.5,23.5,Chinese elm,35,Dead,none,3
+0.1,4.5,Carolina laurelcherry,5,"",none,1
+15.7,47,Laurel Oak,33,Weak Branch Union,none,1
+8,19,Live oak,25,Poor Tree Architecture,none,1
+5,27,Live oak,11,Weak Branch Union,none,1
+29.5,46.5,Live oak,66,Weak Branch Union,none,1
+2.9,9.5,Live oak,13,Weak Branch Union,none,2
+10.8,35,Live oak,22,Weak Branch Union,none,1
+3.7,17,Laurel Oak,16,Poor Tree Architecture,none,1
+4.3,22,Live oak,12,Weak Branch Union,none,1
+13.7,38.5,Live oak,26,Poor Tree Architecture,none,1
+18.5,42,Live oak,45,Dead,none,3
+11.5,40.5,Live oak,26,Weak Branch Union,none,1
+18.8,41,Live oak,46,Weak Branch Union,none,1
+29.4,43.5,sand live oak,36,Decay,branch,3
+5.1,16.5,Live oak,16,Leaning Tree,none,1
+9.8,24,southern magnolia,21,Dead,none,3
+1.8,12,Crapemyrtle,13,Poor Tree Architecture,none,1
+8.7,30.5,Chinese elm,33,Root Problems,none,2
+28.1,46,Live oak,59,Dead,none,3
+34,48.5,Live oak,67,Weak Branch Union,none,1
+0.3,5.5,Live oak,4,Poor Tree Architecture,none,1
+17.3,40,Live oak,45,Weak Branch Union,none,2
+7.6,31,Live oak,22,Weak Branch Union,none,1
+8.8,12,Crapemyrtle,15,Weak Branch Union,none,1
+2.5,16.5,Laurel Oak,14,Poor Tree Architecture,none,3
+4.5,22,Live oak,11,Dead,none,3
+15.5,35,Live oak,40,Weak Branch Union,none,1
+5.5,23.5,Live oak,21,Weak Branch Union,none,1
+1,15,Carolina laurelcherry,7,Leaning Tree,none,1
+1,15,Carolina laurelcherry,7,Poor Tree Architecture,none,2
+5.2,11.5,Crapemyrtle,12,Weak Branch Union,none,1
+5.3,31,Live oak,20,Leaning Tree,none,1
+1,15,Carolina laurelcherry,6,Poor Tree Architecture,none,2
+0.1,4.5,Chinese elm,4,"",none,1
+1.5,13,Crapemyrtle,10,Poor Tree Architecture,none,1
+1,15,Carolina laurelcherry,7,Poor Tree Architecture,none,1
+1,15,Carolina laurelcherry,6,Poor Tree Architecture,none,1
+1,15,Carolina laurelcherry,6,Decay,none,2
+1,15,Carolina laurelcherry,7,Poor Tree Architecture,none,3
+4.3,18.5,Live oak,14,Leaning Tree,none,1
+1,15,Carolina laurelcherry,7,Weak Branch Union,none,2
+1,15,Carolina laurelcherry,7,Poor Tree Architecture,none,1
+14.1,32.5,Live oak,39,Weak Branch Union,none,1
+1,15,Carolina laurelcherry,6,Poor Tree Architecture,none,1
+1,15,Carolina laurelcherry,6,Leaning Tree,none,1
+29.4,58.5,sand live oak,43,Decay,branch,3
+3.1,12,Laurel Oak,7,Decay,none,3
+7.2,27,Live oak,22,Poor Tree Architecture,none,1
+28.1,45,Live oak,50,Weak Branch Union,none,2
+10.9,38.5,Laurel Oak,22,Weak Branch Union,none,1
+1,15,Carolina laurelcherry,5,Poor Tree Architecture,none,2
+25.4,49.5,Live oak,41,Poor Tree Architecture,branch,2
+8,22,Live oak,25,Poor Tree Architecture,branch,1
+15.2,30,Live oak,38,Dead,branch,3
+24.4,53.5,Live oak,47,Dead,branch,3
+20.6,46.5,Laurel Oak,27,Decay,branch,3
+6.4,19,Live oak,23,Weak Branch Union,branch,1
+5,24.5,Live oak,13,"",none,1
+4.7,18.5,Live oak,12,Weak Branch Union,none,1
+6.5,23,Live oak,22,Weak Branch Union,none,1
+5.4,25.5,Live oak,14,Weak Branch Union,none,1
+69.3,55,Live oak,88,Weak Branch Union,none,1
+21.5,46,Live oak,47,Weak Branch Union,none,1
+29.5,60,Live oak,45,Dead,branch,3
+49,57,Laurel Oak,70,Decay,branch,3
+4.9,22.5,Live oak,14,"",none,1
+23.8,44,Laurel Oak,39,Decay,branch,3
+20.1,48,Live oak,45,Weak Branch Union,none,2
+7.2,29,Live oak,18,Weak Branch Union,none,2
+0.2,5,Live oak,4,"",none,1
+17.4,41.5,Live oak,44,Weak Branch Union,none,1
+19.5,36,Live oak,37,Weak Branch Union,none,2
+19.3,57,Live oak,42,Weak Branch Union,none,1
+8,23.5,Chinese elm,31,Weak Branch Union,none,2
+4.1,18,Live oak,11,Weak Branch Union,none,1
+5.9,18.5,Live oak,15,Weak Branch Union,none,1
+9.8,23,Live oak,23,Dead,none,3
+2.1,11.5,Crapemyrtle,9,Leaning Tree,none,1
+25.9,51.5,Live oak,47,Weak Branch Union,none,1
+24,48.5,Laurel Oak,36,Decay,branch,4
+18.4,51.5,Laurel Oak,48,"",branch,3
+25,65,Live oak,58,Canker,branch,2
+40.2,56,Camphor Tree,83,Weak Branch Union,branch,2
+0.5,6.5,brazilian pepper,4,Leaning Tree,none,1
+4.7,29.6,Live oak,17,Weak Branch Union,none,1
+6.8,12,Crapemyrtle,14,Weak Branch Union,none,1
+1.5,4,Japanese Privet,6,Weak Branch Union,none,1
+1.8,12,Crapemyrtle,10,Poor Tree Architecture,none,1
+22,48,Laurel Oak,44,Dead,branch,3
+4.4,18.5,Live oak,11,Weak Branch Union,none,1
+23.3,43,Live oak,48,"",none,3
+20.3,47,Live oak,39,Weak Branch Union,none,1
+4.3,16.5,Live oak,17,Poor Tree Architecture,none,1
+2,12,Crapemyrtle,11,Poor Tree Architecture,none,1
+22.4,33.5,Camphor Tree,48,Decay,none,2
+7.5,18.5,Chinese elm,23,Dead,none,3
+24.8,57,Live oak,47,Weak Branch Union,none,1
+18.8,30,Camphor Tree,45,Decay,none,2
+4.8,23,Live oak,16,Weak Branch Union,none,1
+3,15,Live oak,11,Weak Branch Union,none,1
+8.3,28.5,Live oak,25,Poor Tree Architecture,none,1
+19.1,43.5,Live oak,62,Weak Branch Union,none,1
+0.3,5,Carolina laurelcherry,4,"",none,1
+1.5,14,Crapemyrtle,5,Dead,none,3
+6.4,18,Live oak,21,Weak Branch Union,none,2
+4.5,23,Live oak,14,Decay,none,1
+19.5,46,Laurel Oak,27,Decay,whole,3
+15.5,36.5,Live oak,34,Weak Branch Union,none,1
+4,17,American elm,12,Weak Branch Union,none,3
+36.4,52,Laurel Oak,54,Dead,whole,4
+29,56,Laurel Oak,38,Decay,branch,3
+26.8,47.5,Live oak,67,Weak Branch Union,branch,1
+21.7,33,Live oak,67,Dead,branch,3
+51,48.5,Laurel Oak,88,Decay,branch,2
+32,50.5,Live oak,63,Weak Branch Union,branch,1
+0.1,4,Carolina laurelcherry,4,"",none,1
+0.1,5.5,Carolina laurelcherry,4,"",none,1
+4.8,13.5,Crapemyrtle,12,Poor Tree Architecture,none,1
+8.4,23,Chinese elm,28,Root Problems,none,2
+0.3,8,Carolina laurelcherry,6,"",none,1
+0.4,9,Carolina laurelcherry,6,"",none,1
+15.9,39,Live oak,36,Weak Branch Union,none,1
+0.2,7,Carolina laurelcherry,5,"",none,1
+0.5,11,Carolina laurelcherry,6,"",none,1
+0.1,6,Carolina laurelcherry,4,"",none,1
+4.4,30.5,Live oak,15,Dead,none,3
+23.9,31,Camphor Tree,28,Dead,none,3
+52.5,67,Live oak,117,Weak Branch Union,branch,1
+23.8,43,Camphor Tree,54,Weak Branch Union,branch,2
+33.5,56,Live oak,74,Weak Branch Union,branch,1
+15.8,34.5,Laurel Oak,34,Decay,branch,1
+22.8,51.5,Camphor Tree,46,Weak Branch Union,branch,2
+37.4,54.5,Live oak,68,Dead,branch,3
+21.9,53,Live oak,63,Weak Branch Union,branch,1
+23.2,47.5,Live oak,60,Dead,branch,3
+21.8,52.5,Laurel Oak,50,Weak Branch Union,branch,2
+41.8,43.5,Camphor Tree,45,Weak Branch Union,branch,2
+46,65,Live oak,107,Dead,branch,3
+23.8,50,Live oak,44,Weak Branch Union,branch,1
+12.3,29,Chinese elm,35,Decay,branch,2
+11.5,26.5,Live oak,18,Leaning Tree,whole,3
+14.5,32.5,Camphor Tree,23,"",whole,3
+22,35,Camphor Tree,30,Decay,branch,2
+19.7,48.5,Live oak,52,Weak Branch Union,branch,1
+28.8,41,Camphor Tree,42,Dead,whole,3
+15.3,30,Camphor Tree,22,Dead,whole,3
+25.8,55.5,Live oak,52,Dead,branch,3
+19.4,45,Live oak,59,Dead,branch,3
+10.2,29,Laurel Oak,33,Decay,whole,1
+24,45.5,Live oak,50,Dead,branch,3
+29.4,42,Live oak,55,Dead,whole,3
+24.5,36,Live oak,57,Weak Branch Union,branch,1
+19.1,44.5,Live oak,47,Weak Branch Union,branch,1
+28.3,63,Live oak,52,Weak Branch Union,branch,1
+29.1,50.5,Laurel Oak,43,Dead,branch,4
+3.1,19.5,Chinese elm,16,Leaning Tree,whole,2
+24.1,50,Live oak,52,Dead,branch,3
+25.4,36.5,Laurel Oak,57,Weak Branch Union,branch,2
+19.2,42.5,Live oak,42,Weak Branch Union,none,2
+10,32.5,Live oak,30,Weak Branch Union,none,1
+0.5,7.5,Carolina laurelcherry,8,"",none,1
+2,11,Crapemyrtle,9,Weak Branch Union,none,1
+0.5,5.5,Chinese elm,7,Poor Tree Architecture,none,2
+8.1,18.5,Crapemyrtle,19,Weak Branch Union,none,1
+0.1,5,Carolina laurelcherry,7,"",none,1
+14.8,41.5,Live oak,33,Weak Branch Union,none,2
+4.2,20.5,Live oak,14,Weak Branch Union,none,1
+5.8,22.5,Crapemyrtle,24,Poor Tree Architecture,none,1
+5.4,23.5,Live oak,13,Weak Branch Union,none,1
+32,53,Live oak,78,Poor Tree Architecture,none,1
+4.7,22.5,Live oak,19,Weak Branch Union,none,1
+2,9,Weeping Bottlebrush,9,Weak Branch Union,none,1
+9.8,10.5,Crapemyrtle,9,Weak Branch Union,none,1
+22.8,39.5,Live oak,58,Dead,none,3
+11.1,42,Laurel Oak,27,Weak Branch Union,none,1
+14.1,19.5,Live oak,27,Weak Branch Union,none,1
+11.1,36.5,Live oak,30,Weak Branch Union,none,1
+3.6,22,Live oak,13,Weak Branch Union,none,1
+4.3,18,Live oak,13,Weak Branch Union,none,1
+19.8,56,Live oak,43,Weak Branch Union,none,1
+25.4,43,Camphor Tree,52,Weak Branch Union,none,1
+17.4,31.5,Camphor Tree,29,Decay,none,3
+1.3,8,Chinese elm,6,Poor Tree Architecture,none,2
+13,37.5,Live oak,35,Weak Branch Union,none,1
+24.1,57.5,Live oak,51,Dead,none,3
+16.9,42,Laurel Oak,44,Weak Branch Union,branch,2
+21.8,53.5,Laurel Oak,52,Dead,branch,3
+30.3,35,Camphor Tree,43,Dead,branch,3
+15.8,21,Live oak,33,Dead,branch,3
+24.7,57.5,Live oak,44,Weak Branch Union,branch,1
+33.1,43.5,Live oak,52,Crack,branch,4
+27,42.5,Laurel Oak,37,Dead,branch,3
+14.8,36.5,Live oak,49,Weak Branch Union,whole,1
+37.2,58.5,Live oak,68,Weak Branch Union,branch,1
+22.5,60,Laurel Oak,42,Dead,branch,4
+23.4,52.5,Laurel Oak,45,Weak Branch Union,branch,2
+26.2,46.5,Laurel Oak,52,Decay,branch,2
+22.8,41.5,Laurel Oak,48,Weak Branch Union,branch,2
+25.3,30.5,Camphor Tree,39,Dead,branch,3
+32.7,58.5,Live oak,68,Weak Branch Union,branch,1
+40,57.5,Laurel Oak,57,Weak Branch Union,branch,2
+24.4,43.5,Camphor Tree,39,"",branch,2
+32,44,Laurel Oak,51,Weak Branch Union,branch,2
+17.8,50.5,Laurel Oak,46,"",branch,2
+12.9,33.5,Live oak,23,Weak Branch Union,branch,2
+23.2,53.5,Laurel Oak,42,Weak Branch Union,branch,2
+33.5,56.5,Laurel Oak,48,Weak Branch Union,branch,2
+18.5,53,Laurel Oak,42,Weak Branch Union,branch,2
+17.1,55.5,Live oak,24,Poor Tree Architecture,branch,2
+2.1,15,Camphor Tree,8,Poor Tree Architecture,whole,2
+4.2,15,Camphor Tree,13,Poor Tree Architecture,whole,2
+1.6,15,Camphor Tree,15,"",whole,2
+14,28.5,Live oak,27,Weak Branch Union,branch,2
+22.2,55,Live oak,32,Weak Branch Union,none,1
+24.3,43,Live oak,71,Dead,none,3
+2.2,10,Weeping Bottlebrush,10,Weak Branch Union,none,1
+33.3,40.5,Camphor Tree,41,Decay,none,2
+23.8,47.5,Live oak,44,Weak Branch Union,none,1
+19.8,50.5,Live oak,37,Weak Branch Union,none,1
+24.2,46.5,Laurel Oak,42,Weak Branch Union,none,3
+24.2,52.5,Live oak,45,Poor Tree Architecture,none,1
+2.5,8,Live oak,11,Poor Tree Architecture,none,3
+5.8,18,Live oak,19,Weak Branch Union,none,1
+1.9,13,Oleander,20,Poor Tree Architecture,none,1
+4.5,19.5,Live oak,15,Weak Branch Union,none,1
+22.8,49.5,Live oak,58,Weak Branch Union,branch,1
+33,48.5,Live oak,46,Root Problems,branch,1
+23.4,45,Laurel Oak,46,Dead,branch,3
+22.7,39,Camphor Tree,33,Dead,branch,3
+19.2,44.5,Live oak,42,Weak Branch Union,branch,3
+23,38.5,Camphor Tree,58,Dead,branch,3
+17.4,52,Live oak,38,Dead,branch,3
+45.3,59.5,Laurel Oak,70,Decay,branch,3
+16.6,38,Live oak,39,Weak Branch Union,branch,2
+1.8,9,Oleander,11,Poor Tree Architecture,whole,1
+3.4,16.5,Crapemyrtle,13,Weak Branch Union,whole,1
+0.7,3.5,Crapemyrtle,6,Poor Tree Architecture,whole,2
+5.8,19.5,Chinese elm,26,Leaning Tree,whole,1
+15.7,28,Camphor Tree,32,Dead,branch,3
+28.5,40.5,Camphor Tree,57,Decay,branch,1
+27.9,60.5,Laurel Oak,65,Weak Branch Union,branch,2
+26.3,58.5,Live oak,71,Weak Branch Union,branch,1
+17.8,35.5,Laurel Oak,39,Dead,whole,3
+24.9,36,Camphor Tree,67,Decay,branch,1
+23,57,Live oak,51,Weak Branch Union,none,2
+4.7,21,Live oak,11,Weak Branch Union,none,1
+23.2,46,American elm,54,Dead,none,2
+6.2,25.5,Live oak,16,Weak Branch Union,none,1
+5.6,18.5,Live oak,23,Weak Branch Union,none,1
+15.3,38,Live oak,31,Dead,none,3
+21.6,46,Live oak,50,Dead,none,3
+16,38,Live oak,50,Weak Branch Union,none,2
+2.1,11,Live oak,9,Weak Branch Union,none,1
+25.4,40.5,Camphor Tree,59,Decay,whole,1
+17.8,34.5,Live oak,46,Dead,branch,3
+28.2,37.5,Laurel Oak,41,Decay,branch,3
+24.4,43.5,Live oak,55,Weak Branch Union,branch,2
+0.3,6,Carolina laurelcherry,5,"",whole,1
+5.5,19,Live oak,14,Poor Tree Architecture,branch,1
+19.4,32.5,Live oak,54,Weak Branch Union,branch,2
+17.3,40,Live oak,45,Poor Tree Architecture,branch,1
+20.5,36,Camphor Tree,38,Dead,branch,3
+2.2,9.5,Crapemyrtle,9,Poor Tree Architecture,whole,1
+2.8,13,Crapemyrtle,13,Weak Branch Union,whole,1
+13,44,Live oak,27,Dead,none,3
+12.4,35,Live oak,24,Root Problems,none,2
+32,50.5,Live oak,80,Decay,none,3
+18,45,Live oak,37,Weak Branch Union,none,1
+2.8,13,southern magnolia,9,"",none,1
+11.7,35,Laurel Oak,46,Poor Tree Architecture,none,2
+10.5,40,Live oak,25,Weak Branch Union,none,2
+13.2,25,Live oak,32,Weak Branch Union,none,1
+26,53,Laurel Oak,40,Weak Branch Union,none,3
+14.4,52.5,Laurel Oak,24,Decay,none,3
+25.2,60.5,Live oak,47,Weak Branch Union,none,1
+14.5,37.5,Live oak,43,Weak Branch Union,none,1
+26.5,50,Live oak,44,Dead,none,3
+8.5,31,Live oak,28,Weak Branch Union,none,1
+4.7,21,Live oak,12,Weak Branch Union,none,1
+1.7,11,Crapemyrtle,16,"",none,1
+21.4,47,Live oak,55,Decay,none,2
+16.2,46.5,Live oak,27,Weak Branch Union,none,1
+9.8,26,Live oak,17,Weak Branch Union,none,1
+9.1,36,Live oak,22,Dead,none,3
+14.5,53.5,Live oak,26,Dead,none,3
+9.8,34,Live oak,25,Weak Branch Union,none,2
+3.7,19.5,Live oak,10,Weak Branch Union,none,1
+16,39,Live oak,39,Weak Branch Union,none,1
+2.1,14.5,Crapemyrtle,15,Weak Branch Union,none,1
+23.1,50,Live oak,50,Poor Tree Architecture,none,1
+2.8,21.5,American elm,14,Poor Tree Architecture,none,2
+30.8,48,Camphor Tree,63,Dead,branch,3
+16.9,47.5,Laurel Oak,31,Weak Branch Union,branch,1
+16.6,42.5,Live oak,45,Dead,branch,3
+36.8,42.5,Camphor Tree,51,Weak Branch Union,branch,1
+17.2,44,Laurel Oak,36,Weak Branch Union,branch,1
+33.2,44.5,Camphor Tree,41,Weak Branch Union,branch,1
+16.4,30,Live oak,37,Poor Tree Architecture,branch,1
+18,51,Live oak,44,Dead,branch,3
+40.2,40.5,Laurel Oak,54,Dead,whole,3
+25.7,36.5,Camphor Tree,53,Decay,branch,3
+3.8,12,Crapemyrtle,13,Poor Tree Architecture,whole,2
+17.4,39,Laurel Oak,33,Dead,branch,3
+19.1,50.5,Laurel Oak,35,Weak Branch Union,branch,2
+25.6,57.5,Live oak,53,Weak Branch Union,branch,1
+31.5,33,Camphor Tree,45,Dead,branch,3
+25.8,41,Camphor Tree,50,Dead,branch,3
+10.3,31,Live oak,22,Poor Tree Architecture,whole,1
+27.6,31,Camphor Tree,42,Decay,branch,2
+16.5,24,Live oak,40,Root Problems,whole,2
+13,48,Live oak,48,Root Problems,branch,1
+11.9,27,Live oak,35,Root Problems,whole,2
+31.4,52.5,Live oak,60,Dead,branch,3
+12.7,46.5,Live oak,36,Weak Branch Union,branch,2
+25,59.5,Laurel Oak,60,Weak Branch Union,branch,3
+25,42.5,Laurel Oak,48,Decay,branch,2
+27.3,55.5,Laurel Oak,48,Weak Branch Union,branch,2
+13.9,52,Live oak,43,Weak Branch Union,branch,1
+13.5,29.5,Live oak,34,Weak Branch Union,whole,1
+3,21.5,Crapemyrtle,19,Weak Branch Union,whole,1
+33.3,45.5,Camphor Tree,46,Decay,branch,3
+23.8,59,Laurel Oak,44,Weak Branch Union,branch,3
+20.2,56,Laurel Oak,39,Weak Branch Union,branch,2
+22.5,31.5,Camphor Tree,36,Decay,branch,3
+15.3,28.5,Live oak,35,Weak Branch Union,whole,2
+25.4,47.5,Laurel Oak,51,Weak Branch Union,branch,2
+24,53,Laurel Oak,43,Decay,branch,2
+15.7,48,Laurel Oak,33,Dead,branch,4
+11,26.5,Live oak,32,Weak Branch Union,whole,1
+18,30,Laurel Oak,35,Decay,branch,4
+26.9,50.5,Laurel Oak,59,Weak Branch Union,branch,2
+18,32,Live oak,43,Root Problems,whole,2
+14.1,39,Laurel Oak,37,Decay,branch,2
+19.4,55.5,Live oak,37,Dead,branch,3
+28.7,51.5,Laurel Oak,61,Weak Branch Union,branch,2
+26,48,Live oak,54,Dead,branch,3
+7.2,14,Camphor Tree,20,Decay,none,2
+1,12.5,Laurel Oak,7,"",none,1
+19.5,49.5,Live oak,33,Weak Branch Union,none,1
+10.9,32.5,Live oak,30,Dead,none,3
+13.1,42,Laurel Oak,30,Weak Branch Union,none,2
+10.5,33,Live oak,33,Weak Branch Union,none,1
+16.8,43,Live oak,49,Dead,none,3
+12.9,32,Live oak,32,Weak Branch Union,none,1
+14.5,55,Live oak,29,Weak Branch Union,none,1
+4.1,21.5,Live oak,12,Weak Branch Union,none,1
+14.6,45.5,Laurel Oak,43,Decay,none,2
+11.2,47,Live oak,30,Root Problems,none,2
+0.1,5,Carolina laurelcherry,5,"",none,1
+9.9,33.5,Live oak,26,Weak Branch Union,none,1
+12,22.5,Live oak,34,Poor Tree Architecture,none,1
+15.6,43,Live oak,32,Root Problems,none,2
+20.8,53,Live oak,46,Weak Branch Union,none,1
+13.8,37,Live oak,27,Weak Branch Union,none,2
+0.1,6,Carolina laurelcherry,6,"",none,1
+15.1,39,Live oak,32,Dead,none,3
+4.5,19.5,Live oak,12,Weak Branch Union,none,1
+12.5,40.5,Laurel Oak,30,Decay,none,3
+16.3,40.5,Live oak,45,Weak Branch Union,none,1
+2.8,17.5,red maple,8,Weak Branch Union,none,1
+15.9,45,Live oak,37,Dead,none,3
+2,13,Live oak,11,Weak Branch Union,none,1
+4.5,17,Live oak,13,Weak Branch Union,none,1
+24,51.5,Live oak,45,Weak Branch Union,none,1
+4.8,18.5,Live oak,15,Weak Branch Union,none,1
+23.4,45.5,Live oak,54,Dead,none,3
+12.9,39.5,Live oak,27,Dead,none,3
+3,13,baldcypress,7,"",none,1
+0.1,3,surinam cherry,5,Decay,none,2
+3.6,21,Live oak,11,"",none,1
+4.3,19,Live oak,21,"",none,1
+2.5,12,Live oak,10,Weak Branch Union,none,1
+13.1,41.5,Live oak,27,Weak Branch Union,none,1
+19.8,37.5,Live oak,33,Weak Branch Union,none,1
+12.5,35,Live oak,24,Weak Branch Union,none,2
+0.5,6,Crapemyrtle,8,Poor Tree Architecture,none,1
+0.5,6.5,Crapemyrtle,7,Poor Tree Architecture,none,1
+16.4,50,Live oak,35,Weak Branch Union,none,2
+24.8,32.5,Laurel Oak,54,Decay,none,3
+12.7,25.5,Live oak,26,Dead,none,3
+17.1,33.5,Live oak,43,Decay,none,3
+4.9,23,Live oak,13,"",none,1
+1.2,10,Crapemyrtle,9,Weak Branch Union,none,1
+4.5,17.5,Live oak,17,Poor Tree Architecture,none,1
+30.6,47.5,Camphor Tree,57,Decay,none,2
+12.3,29,Live oak,29,Poor Tree Architecture,none,1
+21.1,43,Live oak,37,Dead,none,3
+12.8,43.5,Live oak,37,Weak Branch Union,none,1
+12.4,31.5,Live oak,27,Weak Branch Union,none,3
+25.2,57,Laurel Oak,39,Decay,none,4
+2,10,Crapemyrtle,10,"",none,1
+6.3,15,Camphor Tree,19,"",none,1
+2.8,14,baldcypress,9,"",none,1
+3.7,18,Live oak,12,Leaning Tree,none,1
+1,10,Yew Podocarpus,6,Poor Tree Architecture,none,1
+4.4,25.5,Crapemyrtle,26,Weak Branch Union,whole,1
+33.5,42,Laurel Oak,48,Weak Branch Union,branch,3
+18,33.5,Camphor Tree,26,Weak Branch Union,branch,2
+18.9,40.5,Laurel Oak,39,Decay,branch,4
+21.4,51.5,Live oak,43,Weak Branch Union,branch,1
+22.6,56.5,Laurel Oak,41,Weak Branch Union,branch,2
+8.8,30,Live oak,28,Leaning Tree,branch,1
+8.9,21.5,Live oak,29,Root Problems,whole,2
+21,65.5,Live oak,39,Poor Tree Architecture,branch,1
+13.5,41.5,Laurel Oak,34,Dead,branch,3
+13.1,57.5,Live oak,27,Weak Branch Union,branch,2
+10,29.5,Live oak,34,Leaning Tree,whole,2
+1.8,10.5,Crapemyrtle,11,Poor Tree Architecture,whole,2
+15.3,50,Laurel Oak,22,Decay,whole,4
+23.6,48.5,Camphor Tree,50,Dead,branch,3
+31,58.5,Live oak,58,Dead,branch,3
+25.3,61,Live oak,56,"",branch,3
+42.5,37.5,Camphor Tree,66,Decay,branch,2
+6.8,26,Chinese elm,24,Weak Branch Union,branch,2
+22.1,37.5,Live oak,54,Weak Branch Union,branch,1
+17.8,38,Laurel Oak,34,Decay,whole,2
+27.4,57,Live oak,79,Dead,branch,3
+21.3,44.5,Live oak,39,Weak Branch Union,branch,1
+19.2,36,Laurel Oak,42,Dead,branch,4
+22.5,41.5,Laurel Oak,51,Weak Branch Union,branch,1
+18.4,36.5,Live oak,40,Weak Branch Union,none,1
+2.5,10,Yew Podocarpus,8,Poor Tree Architecture,none,1
+1,10,Yew Podocarpus,6,Poor Tree Architecture,none,1
+21.8,49.5,Laurel Oak,49,Weak Branch Union,none,2
+13.4,36,Live oak,40,Weak Branch Union,none,1
+18.7,43.5,Live oak,32,Weak Branch Union,none,1
+1.5,10,Yew Podocarpus,6,Poor Tree Architecture,none,1
+1,10,Yew Podocarpus,6,Poor Tree Architecture,none,1
+2.7,16.5,baldcypress,8,"",none,1
+18.8,45,Live oak,30,Weak Branch Union,none,2
+32.6,46.5,Live oak,61,Dead,none,3
+0.5,6,Crapemyrtle,9,Poor Tree Architecture,none,1
+19,41.5,Live oak,50,Root Problems,none,1
+6.9,18,Live oak,23,Leaning Tree,none,1
+1,10,Yew Podocarpus,7,Poor Tree Architecture,none,1
+16.2,29,Camphor Tree,31,Weak Branch Union,none,1
+6,28,Crapemyrtle,38,Weak Branch Union,none,1
+12.1,27.5,Camphor Tree,19,Decay,none,2
+1,10,Yew Podocarpus,6,Poor Tree Architecture,none,1
+17.1,44,Live oak,30,Weak Branch Union,none,2
+4.7,22.5,Live oak,14,Weak Branch Union,none,1
+19.3,40,Live oak,52,Root Problems,none,1
+22.8,46.5,Live oak,45,Dead,none,3
+8.5,32.5,Crapemyrtle,33,Weak Branch Union,none,1
+19,41,Camphor Tree,28,Decay,none,4
+9.8,30.5,Live oak,27,Weak Branch Union,none,1
+9.3,29.5,Live oak,24,Weak Branch Union,none,1
+3.1,9,Crapemyrtle,10,Poor Tree Architecture,none,2
+2,11,Crapemyrtle,8,Weak Branch Union,none,1
+4.4,19,Live oak,15,Weak Branch Union,none,1
+13.1,24.5,Live oak,25,Poor Tree Architecture,none,2
+2.8,16,Live oak,9,"",none,3
+21.5,38,Camphor Tree,44,Dead,none,3
+25.5,52.5,Live oak,59,Weak Branch Union,none,1
+1.5,12,Yew Podocarpus,7,Poor Tree Architecture,none,1
+2,13,Yew Podocarpus,7,Poor Tree Architecture,none,1
+1,11,Yew Podocarpus,7,Poor Tree Architecture,none,1
+1.5,13,Yew Podocarpus,8,Poor Tree Architecture,none,1
+9.8,36.5,Live oak,19,Leaning Tree,none,1
+2,11.5,Crapemyrtle,10,Weak Branch Union,none,1
+3.6,21,Live oak,12,Weak Branch Union,none,1
+2,15,Yew Podocarpus,7,Poor Tree Architecture,none,1
+1,12,Yew Podocarpus,7,Poor Tree Architecture,none,1
+13,29,Live oak,39,Dead,none,3
+2.6,10.5,baldcypress,9,"",none,1
+20.3,39,Laurel Oak,46,Decay,none,3
+11.4,50.5,Live oak,21,Weak Branch Union,none,1
+21.9,51.5,Laurel Oak,35,Weak Branch Union,none,2
+13.9,45.5,Live oak,35,Dead,none,3
+14.2,37,Camphor Tree,29,"",none,2
+14.4,35.5,Camphor Tree,22,Decay,none,1
+2,15,Yew Podocarpus,7,Poor Tree Architecture,none,1
+1,9,red maple,5,"",none,1
+6.6,22,Crapemyrtle,15,Dead,none,3
+7.6,22.5,Camphor Tree,25,Weak Branch Union,none,1
+14.3,50.5,baldcypress,21,Weak Branch Union,none,1
+5.8,17,Live oak,17,Dead,none,3
+1.1,8,red maple,6,"",none,1
+13,32,Live oak,37,Weak Branch Union,none,2
+4.1,21.5,American elm,15,Poor Tree Architecture,none,2
+1.5,15,Yew Podocarpus,6,Poor Tree Architecture,none,1
+27.2,44,Camphor Tree,45,Decay,none,2
+18.1,53.5,Laurel Oak,37,Dead,none,3
+21.2,47,Live oak,52,Poor Tree Architecture,none,1
+5.7,19.5,Live oak,17,"",none,1
+5.1,21.5,Live oak,15,Weak Branch Union,none,1
+3.9,16.5,Live oak,11,Weak Branch Union,none,2
+23.5,40.5,Laurel Oak,32,Weak Branch Union,none,2
+2,12,Yew Podocarpus,7,Poor Tree Architecture,none,1
+1.2,7.5,Crapemyrtle,8,"",none,1
+3.8,13.5,Camphor Tree,9,Dead,none,3
+17.4,32.5,Live oak,36,Weak Branch Union,none,3
+2,8,Crapemyrtle,7,Weak Branch Union,none,1
+1.5,11,Yew Podocarpus,7,Poor Tree Architecture,none,1
+5,18,Chinese elm,20,Weak Branch Union,none,1
+20,27,Live oak,49,Dead,none,3
+4.5,20.5,Crapemyrtle,23,Weak Branch Union,none,1
+1.5,12,Yew Podocarpus,7,Poor Tree Architecture,none,1
+2,12,Yew Podocarpus,6,Poor Tree Architecture,none,1
+14,35.5,Live oak,36,Poor Tree Architecture,none,1
+19.3,46,Live oak,48,Dead,none,3
+17.7,33.5,Laurel Oak,37,Decay,none,3
+6,22.5,water oak,14,Weak Branch Union,none,2
+21.3,58.5,Live oak,28,Weak Branch Union,none,2
+18,48.5,Live oak,35,Dead,none,3
+2.5,13,Arborvitae,12,Dead,none,3
+16.1,37.5,Live oak,37,Weak Branch Union,none,1
+1.1,8.5,Crapemyrtle,12,Poor Tree Architecture,none,1
+4.6,22.5,Crapemyrtle,23,Weak Branch Union,none,1
+24.5,48.5,Camphor Tree,37,Dead,none,3
+15.9,29,Live oak,49,Leaning Tree,none,1
+4.2,12.5,Live oak,15,Weak Branch Union,none,1
+0.8,5.5,Crapemyrtle,,Weak Branch Union,none,1
+22.6,53.5,Laurel Oak,45,Weak Branch Union,none,1
+3.2,16,Crapemyrtle,23,Weak Branch Union,none,1
+6,19,Live oak,15,Weak Branch Union,none,1
+3.5,19,Crapemyrtle,20,Weak Branch Union,none,1
+10.2,23.5,Camphor Tree,17,Poor Tree Architecture,none,2
+0.8,6,Crapemyrtle,7,Poor Tree Architecture,none,1
+12,44.5,Laurel Oak,20,Decay,none,3
+13.4,40.5,Live oak,30,Leaning Tree,none,1
+4.5,22,Live oak,17,Weak Branch Union,none,1
+3.5,15.5,baldcypress,10,"",none,1
+19.5,31.5,Live oak,28,Dead,none,3
+14.8,22.5,Camphor Tree,21,Dead,none,3
+3.7,15.5,Live oak,13,Poor Tree Architecture,none,1
+14.2,44.5,Live oak,29,Weak Branch Union,none,2
+2.8,15,Laurel Oak,10,Weak Branch Union,none,1
+2.8,15,Crapemyrtle,16,Dead,none,3
+4.7,21,water oak,17,Weak Branch Union,none,2
+16.1,34.5,Live oak,29,Leaning Tree,none,1
+2.6,10.5,Arborvitae,15,Dead,none,3
+4.2,16.5,Crapemyrtle,19,Weak Branch Union,none,1
+3.2,16.5,Crapemyrtle,18,Weak Branch Union,none,1
+4.3,18,Crapemyrtle,18,Weak Branch Union,none,1
+22.8,41.5,Live oak,55,Weak Branch Union,none,1
+30.1,57,Live oak,73,Dead,none,3
+17.5,43.5,Live oak,49,Dead,none,3
+3.6,18,Live oak,14,Weak Branch Union,none,1
+22.1,47.5,Live oak,58,Dead,none,3
+3.6,18.5,Live oak,13,Weak Branch Union,none,1
+33.2,69,Laurel Oak,62,Dead,none,3
+4.3,18.5,Crapemyrtle,21,Weak Branch Union,none,1
+4.5,20.5,Live oak,11,Weak Branch Union,none,1
+25.3,53,Live oak,48,Weak Branch Union,none,1
+4.6,20,Chinese elm,19,Leaning Tree,none,2
+4,16,Live oak,17,Poor Tree Architecture,none,1
+0.8,6,Crapemyrtle,9,Weak Branch Union,none,1
+5,18.5,Live oak,15,Poor Tree Architecture,none,1
+6.2,20.5,Live oak,26,Root Problems,none,1
+18.2,49,Live oak,44,Weak Branch Union,none,1
+9.3,13.5,Live oak,16,Dead,none,3
+20.8,45,Live oak,54,Weak Branch Union,none,2
+4.8,22,water oak,20,Dead,none,3
+0.2,6.5,Laurel Oak,4,"",none,1
+39,64.5,Live oak,60,Dead,none,3
+28.2,44.5,Live oak,48,Decay,none,2
+3.7,22.5,Live oak,14,"",none,1
+20.6,40.5,Live oak,42,Weak Branch Union,none,1
+14.3,31.5,Laurel Oak,31,Root Problems,none,2
+4,17.5,Live oak,12,Weak Branch Union,none,1
+16.8,47,Live oak,34,Dead,none,3
+8.9,36,Live oak,23,"",none,1
+3.6,21,Live oak,13,Weak Branch Union,none,1
+4.6,24.5,Live oak,11,Weak Branch Union,none,1
+5,25,Live oak,15,Weak Branch Union,none,1
+12,39.5,Live oak,37,Weak Branch Union,none,2
+17.5,45.5,slash pine,28,Poor Tree Architecture,branch,1
+27.4,45,Laurel Oak,46,Decay,whole,2
+26,30,Laurel Oak,29,Decay,whole,3
+37.5,52,sand live oak,70,Dead,branch,3
+33.7,46.5,Laurel Oak,43,Decay,branch,3
+1,9.5,Laurel Oak,6,Root Problems,whole,2
+29.5,56,Live oak,48,Weak Branch Union,branch,1
+48.6,66.5,Laurel Oak,60,Decay,whole,2
+30,61,Laurel Oak,36,Decay,branch,1
+1,6,Orchid Tree,13,Poor Tree Architecture,none,1
+39,63.3,Laurel Oak,50,Decay,branch,2
+47.5,51,Laurel Oak,61,Decay,branch,4
+42.5,61.5,Laurel Oak,53,Decay,branch,2
+9.6,30,Camphor Tree,29,Weak Branch Union,whole,1
+47.8,49.5,Live oak,75,Weak Branch Union,branch,1
+27.8,58,Laurel Oak,55,Decay,branch,2
+29.1,65,Southern Redcedar,43,Weak Branch Union,whole,2
+3.2,17.5,Camphor Tree,22,Poor Tree Architecture,whole,2
+24.2,65.5,red maple,54,Weak Branch Union,branch,1
+17,35,Carolina Laurelcherry,37,Weak Branch Union,branch,2
+0.8,5,Japanese Privet,6,Poor Tree Architecture,whole,1
+43,70,Laurel Oak,59,Decay,whole,3
+38.2,52,Laurel Oak,80,Decay,branch,3
+1,4.5,Japanese Privet,5,Decay,whole,2
+0.8,5,Japanese Privet,5,Weak Branch Union,whole,1
+63.3,67,Laurel Oak,72,Decay,branch,3
+19.7,54.5,red maple,47,Decay,branch,3
+15.5,62,Laurel Oak,38,Root Problems,branch,1
+31.6,58.5,Live oak,83,Weak Branch Union,branch,1
+2.8,15,Japanese Privet,22,Decay,branch,3
+33.2,43,Laurel Oak,61,Decay,branch,4
+4.9,25,American Elm,26,Weak Branch Union,none,1
+23.7,43,Live oak,62,Weak Branch Union,none,1
+29.5,54,Live oak,40,Weak Branch Union,none,2
+2.5,19,Southern Redcedar,11,Poor Tree Architecture,none,1
+11.8,42,Live oak,45,Weak Branch Union,none,1
+24,37,Camphor Tree,63,Dead,none,3
+16,42.5,slash pine,26,Leaning Tree,none,1
+58,65.5,Live oak,95,Dead,none,3
+0.8,10,Crapemyrtle,11,Poor Tree Architecture,none,1
+0.8,9.5,Crapemyrtle,10,Poor Tree Architecture,none,1
+0.5,4,Crapemyrtle,6,Poor Tree Architecture,none,1
+36,60,Laurel Oak,44,Decay,none,2
+0.8,7.5,Crapemyrtle,8,Poor Tree Architecture,none,1
+1,8.5,Crapemyrtle,7,Weak Branch Union,none,1
+22,34,Live oak,37,Weak Branch Union,none,1
+28.5,60,Live oak,52,Decay,none,1
+5,19.5,Carolina Laurelcherry,32,Decay,none,2
+27,37,Live oak,40,Decay,none,1
+40,52,Live oak,66,Weak Branch Union,none,1
+1.5,11,Laurel Oak,9,"",none,1
+28.2,60.5,Live oak,50,Decay,none,3
+20,53,Southern Redcedar,21,Poor Tree Architecture,none,1
+24.1,51,Live oak,34,Decay,none,3
+5.1,29.5,slash pine,12,"",none,1
+13.4,27,Laurel Oak,32,Decay,none,3
+1,6,surinam Cherry,6,Poor Tree Architecture,none,1
+1.5,10,Live oak,7,"",none,1
+1.2,4,Camphor Tree,6,Weak Branch Union,none,1
+14.2,31,American Elm,30,Decay,none,3
+15.4,43.5,Southern Redcedar,13,Poor Tree Architecture,none,2
+1,7,Carolina Laurelcherry,4,Poor Tree Architecture,none,1
+2,13,Crapemyrtle,12,Poor Tree Architecture,none,1
+2,13,Crapemyrtle,12,Poor Tree Architecture,none,1
+17,46,Southern Redcedar,22,Weak Branch Union,none,1
+38,57,Laurel Oak,48,Weak Branch Union,none,2
+11.2,31,American Elm,34,Dead,none,3
+1.8,9,Weeping Bottlebrush,9,Poor Tree Architecture,none,1
+1.8,9,Weeping Bottlebrush,11,Poor Tree Architecture,none,1
+1.5,7,Orchid Tree,13,Poor Tree Architecture,none,1
+40,54.5,Live oak,54,"",none,3
+2,16,Crapemyrtle,15,Poor Tree Architecture,none,1
+8.6,29,southern magnolia,25,Leaning Tree,none,2
+1,8,red maple,9,Weak Branch Union,none,1
+1.5,8.5,Weeping Bottlebrush,8,Poor Tree Architecture,none,1
+1.5,9,Weeping Bottlebrush,11,Poor Tree Architecture,none,1
+11.5,53.5,slash pine,20,Dead,none,3
+0.5,7,Carolina Laurelcherry,6,Poor Tree Architecture,none,1
+22,52.5,slash pine,35,Dead,none,3
+11,35,Carolina Laurelcherry,27,Poor Tree Architecture,none,2
+1,9,Carolina Laurelcherry,7,"",none,1
+0.5,7.5,Carolina Laurelcherry,6,"",none,1
+1.2,9,Carolina Laurelcherry,8,"",none,1
+0.8,7,Carolina Laurelcherry,6,"",none,1
+1,7,Carolina Laurelcherry,6,"",none,1
+14.1,35,Laurel Oak,31,Decay,none,2
+0.5,7.5,Carolina Laurelcherry,7,"",none,1
+5,24,Norfolk Island Pine,10,"",none,1
+5.7,20.5,Crapemyrtle,15,Poor Tree Architecture,none,1
+0.5,8,Carolina Laurelcherry,6,"",none,1
+23.5,49.5,Laurel Oak,39,Decay,none,3
+19.2,51,Southern Redcedar,21,Weak Branch Union,none,1
+1,9,Crapemyrtle,10,Poor Tree Architecture,none,
+7.8,21.5,Live oak,17,Poor Tree Architecture,none,2
+1.5,10.5,red maple,8,"",none,1
+11.7,26.5,slash pine,24,Poor Tree Architecture,none,2
+3.2,13,Crapemyrtle,15,Poor Tree Architecture,none,1
+12.5,30.5,slash pine,18,Poor Tree Architecture,none,2
+3.3,19,Crapemyrtle,23,Decay,none,2
+20,50,Laurel Oak,46,Decay,none,2
+8,23,red maple,18,Weak Branch Union,none,1
+25,29.5,Camphor Tree,40,Weak Branch Union,none,1
+1.8,13,Live oak,10,Poor Tree Architecture,none,1
+54,63,Live oak,74,Decay,none,2
+1,6.5,Weeping Bottlebrush,7,Poor Tree Architecture,none,1
+35.8,58.5,sand live oak,105,Weak Branch Union,none,2
+1,7.5,Weeping Bottlebrush,8,Poor Tree Architecture,none,1
+0.5,12,Carolina Laurelcherry,7,"",none,1
+2.5,17.5,Laurel Oak,12,Poor Tree Architecture,none,1
+1,15,Carolina Laurelcherry,7,Poor Tree Architecture,none,1
+1.5,16.5,Carolina Laurelcherry,12,Poor Tree Architecture,none,1
+2,21.5,Carolina Laurelcherry,11,Poor Tree Architecture,none,1
+5,20.5,Arborvitae,24,Weak Branch Union,none,1
+1.3,7,Japanese Privet,6,Decay,none,2
+1.7,9.5,Carolina Laurelcherry,15,Poor Tree Architecture,none,1
+1.6,10,Crapemyrtle,8,Poor Tree Architecture,none,1
+1.2,6.5,Japanese Privet,8,"",none,2
+1,11.5,Carolina Laurelcherry,11,"",none,1
+4.5,24,Norfolk Island Pine,15,Poor Tree Architecture,none,1
+1.3,12,Laurel Oak,11,"",none,1
+2.3,20.5,Laurel Oak,13,Poor Tree Architecture,none,1
+7.6,30.5,Laurel Oak,17,Poor Tree Architecture,none,1
+25.8,59.5,Live oak,70,Poor Tree Architecture,branch,1
+39.5,67.5,Laurel Oak,72,Decay,branch,3
+36,66.5,Laurel Oak,61,Weak Branch Union,branch,2
+4,19.5,Carolina Laurelcherry,21,Poor Tree Architecture,whole,1
+19.4,39.5,Live oak,67,Weak Branch Union,branch,2
+37.1,61,Live oak,89,Dead,branch,4
+1.8,9.5,Weeping Bottlebrush,8,Poor Tree Architecture,none,1
+29.6,64.5,Laurel Oak,47,Weak Branch Union,branch,2
+29.9,47,Laurel Oak,34,Decay,branch,3
+49.8,54.5,Live oak,83,Weak Branch Union,branch,1
+43,62,Laurel Oak,59,Decay,branch,3
+16.8,51,Laurel Oak,36,Weak Branch Union,branch,1
+24.4,67.5,Laurel Oak,36,Decay,branch,2
+11.7,53.5,Carolina Laurelcherry,35,Leaning Tree,branch,2
+2,9,Japanese Privet,17,Poor Tree Architecture,whole,1
+41.1,53.5,Laurel Oak,59,Decay,branch,2
+33,62,Laurel Oak,42,Weak Branch Union,branch,2
+38,47,Laurel Oak,42,Dead,whole,3
+2.2,7,Japanese Privet,11,Poor Tree Architecture,whole,1
+32.5,41,Live oak,61,Weak Branch Union,branch,2
+46.5,57.5,sand live oak,72,Weak Branch Union,branch,1
+63.5,70,Laurel Oak,86,Decay,branch,2
+0.1,4,Carolina Laurelcherry,4,"",whole,1
+0.2,4,Carolina Laurelcherry,4,Poor Tree Architecture,whole,1
+35.5,54,Laurel Oak,51,Decay,branch,3
+42.4,57.5,Live oak,67,Dead,branch,3
+41,52.5,Laurel Oak,70,Weak Branch Union,branch,2
+21.1,60,Live oak,49,Weak Branch Union,branch,1
+33.2,59,Live oak,67,Decay,branch,3
+27.1,54.5,Laurel Oak,69,Weak Branch Union,branch,2
+30,47.5,Laurel Oak,63,Weak Branch Union,branch,2
+1.7,10.5,Crapemyrtle,13,Poor Tree Architecture,whole,1
+22.7,27,Carolina Laurelcherry,44,Decay,branch,3
+0.1,4.5,Yew Podocarpus,4,"",whole,1
+24.2,63,Live oak,37,Decay,branch,2
+27.1,68,Live oak,54,"",branch,2
+19.8,56,Live oak,50,Decay,branch,3
+38.3,37.5,Live oak,72,Decay,branch,3
+24.1,39,Laurel Oak,48,Dead,branch,3
+22.5,48,Live oak,63,Dead,branch,3
+27.5,68,Live oak,66,Dead,branch,2
+29.4,66,Live oak,68,Dead,branch,2
+10.5,27,Live oak,17,Dead,branch,3
+44,62,Live oak,85,Weak Branch Union,branch,2
+36.6,32.5,Laurel Oak,70,Decay,branch,3
+35,39.5,Laurel Oak,66,Decay,branch,3
+0.5,5.5,Flamegold,8,Poor Tree Architecture,whole,1
+18.5,48.5,Laurel Oak,53,Poor Tree Architecture,branch,2
+1.5,7.5,Oleander,9,Poor Tree Architecture,branch,1
+41.6,61.5,Live oak,89,Weak Branch Union,branch,1
+40,42,Live oak,90,Decay,branch,3
+20.9,48,Live oak,52,Decay,branch,2
+16.7,65,Live oak,40,Dead,branch,3
+23.2,38,Live oak,54,Dead,branch,2
+31.5,45,Laurel Oak,55,Decay,branch,4
+39.3,65.5,Live oak,40,Dead,branch,3
+14.1,60,Live oak,36.1,"",branch,2
+32,55,Live oak,64,Poor Tree Architecture,none,1
+3.9,20.5,Crapemyrtle,22,Poor Tree Architecture,none,1
+3,27,Laurel Oak,13,Poor Tree Architecture,none,1
+2.3,32.5,Laurel Oak,15,Poor Tree Architecture,none,1
+1,17,Laurel Oak,12,Poor Tree Architecture,none,1
+1.8,25,Laurel Oak,14,Poor Tree Architecture,none,1
+0.5,7.5,Flamegold,8,Poor Tree Architecture,none,2
+1.8,15,Laurel Oak,12,Poor Tree Architecture,none,1
+3,23,Crapemyrtle,13,Poor Tree Architecture,none,1
+11.5,33,Laurel Oak,15,Poor Tree Architecture,none,2
+2,25,Laurel Oak,14,Poor Tree Architecture,none,1
+1.8,12,baldcypress,10,"",none,1
+2.3,23,Laurel Oak,12,Poor Tree Architecture,none,1
+1.6,10,Crapemyrtle,10,Poor Tree Architecture,none,1
+6.3,33.5,Laurel Oak,24,Poor Tree Architecture,none,2
+2,12,baldcypress,10,"",none,1
+2.5,34.5,Laurel Oak,11,Poor Tree Architecture,none,1
+2.6,29,Laurel Oak,13,Poor Tree Architecture,none,1
+1.5,9.5,Crapemyrtle,12,Poor Tree Architecture,none,1
+1.9,17,Carolina Laurelcherry,15,"",none,1
+1.5,9.5,Crapemyrtle,10,Poor Tree Architecture,none,1
+2,5.5,Yew Podocarpus,5,Poor Tree Architecture,none,2
+1,14.5,Crapemyrtle,22,Poor Tree Architecture,none,1
+1.9,15,Carolina Laurelcherry,15,Leaning Tree,none,1
+1.5,9,Crapemyrtle,10,Poor Tree Architecture,none,1
+4,22,slash pine,14,"",none,1
+1.4,9.5,Crapemyrtle,11,Poor Tree Architecture,none,1
+1,4.5,Japanese Privet,6,Decay,none,3
+30.7,54,Live oak,71,Decay,none,2
+1.5,4.5,Japanese Privet,6,Decay,none,3
+17.9,48,Laurel Oak,33,Weak Branch Union,none,2
+0.1,5.5,Live oak,5,"",none,1
+5.3,20,Yew Podocarpus,19,Poor Tree Architecture,none,1
+4.7,34,Laurel Oak,18,Weak Branch Union,none,1
+9,35,Live oak,19,Poor Tree Architecture,none,2
+1.3,10.5,Crapemyrtle,11,Poor Tree Architecture,none,1
+1.3,10,Crapemyrtle,10,Poor Tree Architecture,none,1
+1.8,10,Weeping Bottlebrush,8,Poor Tree Architecture,none,1
+3,17.5,Crapemyrtle,14,Poor Tree Architecture,none,1
+3,17,Crapemyrtle,15,Poor Tree Architecture,none,1
+2.2,11,Arborvitae,14,"",none,1
+28,75,Live oak,44,Weak Branch Union,none,2
+33.9,48.5,Live oak,58,Dead,none,3
+1.6,13.5,Oleander,11,Poor Tree Architecture,none,1
+1.3,11,Oleander,10,Weak Branch Union,none,1
+1.2,8,Norfolk Island Pine,9,"",none,1
+0.8,6.5,Norfolk Island Pine,9,"",none,1
+3,16.5,Live oak,15,Weak Branch Union,none,1
+3.5,20,Live oak,14,Weak Branch Union,none,1
+28.3,69,Live oak,45,Poor Tree Architecture,none,1
+15,49.5,Laurel Oak,31,Weak Branch Union,none,1
+15.7,53.5,Carolina Laurelcherry,41,Weak Branch Union,none,2
+23.1,49.5,Laurel Oak,42,Weak Branch Union,none,2
+33.2,51.5,Live oak,88,Dead,none,3
+50.2,59.5,Live oak,91,Dead,none,3
+6.5,36.5,Camphor Tree,3,"",none,1
+22.4,39,Camphor Tree,27,Weak Branch Union,none,1
+42.8,43,sand live oak,85,Weak Branch Union,none,2
+5.7,18.5,Laurel Oak,19,Weak Branch Union,none,2
+5.7,26.5,Camphor Tree,7,Leaning Tree,none,1
+0.2,7,Crapemyrtle,10,Poor Tree Architecture,none,1
+1.5,4.5,Japanese Privet,5,Poor Tree Architecture,none,1
+1.5,9,Oleander,8,Poor Tree Architecture,none,1
+1.5,7.5,Weeping Bottlebrush,5,Weak Branch Union,none,1
+22.5,48,Laurel Oak,54,Weak Branch Union,none,2
+1.5,9.5,baldcypress,8,"",none,1
+2,8.5,Japanese Privet,13,Decay,none,2
+1,7,Crapemyrtle,6,Poor Tree Architecture,none,1
+16,34,Camphor Tree,15,"",none,1
+1.5,7.5,Weeping Bottlebrush,4,Weak Branch Union,none,1
+1,7.5,Crapemyrtle,6,Poor Tree Architecture,none,1
+44,54,Laurel Oak,86,Decay,none,4
+1.5,7,Weeping Bottlebrush,6,Weak Branch Union,none,1
+12.6,23.5,Arborvitae,19,Dead,none,2
+6,18,Arborvitae,17,Dead,none,2
+27,45,Live oak,51,Dead,none,3
+18.7,39.5,Live oak,43,Decay,none,2
+10.3,23,Arborvitae,19,Dead,none,2
+21.9,47,Camphor Tree,37,Decay,none,2
+20.4,25,Arborvitae,27,Dead,none,2
+35.6,65,Live oak,85,Dead,none,3
+5,20,Arborvitae,12,Dead,none,2
+40.1,50.5,Live oak,70,Dead,none,2
+1,7.5,Weeping Bottlebrush,5,Poor Tree Architecture,none,1
+16.9,26.5,Arborvitae,25,Decay,none,2
+8.5,17.5,Arborvitae,12,"",none,2
+6.9,17.9,Arborvitae,15,"",none,2
+21.5,48.5,Live oak,65,Weak Branch Union,none,1
+18.9,54.5,Live oak,32,Weak Branch Union,none,2
+21.8,36.5,Live oak,60,Decay,none,2
+1,8,Weeping Bottlebrush,5,Poor Tree Architecture,none,1
+6.6,21,baldcypress,10,"",none,1
+5.2,20,baldcypress,11,"",none,1
+12.4,41.5,baldcypress,17,"",none,1
+8.4,20.5,baldcypress,11,"",none,1
+8.7,28,baldcypress,12,"",none,1
+7.7,26,baldcypress,12,"",none,1
+9.1,26.5,baldcypress,12,"",none,1
+1,10,Crapemyrtle,14,Poor Tree Architecture,none,1
+17,49.5,baldcypress,16,"",none,1
+10.8,39,baldcypress,19,"",none,1
+13.6,46,baldcypress,15,"",none,1
+12.9,43,baldcypress,15,"",none,1
+31.2,52,Live oak,73,Dead,none,3
+0.5,9.5,Crapemyrtle,8,Poor Tree Architecture,none,1
+0.5,9.5,Crapemyrtle,8,Poor Tree Architecture,none,1
+0.5,9,Crapemyrtle,8,Poor Tree Architecture,none,1
+0.5,9,Crapemyrtle,10,Poor Tree Architecture,none,1
+0.2,4.5,Crapemyrtle,7,Poor Tree Architecture,none,1
+0.2,7,Crapemyrtle,11,Poor Tree Architecture,none,1
+0.2,4,Crapemyrtle,4,Poor Tree Architecture,none,1
+0.5,9.5,Crapemyrtle,11,Poor Tree Architecture,none,1
+1,8.5,Crapemyrtle,11,Poor Tree Architecture,none,1
+12.7,40,baldcypress,16,"",none,1
+12,41.5,baldcypress,15,"",none,1
+0.2,6,Carolina Laurelcherry,5,"",none,1
+4,8,Yew Podocarpus,15,Poor Tree Architecture,none,1
+20,58.5,Laurel Oak,50,Weak Branch Union,none,2
+9.3,31,baldcypress,12,"",none,1
+30,62.5,Live oak,75,Decay,none,3
+35.9,56,Live oak,64,Dead,none,3
+23,30,Live oak,45,Decay,none,2
+0.8,6,Laurel Oak,7,"",none,1
+10.9,38,Live oak,17,Leaning Tree,none,2
+9.5,33,Orchid Tree,34,Poor Tree Architecture,none,1
+23.3,38,Live oak,49,Dead,none,3
+38,47,Live oak,48,Decay,none,2
+16.7,20.9,Live oak,30,Leaning Tree,none,2
+19.6,42.5,Laurel Oak,36,Weak Branch Union,none,2
+21.6,60,southern magnolia,50,Decay,none,2
+16.5,70,Live oak,29,Dead,none,3
+14.8,39.5,Live oak,32,Weak Branch Union,none,1
+1,7,Weeping Bottlebrush,8,Poor Tree Architecture,none,1
+1,10,red maple,8,"",none,1
+36,54.5,sand live oak,54,Weak Branch Union,none,1
+1,8.5,Camphor Tree,13,Poor Tree Architecture,none,1
+3,12.5,Crapemyrtle,13,Weak Branch Union,none,1
+1,11,red maple,8,"",none,1
+1,8,Crapemyrtle,9,Poor Tree Architecture,none,1
+2.7,13,Crapemyrtle,13,Poor Tree Architecture,none,1
+2.1,8,Crapemyrtle,12,Weak Branch Union,none,1
+7.3,27,Laurel Oak,26,"",none,1
+3.4,14.5,Crapemyrtle,24,Poor Tree Architecture,none,1
+2.4,10.5,Crapemyrtle,16,Poor Tree Architecture,none,1
+2,10,Weeping Bottlebrush,8,Poor Tree Architecture,none,1
+3.1,12,Crapemyrtle,20,Poor Tree Architecture,none,1
+5.8,25,Laurel Oak,30,Crack,none,2
+4,16.5,Crapemyrtle,27,Poor Tree Architecture,none,1
+5.6,10,Crapemyrtle,12,Poor Tree Architecture,none,1
+2.6,9,Crapemyrtle,11,Poor Tree Architecture,none,1
+3,12,Orchid Tree,12,Weak Branch Union,none,1
+3.5,10,Crapemyrtle,14,Poor Tree Architecture,none,1
+10.3,12.5,Crapemyrtle,17,Poor Tree Architecture,none,1
+0.8,9,Crapemyrtle,19,Poor Tree Architecture,none,1
+3.9,27,Laurel Oak,15,Decay,none,2
+9.7,12,Crapemyrtle,14,Poor Tree Architecture,none,1
+12,36.5,Laurel Oak,27,Weak Branch Union,none,2
+4.9,22,Laurel Oak,16,Weak Branch Union,none,1
+1.2,12,Crapemyrtle,17,"",none,
+0.8,12,Carolina Laurelcherry,11,"",none,1
+28.5,50.5,Live oak,79,Dead,none,2
+1.5,15,Orchid Tree,11,Dead,none,2
+30.3,61.5,Live oak,47,Weak Branch Union,none,2
+27.9,67,Live oak,55,Decay,none,2
+26.8,56.5,Live oak,41,"",none,2
+17.8,37,Live oak,52,Weak Branch Union,none,1
+9.8,15,southern magnolia,18,Decay,none,2
+20.6,64,Live oak,39,Dead,none,3
+14,45.5,baldcypress,13,Dead,none,2
+20.8,68,Live oak,33,Poor Tree Architecture,none,1
+16.1,41,Laurel Oak,38,Dead,none,3
+17,33.5,Live oak,34,Leaning Tree,none,1
+36.7,66,Live oak,59,Decay,none,1
+16.5,59,Live oak,37,Leaning Tree,none,1
+9.9,35,Live oak,33,Weak Branch Union,none,1
+9.6,57,Live oak,10,Decay,none,3
+13.5,73,Live oak,27,Dead,none,3
+20.3,65.5,Live oak,59,Dead,none,3
+17.5,65,Live oak,34,Dead,none,3
+22.2,69,Live oak,46,Decay,none,2
+25.1,37.5,Live oak,55,Poor Tree Architecture,none,2
+20,43,Live oak,57,Decay,none,2
+27.7,52,Live oak,45,"",none,3
+15.4,65,Live oak,41,Weak Branch Union,none,1
+10.8,23,southern magnolia,18,Decay,none,2
+29.6,48.5,sand live oak,57,Decay,none,2
+8.1,27.5,Chinaberry,26,Poor Tree Architecture,none,1
+55.4,59,Live oak,88,Decay,branch,3
+27.1,65.5,Live oak,53,Poor Tree Architecture,branch,1
+24.1,54.5,Live oak,43,Dead,branch,3
+14.9,47.5,Live oak,25,Decay,branch,3
+39,56.5,Live oak,62,Dead,branch,3
+43.9,66.5,Live oak,93,Weak Branch Union,branch,1
+37.9,35,Live oak,85,Leaning Tree,branch,1
+4.2,25.5,Carolina Laurelcherry,12,Dead,whole,2
+7.5,12.5,Live oak,13,Decay,whole,3
+20.5,60,Live oak,42,Weak Branch Union,branch,1
+26.6,60,Live oak,65,Weak Branch Union,branch,1
+27.8,49.5,Live oak,47,Poor Tree Architecture,branch,2
+32.5,65,Laurel Oak,66,Weak Branch Union,branch,2
+13.6,66.5,Laurel Oak,27,Poor Tree Architecture,branch,1
+18.8,55.5,Live oak,47,Decay,branch,3
+36.8,57.5,Live oak,61,Weak Branch Union,branch,2
+18.3,54,Live oak,53,Weak Branch Union,branch,1
+27.1,45,Live oak,76,Weak Branch Union,branch,2
+29.1,59.5,Live oak,54,Weak Branch Union,branch,1
+0.2,4,Orchid Tree,6,Poor Tree Architecture,whole,1
+17.7,33,Laurel Oak,37,Weak Branch Union,branch,2
+29,60,Live oak,48,Dead,branch,3
+31.4,50,Live oak,74,Dead,branch,3
+6,25.5,red maple,17,Dead,none,3
+24.4,66.5,Laurel Oak,43,Dead,branch,3
+21.2,47.5,Camphor Tree,49,Decay,branch,3
+14.2,50.5,Laurel Oak,36,Dead,branch,3
+15.4,40,Laurel Oak,44,Dead,branch,3
+35,63.5,Laurel Oak,52,Decay,branch,2
+3.3,13,American Elm,5,Poor Tree Architecture,none,1
+32,51,Laurel Oak,62,Decay,branch,2
+49.5,54,Laurel Oak,40,Decay,whole,4
+31.5,57.5,Live oak,80,"",branch,3
+4,29.5,red maple,9,Decay,none,2
+36.6,48,Live oak,77,Poor Tree Architecture,none,1
+3.4,22.5,Carolina Laurelcherry,15,Leaning Tree,none,1
+4.1,26.5,Carolina Laurelcherry,16,"",none,1
+2.2,27,Carolina Laurelcherry,13,"",none,1
+2.3,21.5,Carolina Laurelcherry,13,Leaning Tree,none,1
+10.6,29.5,Live oak,31,Poor Tree Architecture,none,1
+22.9,46.5,Live oak,30,Dead,none,3
+24.4,44.5,Live oak,38.1,Dead,none,2
+4.2,27.5,Carolina Laurelcherry,14,Dead,none,3
+3,24,Carolina Laurelcherry,13,Dead,none,2
+2.8,25.5,Carolina Laurelcherry,9,"",none,1
+12.2,36,Live oak,37,Poor Tree Architecture,none,2
+4.5,25,Carolina Laurelcherry,14,Dead,none,3
+3.6,21.5,Carolina Laurelcherry,10,"",none,1
+16.1,40,Live oak,27,Decay,none,4
+22.8,51,Live oak,54,Dead,none,3
+9.2,45,Live oak,16,Poor Tree Architecture,none,1
+18.7,69,Live oak,37,Decay,none,3
+15.8,67,Live oak,14,Poor Tree Architecture,none,1
+8.1,25.5,baldcypress,12,"",none,1
+14.4,31.5,Live oak,18,Leaning Tree,none,1
+16.2,55,Live oak,35,Dead,none,3
+24.3,64.5,Laurel Oak,60,Dead,none,3
+23,58.5,Live oak,49,Dead,none,3
+13.4,31,Live oak,31,Leaning Tree,none,2
+41.2,57.5,Live oak,69,Weak Branch Union,none,2
+2.2,12,Arborvitae,13,Weak Branch Union,none,1
+1.8,10.5,Arborvitae,13,Weak Branch Union,none,1
+1.5,8,Weeping Bottlebrush,8,Poor Tree Architecture,none,1
+21.8,57,Laurel Oak,29,Poor Tree Architecture,none,2
+1.8,8.5,Weeping Bottlebrush,9,Poor Tree Architecture,none,1
+1.8,11.5,Crapemyrtle,11,Poor Tree Architecture,none,1
+19.3,50,Live oak,45,Weak Branch Union,none,1
+22.2,52.5,Live oak,49,Weak Branch Union,none,2
+1.5,11,Crapemyrtle,12,Poor Tree Architecture,none,1
+1,8,Japanese Privet,14,Poor Tree Architecture,none,1
+1.5,11,Crapemyrtle,13,Poor Tree Architecture,none,1
+3.5,15,Carolina Laurelcherry,13,Poor Tree Architecture,none,2
+0.5,5.5,Carolina Laurelcherry,5,"",none,1
+0.5,6.5,Carolina Laurelcherry,6,"",none,1
+0.8,6.5,Carolina Laurelcherry,6,"",none,1
+4.1,14,baldcypress,8,"",none,1
+1.5,7,Crapemyrtle,10,Poor Tree Architecture,none,1
+3,9.5,Japanese Privet,15,Poor Tree Architecture,none,1
+3.4,14,baldcypress,14,"",none,1
+0.2,7.5,Carolina Laurelcherry,5,"",none,1
+23.2,53,Live oak,46,Weak Branch Union,none,1
+27.4,55,Live oak,45,Weak Branch Union,none,1
+0.2,9,Carolina Laurelcherry,5,"",none,1
+0.2,9,Carolina Laurelcherry,5,"",none,1
+37.6,44.5,Live oak,62,Weak Branch Union,none,1
+5.7,19.5,Weeping Bottlebrush,12,"",none,1
+29.8,48,Live oak,58,Weak Branch Union,none,1
+24.3,43.5,Live oak,41,Weak Branch Union,none,1
+23.1,56,Live oak,45,Weak Branch Union,none,1
+3.4,26,Red Mulberry,36,Poor Tree Architecture,none,1
+10.3,37,red maple,24,Weak Branch Union,none,2
+34,50,Laurel Oak,52,Weak Branch Union,none,2
+1,7.5,Crapemyrtle,8,Poor Tree Architecture,none,1
+16.3,27.5,Weeping Bottlebrush,25,Weak Branch Union,none,1
+1,8,Crapemyrtle,7,Poor Tree Architecture,none,1
+2.5,6,Japanese Privet,13,Poor Tree Architecture,none,1
+2.5,5.5,Japanese Privet,10,Poor Tree Architecture,none,1
+3,14,Crapemyrtle,15,Weak Branch Union,none,1
+30.7,48,Live oak,82,Weak Branch Union,none,1
+1.2,8.5,Crapemyrtle,9,Weak Branch Union,none,1
+0.5,7.5,red maple,7,Poor Tree Architecture,none,1
+17.3,39,Live oak,41,Weak Branch Union,none,2
+0.5,6.5,Orchid Tree,7,Leaning Tree,none,2
+0.2,6,Orchid Tree,6,Leaning Tree,none,2
+4.7,26.5,Live oak,18,Weak Branch Union,none,1
+14.5,48.5,Live oak,34,Leaning Tree,none,2
+1.8,22.5,Orchid Tree,10,Leaning Tree,none,2
+32.1,56,Live oak,58,Dead,none,3
+14.8,15,Live oak,14,Poor Tree Architecture,none,3
+0.2,6,Carolina Laurelcherry,5,"",none,1
+0.2,10,Carolina Laurelcherry,6,"",none,1
+5.5,31,southern magnolia,14,Dead,none,3
+5.6,22,southern magnolia,15,Weak Branch Union,none,2
+19.9,61.5,Laurel Oak,30,Dead,none,3
+26,61.5,Live oak,13,Dead,none,3
+1.5,7,Orchid Tree,4,Weak Branch Union,none,1
+24.2,49.5,Live oak,79,Leaning Tree,none,1
+27.9,47,Laurel Oak,44,Dead,branch,3
+14.6,27.5,Live oak,9,Dead,none,3
+2.5,6,Crapemyrtle,6,Weak Branch Union,whole,1
+21.5,51.5,Laurel Oak,44,Weak Branch Union,branch,2
+11.4,38,Chinese elm,38,Leaning Tree,branch,2
+7.1,26.5,American Elm,7,"",none,1
+2.3,8.5,baldcypress,7,"",none,1
+8.6,44.5,American Elm,21,Weak Branch Union,none,1
+2.3,6,Crapemyrtle,6,Weak Branch Union,whole,1
+10.6,26,Laurel Oak,21,Weak Branch Union,none,2
+9.2,25,Southern Redcedar,22,Weak Branch Union,branch,1
+26.3,63,Laurel Oak,60,Weak Branch Union,branch,2
+5.1,28.5,American Elm,10,"",none,1
+19.8,52,baldcypress,21,Dead,none,2
+6.6,28.5,American Elm,14,"",none,1
+8,42.5,American Elm,18,Weak Branch Union,none,1
+6.1,24.5,red maple,15,Decay,none,2
+10.2,42.5,American Elm,24,"",none,1
+5.1,12,American Elm,6,Poor Tree Architecture,none,1
+1.5,23,Carolina Laurelcherry,14,"",none,1
+27.8,56.5,Live oak,39,Weak Branch Union,branch,1
+15.9,23,sand live oak,31,Leaning Tree,branch,1
+19.7,34,sand live oak,38,Leaning Tree,branch,1
+21.9,50.5,baldcypress,20,"",branch,1
+20.8,50.5,Laurel Oak,60,Weak Branch Union,branch,2
+1,11,Crapemyrtle,11,Poor Tree Architecture,none,1
+0.5,5.5,Orchid Tree,7,Leaning Tree,none,1
+0.8,9,Crapemyrtle,7,Poor Tree Architecture,none,1
+0.3,6.5,Carolina Laurelcherry,7,"",none,1
+16.5,37.5,red maple,34,Root Problems,none,1
+0.5,7,Crapemyrtle,5,Dead,none,3
+1,12,Crapemyrtle,6,Poor Tree Architecture,none,1
+1.8,18,Crapemyrtle,17,Poor Tree Architecture,none,1
+1,16,Carolina Laurelcherry,9,"",none,1
+2,21.5,Crapemyrtle,23,Poor Tree Architecture,none,1
+1.7,21,Carolina Laurelcherry,8,Poor Tree Architecture,none,1
+25,66,Southern Redcedar,35,Poor Tree Architecture,none,1
+36.1,52.5,Live oak,42,Dead,branch,2
+31.8,55,Laurel Oak,52,Decay,whole,3
+43.5,60.5,Live oak,84,Weak Branch Union,branch,1
+5.8,25.5,southern magnolia,19,"",whole,1
+37.6,53,Laurel Oak,63,Decay,branch,2
+21.9,29,Laurel Oak,40,Decay,whole,3
+25.3,36.5,Live oak,59,Dead,branch,3
+5.1,22.5,southern magnolia,29,Decay,none,1
+1.2,11,Crapemyrtle,12,Poor Tree Architecture,none,1
+51.2,62,Laurel Oak,80,Decay,whole,4
+56,67.5,Live oak,110,Decay,none,3
+2,9.5,Arborvitae,14,"",none,1
+2,9.5,Arborvitae,13,"",none,1
+7.4,34,red maple,18,Decay,none,3
+9,12.5,American Elm,9,Poor Tree Architecture,none,1
+4.6,21.5,baldcypress,9,"",none,1
+4.3,23.5,baldcypress,12,"",none,1
+18.7,40.5,Laurel Oak,44,Weak Branch Union,branch,2
+58.5,65.5,Laurel Oak,82,Decay,branch,3
+14.7,39,baldcypress,16,Dead,none,2
+1.2,9.5,baldcypress,6,"",none,1
+3.4,20,baldcypress,9,"",none,1
+17.9,27,baldcypress,7,Decay,none,3
+5.9,29,American Elm,17,Weak Branch Union,none,1
+19,21.5,Live oak,24,Decay,none,3
+2.8,8,baldcypress,7,"",none,1
+17.5,38.5,Laurel Oak,67,Decay,none,3
+1.3,9,Crapemyrtle,11,Poor Tree Architecture,none,1
+9.7,32.5,Laurel Oak,,Poor Tree Architecture,none,1
+1.3,9,Crapemyrtle,10,Poor Tree Architecture,none,1
+1.8,10.5,Live oak,7,Weak Branch Union,none,1
+5.8,24.5,Chinese elm,29,Leaning Tree,none,2
+10.9,32.5,baldcypress,12,"",none,1
+1.8,13.5,Live oak,9,Poor Tree Architecture,whole,1
+1.5,11.5,Live oak,10,"",whole,1
+28.5,45,Laurel Oak,72,Weak Branch Union,branch,1
+10.2,27.5,baldcypress,15,"",none,1
+14.3,39.5,Live oak,42,Weak Branch Union,none,1
+2.8,15,American Elm,27,Poor Tree Architecture,none,2
+6.1,25.5,Chinese elm,32,Root Problems,none,2
+1,9,Crapemyrtle,9,Weak Branch Union,none,1
+3.5,18,American Elm,16,Weak Branch Union,none,1
+4,18,Carolina Laurelcherry,18,Poor Tree Architecture,none,1
+9.7,38.5,baldcypress,14,"",none,1
+33.3,44.5,Laurel Oak,69,Dead,none,3
+11,29,American Elm,36,Weak Branch Union,none,2
+6.5,23,red maple,11,Decay,none,3
+0.5,6,Oleander,8,Poor Tree Architecture,none,1
+19.3,38.5,Live oak,37,Decay,none,3
+13.5,38,American Elm,29,Weak Branch Union,none,1
+7,31.5,American Elm,16,"",none,1
+3.3,16.5,Live oak,15,Weak Branch Union,none,2
+37.3,70.5,Laurel Oak,57,Decay,branch,3
+8.5,31.5,American Elm,23,"",none,1
+38,75.5,Laurel Oak,55,Decay,branch,3
+58.2,72,Laurel Oak,100,"",whole,3
+16.8,40,Laurel Oak,25,Decay,branch,3
+7.6,30.5,baldcypress,9,"",none,1
+4.2,13,Chinese elm,19,Poor Tree Architecture,none,1
+22.4,36.5,Live oak,25,Decay,none,3
+19.2,34.5,Live oak,37,Decay,none,2
+2.1,8,baldcypress,6,"",none,1
+43.2,48.5,Live oak,34,Decay,none,3
+40.7,55,Live oak,54,Decay,none,3
+19.3,46.5,Live oak,28,Root Problems,none,1
+14,30,Live oak,27,Dead,none,3
+38.4,65,Laurel Oak,62,Decay,branch,2
+29.7,45,Live oak,44,"",branch,3
+32.8,55,sand live oak,44,Decay,branch,2
+15,41,Live oak,9,Dead,none,3
+1.3,12.5,Carolina Laurelcherry,6,Decay,none,3
+1,8,Crapemyrtle,11,Weak Branch Union,none,1
+3,12.5,southern magnolia,13,Poor Tree Architecture,none,1
+1,8.5,Crapemyrtle,10,Weak Branch Union,none,1
+14.3,42.5,Laurel Oak,43,Weak Branch Union,none,2
+2.5,11,southern magnolia,12,Decay,none,1
+18.2,46,Live oak,28,Decay,none,2
+16,42.5,Live oak,22,Dead,none,3
+20.7,54.5,Live oak,31,Decay,none,1
+18.5,37,Live oak,29,Decay,none,2
+17.7,26,sand live oak,26,Decay,none,2
+1.2,9.5,Crapemyrtle,9,Poor Tree Architecture,none,1
+2,14,Crapemyrtle,11,Weak Branch Union,none,1
+6.9,34,Live oak,15,Weak Branch Union,none,1
+13.7,24.5,Live oak,25,Decay,none,2
+6.3,25,Live oak,16,Weak Branch Union,none,1
+26.2,44,Flamegold,47,Dead,branch,3
+6.5,28,Live oak,18,Weak Branch Union,none,1
+23.2,42.5,Live oak,57,Decay,none,2
+34,52,sand live oak,53,Decay,branch,3
+17.2,51,red maple,41,Weak Branch Union,branch,2
+22.4,50.5,sand live oak,32,Weak Branch Union,branch,1
+29.8,51.5,sand live oak,58,Dead,branch,3
+38.2,53.5,Live oak,52,Dead,none,3
+7,30.5,Carolina Laurelcherry,26,Decay,none,2
+3.3,22,Carolina Laurelcherry,19,Weak Branch Union,whole,1
+18.3,54.5,Southern Redcedar,22,Weak Branch Union,branch,1
+29.2,65,Live oak,65,Leaning Tree,branch,1
+17.1,58,slash pine,34,Dead,branch,3
+39.6,51.5,Live oak,71,Dead,branch,3
+1.5,6,Crapemyrtle,6,Poor Tree Architecture,none,1
+40.7,53,Live oak,61,Dead,none,2
+1,5,Crapemyrtle,5,Poor Tree Architecture,none,1
+22,40.5,Camphor Tree,56,Dead,none,3
+13.1,39,American Elm,26,Poor Tree Architecture,branch,2
+0.2,5,Carolina Laurelcherry,6,"",none,1
+2.5,18,Crapemyrtle,21,Weak Branch Union,none,1
+0.2,6,Carolina Laurelcherry,8,"",none,1
+0.2,5.5,Carolina Laurelcherry,5,"",none,1
+1.5,9.5,Oleander,11,Weak Branch Union,none,1
+13.7,36.5,Live oak,25,Poor Tree Architecture,none,2
+3.8,18,southern magnolia,16,Root Problems,none,2
+24.5,53,Laurel Oak,29,Decay,branch,2
+22.8,43,Live oak,43,Decay,branch,3
+27,57,Laurel Oak,24,"",branch,3
+13.6,55,Laurel Oak,22,Weak Branch Union,branch,3
+32.5,48.5,Live oak,46,Dead,none,3
+6.2,21,southern magnolia,13,Weak Branch Union,none,1
+5.4,21,southern magnolia,14,Weak Branch Union,none,1
+12.1,33.5,Live oak,23,Weak Branch Union,branch,1
+26.1,29,Red Mulberry,45,Weak Branch Union,none,1
+2.5,7,southern magnolia,8,Decay,none,2
+2.9,9.5,southern magnolia,4,Dead,none,2
+20,25.5,Carolina Laurelcherry,28,Decay,none,3
+2,10,Japanese Privet,12,Decay,none,2
+44.2,60,Laurel Oak,87,Decay,none,4
+3.5,23.5,Carolina Laurelcherry,18,Poor Tree Architecture,none,1
+1.5,5.5,Brazilian Pepper,8,Poor Tree Architecture,none,1
+0.5,9,Carolina Laurelcherry,6,Poor Tree Architecture,none,1
+42.6,39.5,Laurel Oak,79,Dead,none,4
+11.3,46,baldcypress,18,"",none,1
+2.5,9.5,Crapemyrtle,2,Weak Branch Union,none,1
+0.5,9,Carolina Laurelcherry,4,Leaning Tree,none,1
+43.9,71,Live oak,90,Decay,branch,3
+21.1,54,Live oak,47,Poor Tree Architecture,branch,2
+25,52,Live oak,67,Decay,whole,3
+31,54,Laurel Oak,52,Decay,whole,4
+1,14,Carolina Laurelcherry,9,Leaning Tree,none,1
+8.9,30,baldcypress,19,Poor Tree Architecture,none,1
+24.6,59,Laurel Oak,87,Dead,none,3
+35.5,64,sand live oak,72,Dead,none,3
+1,12,Carolina Laurelcherry,10,Poor Tree Architecture,none,1
+17.4,37,Live oak,49,Root Problems,none,1
+24.6,25,sand live oak,39,Decay,none,2
+18.5,30.5,Live oak,28,Dead,none,2
+41.4,56,Live oak,82,Weak Branch Union,none,1
+37.9,68.5,sand live oak,38,Decay,none,3
+14.6,35.5,sand live oak,15,Decay,none,2
+44.4,61.5,Live oak,85,Dead,none,3
+20.9,29,sand live oak,20,Decay,none,4
+31.4,39.5,Live oak,51,Leaning Tree,none,1
+3,16.5,southern magnolia,13,Poor Tree Architecture,none,1
+1,12,Flamegold,14,"",whole,1
+1.2,15,Brazilian Pepper,13,Poor Tree Architecture,whole,1
+30.2,55.5,Live oak,62,Decay,branch,3
+10,32.5,Live oak,22,Poor Tree Architecture,none,2
+12.3,39,American Elm,34,Weak Branch Union,none,2
+29.5,60,Laurel Oak,35,Decay,whole,4
+8,16.5,Weeping Bottlebrush,24,Poor Tree Architecture,none,2
+1,8.5,Laurel Oak,10,Poor Tree Architecture,none,1
+3.5,11.5,Weeping Bottlebrush,21,Poor Tree Architecture,none,2
+15.4,57.5,slash pine,38,Poor Tree Architecture,none,1
+32,43.5,Live oak,38,Decay,none,3
+37.5,72.5,Live oak,85,Crack,none,3
+9.3,24.5,Red Mulberry,30,Poor Tree Architecture,none,2
+2.4,13,southern magnolia,3,Root Problems,none,2
+0.5,6.5,Carolina Laurelcherry,5,"",none,1
+14.9,36,Laurel Oak,27,Weak Branch Union,none,2
+36.5,66.5,Laurel Oak,42,Decay,whole,4
+23.3,35.5,Arborvitae,22,Decay,whole,2
+3.9,31.5,American Elm,12,Leaning Tree,none,1
+0.5,6.5,Carolina Laurelcherry,3,"",none,1
+0.8,7.5,Carolina Laurelcherry,4,Weak Branch Union,none,1
+0.5,7.5,Carolina Laurelcherry,5,"",none,1
+1.3,7.5,southern magnolia,4,Decay,none,2
+1.5,7,southern magnolia,4,Decay,none,2
+6.7,20.5,Live oak,16,Root Problems,none,1
+6.4,20,Live oak,19,Poor Tree Architecture,none,1
+6.1,21.5,Live oak,14,Weak Branch Union,none,1
+12.6,28.5,Live oak,37,Weak Branch Union,none,1
+10.1,32.5,Live oak,23,Weak Branch Union,none,1
+30.5,60.5,Laurel Oak,38,Decay,branch,2
+7.1,21,Live oak,18,Leaning Tree,none,1
+6,23,Live oak,12,Weak Branch Union,none,1
+10.2,28.5,Live oak,30,Weak Branch Union,none,1
+4.4,11.5,Live oak,13,Decay,none,2
+0.2,4.5,Carolina Laurelcherry,6,Leaning Tree,none,1
+7.5,26.5,Laurel Oak,31,Poor Tree Architecture,none,2
+10.8,33.5,Laurel Oak,20,Decay,none,3
+30.4,62.5,Live oak,59,Decay,none,3
+36.5,60,Live oak,64,Decay,none,1
+47.5,65.5,Laurel Oak,81,Decay,none,3
+41.8,53,Live oak,95,Decay,none,3
+2.5,19.5,Crapemyrtle,19,Poor Tree Architecture,none,1
+9.5,23,Southern Redcedar,18,Dead,none,3
+22.2,41,Laurel Oak,43,Weak Branch Union,none,2
+2.2,18.5,Crapemyrtle,14,Poor Tree Architecture,none,1
+7,24.5,Orchid Tree,30,Poor Tree Architecture,none,1
+19,47,Laurel Oak,44,Weak Branch Union,none,2
+2.5,18.5,Crapemyrtle,15,Poor Tree Architecture,none,1
+0.2,5,Crapemyrtle,6,"",none,1
+15.6,45.5,Laurel Oak,33,"",none,1
+30.5,58,Live oak,51,Weak Branch Union,none,1
+39.5,51.1,Live oak,45,Poor Tree Architecture,none,1
+5.9,24,Laurel Oak,33,Poor Tree Architecture,none,2
+4,12,Crapemyrtle,14,Poor Tree Architecture,none,1
+27.5,64,Laurel Oak,44,Poor Tree Architecture,none,3
+4,10.5,Crapemyrtle,14,"",none,
+24.5,45,Camphor Tree,48,Dead,none,3
+39.5,50,Camphor Tree,63,Weak Branch Union,none,1
+5.2,13.5,Orchid Tree,12,Leaning Tree,none,2
+1.3,8,Weeping Bottlebrush,8,Weak Branch Union,none,1
+6.1,27.5,Norfolk Island Pine,15,Leaning Tree,none,1
+1.5,8,Weeping Bottlebrush,7,Weak Branch Union,none,1
+17.5,57,Laurel Oak,52,Weak Branch Union,none,2
+1,7.5,Crapemyrtle,7,Poor Tree Architecture,none,1
+30.8,69.5,Laurel Oak,47,Weak Branch Union,none,2
+23.7,52,Live oak,75,Dead,none,3
+1.3,10,Crapemyrtle,7,Poor Tree Architecture,none,1
+1.3,10,Crapemyrtle,8,Poor Tree Architecture,none,1
+15.8,43.5,Live oak,42,Weak Branch Union,none,1
+1,7,Camphor Tree,7,Poor Tree Architecture,none,1
+3,10,Crapemyrtle,14,Weak Branch Union,none,1
+4.2,13.5,Crapemyrtle,12,Weak Branch Union,none,1
+1.5,14,Carolina Laurelcherry,13,Poor Tree Architecture,none,1
+15,31,Flamegold,33,Weak Branch Union,none,1
+42.4,55.5,Laurel Oak,41,Decay,whole,3
+40.2,51.5,Live oak,76,Decay,none,2
+23,61.5,Live oak,23,Weak Branch Union,none,1
+21,45,Live oak,50,Decay,none,1
+19.6,38.5,Laurel Oak,45,Root Problems,none,1
+8.5,22,Arborvitae,21,Weak Branch Union,none,1
+1.4,10,Crapemyrtle,11,Poor Tree Architecture,none,1
+28.5,50.5,Laurel Oak,72,Decay,branch,4
+0.2,2.5,Crapemyrtle,4,"",none,1
+1.4,10,Crapemyrtle,10,Poor Tree Architecture,none,1
+33.9,73,Laurel Oak,51,Decay,whole,3
+43.5,72,Laurel Oak,69,Decay,whole,4
+45.6,67,Live oak,90,Decay,branch,3
+30.2,43,Laurel Oak,53,Weak Branch Union,branch,2
+47,50.5,Laurel Oak,73,Decay,whole,4
+43.4,72.5,Live oak,82,Decay,branch,3
+1.2,15,Carolina Laurelcherry,12,Poor Tree Architecture,whole,1
+5.1,16,Chinese elm,27,Leaning Tree,whole,1
+4.3,16,Chinese elm,22,Weak Branch Union,whole,1
+35,50,Melaleuca spp.,33,Decay,branch,2
+25.7,48,Melaleuca spp.,17,Decay,branch,2
+16,49.5,Melaleuca spp.,25,Weak Branch Union,branch,2
+20,51.5,Melaleuca spp.,35,Decay,branch,3
+16.5,11.5,Arborvitae,13,Weak Branch Union,whole,1
+2,13,winged elm,6,Leaning Tree,branch,1
+2.5,15,winged elm,13,Poor Tree Architecture,branch,1
+8.4,10.5,Arborvitae,11,Weak Branch Union,whole,1
+42.3,43,Camphor Tree,58,Dead,branch,4
+11.7,23,Arborvitae,19,Dead,branch,3
+21.2,26.5,Orchid Tree,35,Decay,branch,4
+31,34,Laurel Oak,36,Dead,branch,4
+17,20.5,Chinaberry,33,Decay,branch,3
+28.5,30,Flamegold,33,Decay,branch,3
+31.8,32.5,Laurel Oak,58,Decay,whole,3
+40.3,40,Laurel Oak,63,Decay,whole,2
+3.7,11.5,winged elm,11,Poor Tree Architecture,whole,2
+18.4,20,Carolina laurelcherry,23,Dead,whole,4
+26.5,48.5,Laurel Oak,56,Weak Branch Union,branch,1
+15.2,16,American elm,20,Dead,whole,3
+42.3,63.5,Laurel Oak,42,"",whole,4
+49.8,54.5,Laurel Oak,70,Decay,branch,2
+45,38,Laurel Oak,49,Decay,branch,4
+44.7,52.5,Laurel Oak,60,Dead,branch,4
+1.6,14,winged elm,9,Leaning Tree,whole,2
+8.3,37.5,winged elm,24,Poor Tree Architecture,branch,1
+39.8,45,Camphor Tree,65,Decay,branch,1
+1.8,14,winged elm,6,Weak Branch Union,whole,1
+74,56,Live oak,97,Dead,branch,3
+6.8,16,Carolina laurelcherry,21,Poor Tree Architecture,branch,2
+1.9,12,Weeping Bottlebrush,9,Weak Branch Union,whole,1
+19.1,37,Laurel Oak,22,Decay,whole,4
+15.1,27,Laurel Oak,36,Decay,whole,3
+11.2,24,Laurel Oak,26,Decay,branch,3
+0.5,10,Crapemyrtle,8,Weak Branch Union,whole,2
+27.6,34,Laurel Oak,54,Decay,branch,2
+28,47.5,Chinaberry,41,Poor Tree Architecture,branch,2
+49.7,73,Live oak,116,Weak Branch Union,branch,2
+2,6.5,Oleander,6,Decay,whole,3
+22.5,36.5,water oak,36,"",whole,4
+7.1,19,Chinese elm,20,Weak Branch Union,none,1
+6.2,21.5,Chinese elm,19,Root Problems,none,2
+4.3,17,Chinese elm,24,Weak Branch Union,none,1
+6.3,16.5,Chinese elm,23,Weak Branch Union,none,1
+5.2,21.5,Chinese elm,21,Leaning Tree,none,1
+5.3,20,Chinese elm,24,Leaning Tree,none,1
+8,25.5,Chinese elm,28,Poor Tree Architecture,none,1
+7.8,24.5,Chinese elm,21,Poor Tree Architecture,none,1
+8.2,21.5,Chinese elm,30,Poor Tree Architecture,none,1
+10.3,36.5,slash pine,15.1,Dead,none,3
+10.2,31.5,slash pine,15,Dead,none,3
+12,39.5,slash pine,16,Dead,none,3
+14.4,49.5,slash pine,16,Dead,none,4
+9.5,23.5,slash pine,18,Dead,none,3
+9.1,32.5,slash pine,16,Dead,none,3
+8.8,31.5,slash pine,15,Dead,none,3
+9.7,51,slash pine,11,Dead,none,3
+6.8,27,slash pine,10,Dead,none,3
+11.4,39.5,slash pine,17,Dead,none,3
+11.3,38.5,slash pine,13,Dead,none,3
+11.6,29,slash pine,19,Dead,none,3
+9.8,37.5,slash pine,17,Dead,none,3
+11.5,34,slash pine,14,Dead,none,3
+14,41,slash pine,19,Dead,none,3
+8.5,40,slash pine,16,Dead,none,3
+12,39.5,slash pine,23,Dead,none,3
+8.3,38.5,slash pine,14,Dead,none,3
+8.2,30,slash pine,16,Dead,none,3
+13,38,slash pine,23,Dead,none,3
+10.8,36.5,slash pine,14,Dead,none,3
+10.8,52.5,slash pine,15,Dead,none,3
+8.8,39,slash pine,9,Dead,none,3
+8.5,18,slash pine,12,Leaning Tree,none,2
+9,41,slash pine,11,Dead,none,3
+8.4,31,slash pine,15,Dead,none,3
+10.7,29.5,slash pine,20,Dead,none,3
+12.1,39,slash pine,25,Dead,none,3
+2,6,Yew Podocarpus,6,Poor Tree Architecture,none,1
+21.4,17,Orchid Tree,21,Decay,none,3
+2.9,14,Crapemyrtle,14,Dead,none,3
+19.5,28,Orchid Tree,30,Decay,none,4
+22.4,28.5,Camphor Tree,38,Decay,none,3
+19.9,25,Camphor Tree,32,Poor Tree Architecture,none,2
+12.5,20,Arborvitae,17,Dead,none,3
+1,8.5,southern magnolia,4,Poor Tree Architecture,none,2
+4.5,15,Arborvitae,11,Dead,none,3
+2.1,16,Oleander,18,Poor Tree Architecture,none,1
+1,8.5,southern magnolia,4,Poor Tree Architecture,none,2
+2,9.5,Weeping Bottlebrush,8,Poor Tree Architecture,none,1
+2,9,Weeping Bottlebrush,8,Poor Tree Architecture,none,1
+21,29.5,Flamegold,28,Dead,none,4
+3.8,17.5,winged elm,21,Root Problems,none,1
+5.2,14.5,Live oak,15,"",none,1
+5.3,17.5,winged elm,16,Root Problems,none,2
+4.1,15.5,Live oak,15,Poor Tree Architecture,none,1
+5.2,15,Live oak,19,Poor Tree Architecture,none,1
+5.3,13.5,winged elm,16,Poor Tree Architecture,none,2
+3,15.5,winged elm,6,Weak Branch Union,none,1
+3,15,winged elm,5,Weak Branch Union,none,1
+4,6.5,winged elm,6,Poor Tree Architecture,none,2
+12.8,38.5,Laurel Oak,43,Poor Tree Architecture,none,2
+40.1,57.5,Laurel Oak,68,Decay,none,3
+4,9,winged elm,5,Poor Tree Architecture,none,2
+2.2,7.5,Live oak,6,Poor Tree Architecture,none,3
+29.4,26.5,Live oak,62,Dead,none,3
+19.2,26.5,Orchid Tree,50,Poor Tree Architecture,none,2
+2.2,6.5,Weeping Bottlebrush,8,Poor Tree Architecture,none,1
+1.5,6.5,southern magnolia,7,Weak Branch Union,none,1
+1.2,6,southern magnolia,5,Weak Branch Union,none,1
+30.1,32,Laurel Oak,38,Decay,none,3
+45.1,44,Camphor Tree,70,Dead,none,3
+34.4,32.5,Laurel Oak,43,Decay,none,4
+27.4,45,Live oak,37,Dead,none,3
+39.8,46.5,Camphor Tree,63,Dead,none,3
+1.9,13.5,red maple,6,Decay,none,3
+25.4,26.5,American elm,34,Weak Branch Union,none,2
+41,43.5,Laurel Oak,66,Dead,none,4
+15.5,28.5,Flamegold,31,Dead,none,3
+10.9,15,Chinese elm,14,Dead,none,4
+3,13,Crapemyrtle,14,Poor Tree Architecture,none,1
+2.6,12.5,Crapemyrtle,14,Poor Tree Architecture,none,1
+5.5,6.5,Carolina laurelcherry,8,Decay,none,4
+6.7,6.7,Carolina laurelcherry,10,"",none,3
+6.7,6.5,Carolina laurelcherry,7,Decay,none,3
+63.6,49,Live oak,105,Dead,none,3
+1.8,13.5,Crapemyrtle,13,Poor Tree Architecture,none,1
+2,14,Crapemyrtle,13,Dead,none,3
+5.5,17.5,Arborvitae,15,"",none,1
+2,16,Crapemyrtle,13,Weak Branch Union,none,1
+4.6,17.5,Arborvitae,17,Weak Branch Union,none,1
+2,11,Weeping Bottlebrush,8,Weak Branch Union,none,1
+1.5,6,Oleander,7,Poor Tree Architecture,none,1
+9.9,18.5,Camphor Tree,17,Dead,none,3
+18.6,23,Laurel Oak,31,Decay,none,2
+11.3,41.5,Laurel Oak,26,Weak Branch Union,none,2
+32.2,43,Live oak,51,Dead,none,3
+12.5,24.5,Laurel Oak,28,Decay,none,2
+19.2,34,Laurel Oak,39,Decay,none,3
+10,32,Laurel Oak,23,Dead,none,4
+36.1,27,Camphor Tree,51,Decay,none,2
+11.7,32,Laurel Oak,24,Poor Tree Architecture,none,2
+36.3,64.5,Laurel Oak,65,Dead,none,4
+3.7,14,Crapemyrtle,11,Dead,none,3
+2.9,16,Crapemyrtle,14,Dead,none,3
+1,8.5,Weeping Bottlebrush,7,Weak Branch Union,none,1
+2.6,16,Crapemyrtle,11,"",none,3
+2.2,16,Crapemyrtle,6,Dead,none,3
+1,9,Weeping Bottlebrush,6,Weak Branch Union,none,1
+17.8,26,Laurel Oak,33,Decay,none,3
+4.7,18,Crapemyrtle,16,Dead,none,3
+3.6,18.5,Crapemyrtle,15,Dead,none,3
+6.2,19,Crapemyrtle,23,Dead,none,3
+3.8,19,Crapemyrtle,22,Decay,none,2
+3,16,Oleander,14,Decay,none,2
+3,20,Crapemyrtle,12,Poor Tree Architecture,none,1
+21,29,Camphor Tree,33,Decay,none,2
+6,20,black olive; oxhorn bucida,14,Weak Branch Union,none,2
+2,7.5,Crapemyrtle,12,Weak Branch Union,none,1
+3,19,black olive; oxhorn bucida,14,Poor Tree Architecture,none,1
+3,17,black olive; oxhorn bucida,13,Weak Branch Union,none,1
+2.5,12.5,Crapemyrtle,10,Poor Tree Architecture,none,1
+1.5,9.5,Weeping Bottlebrush,8,Weak Branch Union,none,1
+12.8,32,Laurel Oak,29,Weak Branch Union,none,1
+1,8,Chinaberry,12,Leaning Tree,none,3
+2,15,Crapemyrtle,8,Poor Tree Architecture,none,1
+2.7,12.5,Crapemyrtle,10,Poor Tree Architecture,none,1
+1.5,9,Weeping Bottlebrush,7,Weak Branch Union,none,1
+2,12,black olive; oxhorn bucida,14,Poor Tree Architecture,none,1
+28.9,24,Laurel Oak,60,Crack,branch,4
+2,9.5,Carolina laurelcherry,8,Leaning Tree,whole,2
+4,12,winged elm,6,Poor Tree Architecture,whole,2
+32.7,45.5,Laurel Oak,45,Decay,whole,4
+2.1,8.5,Crapemyrtle,9,Poor Tree Architecture,whole,3
+22.4,31.5,Camphor Tree,35,Dead,branch,4
+2.2,18,Crapemyrtle,17,Weak Branch Union,whole,1
+0.5,6.5,Crapemyrtle,8,Poor Tree Architecture,whole,1
+35.3,44,Laurel Oak,65,Weak Branch Union,branch,2
+19.5,39.9,Laurel Oak,47,Weak Branch Union,branch,1
+2,12.5,winged elm,6,Weak Branch Union,whole,1
+2,14.5,winged elm,7,"",whole,1
+11.2,33,Arborvitae,27,Dead,branch,3
+2.3,14,baldcypress,6,"",none,1
+32,39.5,Camphor Tree,48,Decay,branch,3
+40.5,39.5,Camphor Tree,45,Decay,branch,3
+6.5,18,Arborvitae,22,"",branch,3
+28,40,Laurel Oak,49,Decay,branch,3
+32.7,48.5,sand live oak,54,Decay,branch,3
+36.5,48.5,sand live oak,51,Decay,branch,2
+19,44,Laurel Oak,48,Decay,branch,3
+25.3,62,Laurel Oak,51,Decay,branch,3
+3,16.5,black olive; oxhorn bucida,11,Leaning Tree,none,2
+31.6,62,Laurel Oak,47,Decay,none,3
+6,22,black olive; oxhorn bucida,15,Poor Tree Architecture,none,2
+1.6,11,Crapemyrtle,9,Poor Tree Architecture,none,1
+1.5,9.5,Crapemyrtle,10,Poor Tree Architecture,none,1
+3,18,Crapemyrtle,10,Poor Tree Architecture,none,1
+5.9,24,black olive; oxhorn bucida,23,Weak Branch Union,none,2
+1.3,8,Crapemyrtle,7,Poor Tree Architecture,none,1
+5.3,20,black olive; oxhorn bucida,15,Poor Tree Architecture,none,2
+20.7,25,Chinaberry,25,Decay,none,4
+1.3,9.5,Crapemyrtle,10,Poor Tree Architecture,none,1
+4.1,18.5,winged elm,18,Weak Branch Union,none,1
+2,14,black olive; oxhorn bucida,14,Poor Tree Architecture,none,1
+2,17,black olive; oxhorn bucida,13,Poor Tree Architecture,none,1
+2.3,13.5,black olive; oxhorn bucida,15,Poor Tree Architecture,none,1
+5.2,21,black olive; oxhorn bucida,15,Decay,none,2
+15.4,32.5,Live oak,39,Weak Branch Union,none,1
+2,14.5,black olive; oxhorn bucida,12,Poor Tree Architecture,none,1
+4.5,17,red maple,8,"",none,1
+2.4,12,Crapemyrtle,14,Weak Branch Union,none,1
+2.2,12.5,Crapemyrtle,10,Weak Branch Union,none,1
+5.7,14,Crapemyrtle,23,Decay,none,3
+4.9,20,black olive; oxhorn bucida,17,Decay,none,2
+2,12.5,Crapemyrtle,14,Weak Branch Union,none,1
+2.2,12.5,Crapemyrtle,13,Weak Branch Union,none,1
+3.9,17.5,winged elm,19,Weak Branch Union,none,1
+3,8.5,southern magnolia,7,Weak Branch Union,none,2
+4.5,18,southern magnolia,7,Weak Branch Union,none,1
+6,24,black olive; oxhorn bucida,16,Weak Branch Union,none,2
+14,21,Carolina laurelcherry,18,Dead,none,4
+3.1,16,Crapemyrtle,16,Weak Branch Union,none,2
+22.8,24,Camphor Tree,39,Weak Branch Union,none,2
+22.8,28.5,Laurel Oak,25,Weak Branch Union,none,3
+2.3,8.5,Crapemyrtle,7,Poor Tree Architecture,none,2
+4,16,winged elm,7,Weak Branch Union,none,1
+3,19,Carolina laurelcherry,19,"",none,1
+4.1,18,winged elm,19,Weak Branch Union,none,1
+6.2,22,winged elm,24,Weak Branch Union,none,1
+3.5,10,Crapemyrtle,9,Decay,none,2
+3,12,Crapemyrtle,10,Decay,none,2
+3.8,22,Crapemyrtle,17,Weak Branch Union,none,1
+8,18.5,Crapemyrtle,26,Weak Branch Union,none,1
+1.5,17,Crapemyrtle,14,Poor Tree Architecture,none,1
+3.2,12,Crapemyrtle,9,Decay,none,1
+16.3,25,Laurel Oak,29,Weak Branch Union,none,1
+1,12,American elm,6,Poor Tree Architecture,none,2
+1,14,Crapemyrtle,13,Poor Tree Architecture,none,1
+11.6,18,Live oak,32,Weak Branch Union,none,2
+5.3,22.5,Orchid Tree,19,Decay,none,2
+18.9,30.5,Live oak,3,Poor Tree Architecture,none,1
+2,13,baldcypress,7,"",none,1
+0.8,9,Crapemyrtle,11,Poor Tree Architecture,none,1
+5.1,16,Arborvitae,19,Poor Tree Architecture,none,2
+10.7,39.5,slash pine,15,Dead,none,3
+8,37,slash pine,29,Dead,none,3
+24.3,22.5,Camphor Tree,45,Poor Tree Architecture,none,2
+2.5,14,baldcypress,6,"",none,1
+0.8,7,Crapemyrtle,9,Poor Tree Architecture,none,1
+2.2,12.5,baldcypress,6,"",none,1
+2,8.5,Orchid Tree,10,Poor Tree Architecture,none,2
+17.6,23,Camphor Tree,29,Decay,none,3
+0.5,8,Crapemyrtle,11,Poor Tree Architecture,none,1
+0.2,8,Crapemyrtle,11,Poor Tree Architecture,none,1
+0.5,9,Weeping Bottlebrush,5,Poor Tree Architecture,none,1
+0.5,9,Weeping Bottlebrush,10,Poor Tree Architecture,none,1
+25.9,24,Camphor Tree,34,Decay,none,2
+0.8,8,Crapemyrtle,12,Poor Tree Architecture,none,1
+21.2,23,Camphor Tree,34,Decay,none,2
+26.7,37,Laurel Oak,48,Decay,none,2
+12.8,30,Live oak,26,Weak Branch Union,none,2
+4.2,10,Yew Podocarpus,11,Weak Branch Union,none,1
+27.9,47,Laurel Oak,55,Dead,none,4
+3.9,17,Yew Podocarpus,8,Poor Tree Architecture,none,2
+7.9,33,slash pine,20,Poor Tree Architecture,none,2
+10,37,slash pine,22,Dead,none,3
+44.6,50.5,Laurel Oak,50,Decay,none,2
+7.6,33,slash pine,18,Dead,none,3
+11.4,36,slash pine,21,Dead,none,3
+20,22.5,Camphor Tree,35,Poor Tree Architecture,none,2
+3,7,Yew Podocarpus,8,Weak Branch Union,none,1
+1.3,6.5,Yew Podocarpus,6,Weak Branch Union,none,1
+17.6,42,Laurel Oak,35,Dead,none,3
+39,36.5,Camphor Tree,53,Decay,none,3
+21.3,32.5,Camphor Tree,47,Weak Branch Union,none,2
+4.9,13.5,Japanese Privet,16,Weak Branch Union,none,2
+4.3,14.5,Japanese Privet,17,Weak Branch Union,none,2
+1.8,6,Yew Podocarpus,8,Weak Branch Union,none,1
+3.9,15,Japanese Privet,15,Weak Branch Union,none,2
+2.1,17,Crapemyrtle,7,Poor Tree Architecture,none,1
+47,54,Camphor Tree,72,Dead,branch,4
+55.8,43.5,Live oak,87,Dead,branch,3
+41.9,43.5,sand live oak,85,Decay,branch,2
+4.6,18,Arborvitae,19,Leaning Tree,branch,1
+11.2,25,Carolina laurelcherry,14,Decay,whole,3
+13,18.5,Carolina laurelcherry,21,Decay,whole,4
+33.8,55,Laurel Oak,32,Decay,whole,3
+11.3,18.5,Carolina laurelcherry,11,Decay,whole,4
+9.5,23.5,Carolina laurelcherry,22,Decay,whole,2
+26.7,34,Laurel Oak,42,Dead,whole,4
+32.9,44,Laurel Oak,42,Decay,whole,4
+30,51,Laurel Oak,38,Decay,branch,3
+22,34,Laurel Oak,26,Decay,whole,3
+23,18,Chinaberry,33,Decay,branch,3
+42.7,41,Camphor Tree,70,Weak Branch Union,branch,2
+16.8,24,Flamegold,20,Dead,whole,4
+45.8,44.5,Laurel Oak,55,Decay,whole,4
+11,28.5,Carolina laurelcherry,32,Weak Branch Union,branch,2
+2.7,14.5,winged elm,10,Decay,whole,3
+2.5,12.5,winged elm,7,Leaning Tree,whole,2
+5.9,15,Japanese Privet,16,Weak Branch Union,none,1
+3.3,15,Japanese Privet,14,Weak Branch Union,none,1
+5.3,12.5,Japanese Privet,15,Weak Branch Union,none,1
+19.5,30.5,Laurel Oak,33,Weak Branch Union,none,2
+8.4,26,Chinese elm,26,Dead,none,3
+2.3,17,Crapemyrtle,8,Poor Tree Architecture,none,1
+8.9,18,Arborvitae,10,Weak Branch Union,none,1
+8.2,20,Chinese elm,38,Dead,none,3
+21.3,19,Camphor Tree,23,Decay,none,3
+17.3,35,Live oak,36,Weak Branch Union,none,1
+19,34,Carolina laurelcherry,29,Decay,none,3
+31,56.5,Laurel Oak,50,Decay,none,4
+8.7,27.5,Orchid Tree,37,Weak Branch Union,none,1
+18.1,39,Laurel Oak,35,Decay,none,4
+24.4,23.5,Camphor Tree,35,Decay,none,2
+1,9,Crapemyrtle,9,"",none,1
+0.5,8.5,Weeping Bottlebrush,5,Poor Tree Architecture,none,1
+19.3,37,Laurel Oak,37,Dead,none,4
+2.4,9,Crapemyrtle,11,Poor Tree Architecture,none,2
+1.3,8,Japanese Privet,8,Decay,none,3
+1,9,Crapemyrtle,7,Poor Tree Architecture,none,1
+4.5,15,Arborvitae,11,Crack,none,2
+4.9,19,Arborvitae,11,Poor Tree Architecture,none,2
+0.5,8.5,Crapemyrtle,5,Poor Tree Architecture,none,1
+1.5,16,Crapemyrtle,17,Weak Branch Union,none,1
+0.5,6.5,Crapemyrtle,4,Poor Tree Architecture,none,1
+2.2,9,Crapemyrtle,12,Poor Tree Architecture,none,1
+4,11,winged elm,5,Poor Tree Architecture,none,2
+0.5,7.5,Crapemyrtle,10.5,Poor Tree Architecture,none,1
+4.5,15,winged elm,11,Poor Tree Architecture,none,1
+6.8,21,Arborvitae,23,Dead,none,3
+0.5,7,Weeping Bottlebrush,8,Weak Branch Union,none,1
+4,10,Yew Podocarpus,15,Poor Tree Architecture,none,1
+6,22,Live oak,19,Weak Branch Union,none,3
+3.8,9.5,Japanese Privet,12,Decay,none,2
+31,28.5,Camphor Tree,47,Dead,none,4
+32,30,Camphor Tree,46,Poor Tree Architecture,none,2
+4.5,25,Live oak,15,"",none,1
+31.5,43.5,Laurel Oak,49,Weak Branch Union,none,2
+29.2,39.5,Camphor Tree,37,Dead,none,4
+11.1,27.5,Laurel Oak,38,Poor Tree Architecture,none,2
+42.5,49.5,Camphor Tree,52,Dead,none,4
+3,7,Yew Podocarpus,5,"",none,1
+4,13,winged elm,6,Poor Tree Architecture,none,2
+4.2,9.5,Yew Podocarpus,6,"",none,1
+7.3,24.5,Carolina laurelcherry,32,Poor Tree Architecture,none,3
+37,31.5,Camphor Tree,53,Dead,none,3
+37.3,51,Camphor Tree,63,Dead,none,4
+21.8,32.5,American elm,35,Decay,none,3
+46.5,39.5,Live oak,88,Dead,none,4
+24,38,Camphor Tree,37,Decay,none,4
+35,47,Laurel Oak,40,Decay,none,2
+2,10.5,Live oak,5,Dead,none,3
+1.5,10.5,winged elm,7,"",whole,4
+2,11.5,winged elm,7,Weak Branch Union,whole,1
+27.5,30.5,Camphor Tree,26,Dead,branch,4
+2.5,14.5,red maple,8,"",whole,1
+26.5,41,Live oak,59,Weak Branch Union,branch,1
+2.3,5.5,winged elm,5,Poor Tree Architecture,whole,3
+2.5,8,winged elm,8,Poor Tree Architecture,whole,3
+27.5,33,Laurel Oak,31,Decay,whole,4
+38.9,32,Laurel Oak,40,Decay,branch,3
+0.75,6,southern magnolia,4,Decay,whole,2
+32,35.5,Laurel Oak,44,Decay,whole,4
+37.5,54.5,sand live oak,68,Dead,whole,3
+26.5,33.5,Camphor Tree,39,Decay,none,4
+29,39,Camphor Tree,56,Dead,none,3
+27,47,Camphor Tree,38,Dead,none,4
+43.8,43,Live oak,85,Dead,none,4
+1.8,13,Crapemyrtle,16,Poor Tree Architecture,none,1
+3.7,20,Crapemyrtle,18,Dead,none,3
+1.8,6.5,Live oak,4,Poor Tree Architecture,none,2
+2.9,15,winged elm,5,Leaning Tree,none,2
+9.3,29,winged elm,31,"",none,1
+8.9,27,winged elm,37,Weak Branch Union,none,2
+7.3,20,Yew Podocarpus,20,Weak Branch Union,none,1
+0.5,7,Crapemyrtle,8,Poor Tree Architecture,none,1
+1.6,5.5,Live oak,3,Poor Tree Architecture,none,2
+4.1,18.5,Crapemyrtle,26,Dead,none,3
+11.6,26.5,Carolina laurelcherry,24,Weak Branch Union,none,2
+2,13.5,Crapemyrtle,9,Poor Tree Architecture,none,1
+15.3,25,Laurel Oak,41,Weak Branch Union,none,3
+22,42.5,Live oak,39,Weak Branch Union,none,2
+7.1,17.5,Arborvitae,17,Weak Branch Union,none,1
+3,10.5,winged elm,7,Poor Tree Architecture,none,2
+34.8,38,Camphor Tree,24,Dead,none,4
+1.9,13,Crapemyrtle,12,Weak Branch Union,none,2
+1.5,11,Crapemyrtle,9,Weak Branch Union,none,2
+32,38,Camphor Tree,30,Dead,none,4
+8.9,18,Arborvitae,17,Weak Branch Union,none,1
+5.5,20,Arborvitae,16,Weak Branch Union,none,1
+17.6,37.5,Laurel Oak,37,Weak Branch Union,none,2
+7,27.5,winged elm,22,Weak Branch Union,none,1
+2,5.5,Crapemyrtle,4,Dead,none,3
+1.5,10.5,Crapemyrtle,15,Weak Branch Union,none,2
+11.3,25.5,Carolina laurelcherry,40,Decay,none,3
+26,27,Camphor Tree,29,Poor Tree Architecture,none,2
+2.5,6,Crapemyrtle,6,Dead,none,3
+29.9,37,Live oak,60,Dead,none,3
+28.5,35,Camphor Tree,40,Dead,none,4
+2.1,12,Chinese elm,6,Poor Tree Architecture,none,1
+1.5,12.5,Live oak,5,Dead,none,4
+4,15,winged elm,5,Poor Tree Architecture,none,1
+34.3,27.5,Live oak,62,Poor Tree Architecture,none,2
+3.8,14.5,Live oak,12,Poor Tree Architecture,none,2
+2.4,14,winged elm,5,Poor Tree Architecture,none,1
+3,15,winged elm,6,Poor Tree Architecture,none,1
+33,35,Camphor Tree,27,Decay,none,3
+1,9.5,Crapemyrtle,9,Poor Tree Architecture,none,1
+1.9,15,red maple,8,Root Problems,none,1
+42,32.5,Camphor Tree,32,Poor Tree Architecture,none,2
+1,9.5,Crapemyrtle,7,Poor Tree Architecture,none,1
+2.4,15,Laurel Oak,8,Weak Branch Union,none,1
+1.2,12,Crapemyrtle,5,Poor Tree Architecture,none,2
+0.5,7,Crapemyrtle,11,Poor Tree Architecture,none,1
+1,6.5,southern magnolia,5,Weak Branch Union,none,1
+17.5,30,baldcypress,24,Weak Branch Union,none,1
+21,35,baldcypress,24,"",none,1
+0.5,5.5,Crapemyrtle,9,Poor Tree Architecture,none,2
+24.6,38.5,Live oak,56,Dead,none,3
+3.2,13,Live oak,12,Weak Branch Union,none,1
+7.2,24.5,Carolina laurelcherry,25,Poor Tree Architecture,none,2

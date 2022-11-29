@@ -1,0 +1,6 @@
+"0","#load 'palmerpenguins' and 'here' packages"
+"0","library(palmerpenguins)"
+"0","require(here)"
+"0",""
+"0","#create dataframe of 2021 ginko data"
+"0","ginkgo <- read.csv(here(""data"", ""ginkgo_data_2021.csv""))"

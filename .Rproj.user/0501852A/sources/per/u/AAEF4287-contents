@@ -1,0 +1,161 @@
+---
+title: "Untitled"
+author: "Evan Krause"
+date: "2022-11-14"
+output: html_document
+---
+---
+title: "lab 10 - worked 2022"
+author: "Michael France Nelson"
+date: 'Fall 2022'
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Packages
+
+```{r packages}
+require(here)
+```
+
+
+
+# The data
+
+```{r load_data}
+rope = read.csv(here("data", "rope.csv"))
+
+rope$rope.type = factor(rope$rope.type)
+
+n_obs = nrow(rope)
+n_groups = length(levels(rope$rope.type))
+
+ss_tot = with(rope, sum((p.cut - mean(p.cut))^2))
+df_tot = n_obs - 1
+
+agg_resids = aggregate(
+  rope$p.cut,
+  by = list(rope$rope.type),
+  FUN = function(x) x - mean(x)
+)
+str(agg_resids)
+
+agg_sum_sq_resids = 
+  aggregate(
+    rope$p.cut,
+    by = list(rope$rope.type),
+    FUN = function(x) sum((x - mean(x))^2)
+  )
+
+str(agg_sum_sq_resids)
+
+ss_within = sum(agg_sum_sq_resids$x)
+
+ss_among = ss_tot - ss_within
+
+df_within = n_obs - n_groups
+df_among = n_groups - 1
+
+ms_among  =  ss_among / (df_among)
+ms_within = ss_within / (df_within)
+
+f_ratio = ms_among / ms_within
+
+f_pval = 1 - pf(f_ratio, df_among, df_within)
+
+bartlett.test(agg_resids$x)
+
+sapply(agg_resids$x, shapiro.test)
+
+
+
+aov_rope = anova(lm(p.cut ~ rope.type, data = rope))
+str(aov_rope)
+sum(aov_rope$`Sum Sq`)
+
+```
+
+
+# Q1 self-check
+```{r}
+# number comparison tolerance
+digits_check = 5
+
+# Build the reference model using R functions
+fit_1 = lm(p.cut ~ rope.type, data=rope)
+anova(fit_1)
+anova_fit_1 = anova(fit_1)
+
+# Check degrees of freedom
+anova_fit_1$Df == c(df_among, df_within)
+
+# Check sums of squares
+round(anova_fit_1$`Sum Sq`, digits = digits_check) == round(c(ss_among, ss_within), digits = digits_check)
+
+# Check mean squares
+round(anova_fit_1$`Mean Sq`, digits = digits_check) == round(c(ms_among, ms_within), digits = digits_check)
+
+# Check the F-ratio
+round(anova_fit_1$`F value`[1], digits = digits_check) == round(f_ratio, digits = digits_check)
+
+# Check the F test statistic p-value
+round(anova_fit_1$`Pr(>F)`[1], digits = digits_check) == round(f_pval, digits = digits_check)
+```
+
+
+
+# Q2-4
+
+```{r}
+bartlett.test(p.cut ~ rope.type, data=rope)
+```
+
+
+# Q5-7
+```{r}
+factor(rope$rope.type)
+fit_rope_1 = lm(p.cut ~ rope.type, data = rope)
+summary(fit_rope_1)
+```
+
+Q5: base case is BLAZE
+
+Q6: mean pct cut for BLAZE is the intercept value, from the summary table it's 0.367
+
+Q7: XTC = intercept + XTC coeff = 0.36714 - 0.10164 = 0.2655
+
+
+# Q8 - 11
+```{r}
+shapiro.test(residuals(fit_rope_1))
+
+
+str(agg_resids)
+
+lapply(agg_resids$x, function(x) shapiro.test(x)$p)
+
+
+```
+
+
+# Q12 - 17
+
+```{r}
+require(palmerpenguins)
+pen_fem = subset(penguins, sex == "female")
+
+boxplot(body_mass_g ~ species, data = pen_fem)
+bartlett.test(body_mass_g ~ species, data = pen_fem)
+
+fit_pen = lm(body_mass_g ~ species, data = pen_fem)
+shapiro.test(residuals(fit_pen))
+
+TukeyHSD(aov(fit_pen))
+
+```

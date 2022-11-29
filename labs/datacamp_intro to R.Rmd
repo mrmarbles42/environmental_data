@@ -1,0 +1,75 @@
+---
+title: 'datacamp: intro to R'
+author: "Evan Krause"
+date: "2022-09-07"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+a <- "evan"
+b1 <- 45.6
+b2 <- "45.6"
+c1 <- 1:3
+```
+1. string
+2. integer
+3. string
+4. error for mix of object classes (non-numeric string to binary operator)
+5.yes, they are both numeric 
+6. 3 integers are produced, (45.6 + 1, 45.6 + 2, 45.6 + 3)
+
+```{r}
+v1 <- -2:2
+v2 <- v1*3
+sum(v2)
+```
+
+7.v1 <- -2:2
+8.v2 <- v1*3
+9.sum(v2)
+
+```{r}
+vec_4 <- 1:12
+mat_1 <- matrix(vec_4, nrow = 3, ncol = 4, byrow = F)
+mat_2 <- matrix(vec_4, nrow = 3, ncol = 4, byrow = T)
+```
+
+10. mat_1 <- matrix(vec_4, nrow = 3, ncol = 4, byrow = F)
+11. mat_2 <- matrix(vec_4, nrow = 3, ncol = 4, byrow = T)
+
+12.
+```{r}
+my_list_1 <- list("one" = 5.2,"two" = "five point two", "three" = 0:5)
+```
+
+13. 
+```{r}
+my_list_1[[3]]
+```
+
+14.
+```{r}
+my_list_1$"one"
+```
+
+```{r}
+my_vec = rep(1:3, 5)
+my_vec
+```
+15.
+```{r}
+my_bool_vec <- my_vec == 3
+```
+
+16.
+```{r}
+my_vec[my_bool_vec == TRUE]
+```
+

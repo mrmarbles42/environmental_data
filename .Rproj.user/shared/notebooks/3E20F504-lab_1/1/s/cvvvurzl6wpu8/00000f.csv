@@ -1,0 +1,2 @@
+"0","mat_2 <- matrix(my_vec, nrow = 2, ncol = 3)"
+"0","mat_3 <- matrix(my_vec, nrow = 3, ncol = 2)"

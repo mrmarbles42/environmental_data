@@ -1,0 +1,28 @@
+{
+    "id": "E723E4DD",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1666803472410.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "id": "9a9ebaa44bfd46e8b182b7d55a3e5ad0",
+        "name": "gentoo_boot",
+        "title": "gentoo_boot",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 2769715674328,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1666803472410,
+    "read_only": false,
+    "read_only_alternatives": []
+}

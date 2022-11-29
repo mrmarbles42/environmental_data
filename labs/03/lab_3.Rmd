@@ -1,0 +1,132 @@
+---
+title: "Lab 3"
+author: "Evan Krause"
+date: "2022-09-21"
+output: html_document
+---
+
+```{r, echo=FALSE}
+##Functions##
+# Function to calculate the logistic parameter a given the slope and midpoint
+get_logistic_param_a = function(slope, midpoint)
+{
+  b = slope / 4
+  return (-midpoint * (slope / 4))
+}
+
+# Function to calculate the logistic parameter b given the slope
+get_logistic_param_b = function(slope)
+{
+  return (slope / 4)
+}
+
+
+# Calculate the value of the logistic function at x, given the parameters a and b.
+logistic = function(x, a, b)
+{
+  val = exp(a + b * x)
+  return(val / (1 + val))
+}
+
+# Calculate the value of the logistic function at x, given a slope and midpoint.
+logistic_midpoint_slope = function(x, midpoint, slope)
+{
+  b = get_logistic_param_b(slope)
+  a = get_logistic_param_a(slope, midpoint)
+  return(logistic(x, a, b))
+}
+```
+
+
+```{r, echo=FALSE}
+##Data setup
+
+library(here)
+library(psych)
+dat_bird <- read.csv(here("data", "bird.sta.csv"))
+dat_habitat <- read.csv(here("data", "hab.sta.csv"))
+dat_all <- merge(dat_bird, dat_habitat)
+```
+
+
+# Graphical exploration
+### Presence plots
+```{r}
+#CEWA
+cewa_present_absent <- dat_all$CEWA > 0
+plot(x = dat_all$elev, y = cewa_present_absent)
+
+#AMCR
+amcr_present_absent <- dat_all$AMCR > 0
+plot(x = dat_all$ba.tot, y = amcr_present_absent)
+
+#CORA
+cora_present_absent <- dat_all$CORA > 0 
+plot(x = dat_all$ba.tot, y = cora_present_absent)
+
+```
+
+### Logistic plots
+```{r}
+#CEWA
+plot(x = dat_all$elev, y = cewa_present_absent)
+curve(logistic_midpoint_slope(x, midpoint = 400, slope = -0.1), add = TRUE)
+
+#AMCR
+plot(x = dat_all$elev, y = amcr_present_absent)
+curve(logistic_midpoint_slope(x, midpoint = 400, slope = -0.1), add = TRUE)
+
+#CORA
+plot(x = dat_all$elev, y = cora_present_absent)
+curve(logistic_midpoint_slope(x, midpoint = 400, slope = -0.1), add = TRUE)
+
+```
+
+# Questions
+
+1. Basal area is the squared area taken up by the trees (both live and dead) in the studied areas.
+
+2.
+```{r}
+pairs.panels(dat_all[, c("aspect", "elev", "slope", "ba.tot")])
+```
+
+3.
+```{r}
+#AMCR
+plot(x = (dat_all$ba.tot), y = amcr_present_absent,
+     xlab = "Total basal area (m^2/ha)",
+     ylab = "AMCR presence/absence",
+     main = "American Crow (AMCR) presence/absence vs Total Basal Area")
+curve(logistic_midpoint_slope(x, midpoint = 1/2*max(dat_all$ba.tot), slope = -0.005), add = TRUE)
+```
+
+4. Due to the limited number of observed occurrences, it would be difficult to draw any conclusions about presence of the American Crow in terms of total basal area. The single observation occurred in an area of low total basal area. A logistic model does not seem to be a good fit for these data.
+
+5.
+```{r}
+#CORA
+plot(x = log(dat_all$ba.tot), y = cora_present_absent,
+     xlab = "Total basal area (log(m^2/ha))",
+     ylab = "CORA presence/absence",
+     main = "Common Raven (CORA) presence/absence vs Total Basal Area",
+     )
+curve(logistic_midpoint_slope(x, midpoint = (1/2*max(dat_all$ba.tot)), slope = -0.0075), add = T)
+```
+
+6. The graphic suggests that this species may prefer areas of lower (<~80 m^2/ha) tree cover density but are somewhat evenly distributed within the lower levels. I still do not think that the logistic model is a good fit for these data.
+
+7. 181
+
+8.
+```{r}
+sum(dat_all$GRJA)
+```
+
+9. 110 sampling sites
+
+10.
+```{R}
+grja_present <- dat_all$GRJA >0
+sum(grja_present == TRUE)
+```

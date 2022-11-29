@@ -1,0 +1,33 @@
+require(palmerpenguins)
+
+penguins <- penguins
+
+##Q1
+
+rm(list = ls())
+
+sse_mean = function(x)
+{
+  n <- length(x)
+  x <- x[!is.na(x)]
+  
+  sse <- sqrt((var(x))) / sqrt(n)
+  
+  return(sse)  
+}
+
+sse_mean(penguins$body_mass_g)
+sse_mean(mtcars$mpg)
+
+##Q2
+
+two_group_resample_diff = function(x, n_1, n_2) 
+{
+  aggregate()
+  sample(n_1, replace = T)
+  sample(n_2, replace = T)
+  
+  difference_in_means <- 
+  return(difference_in_means)
+}
+

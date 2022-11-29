@@ -1,0 +1,348 @@
+---
+title: "Untitled"
+author: "Evan Krause"
+date: "2022-11-09"
+output: html_document
+---
+---
+title: "lab 9 - worked 2022"
+author: "Michael France Nelson"
+date: 'Fall 2022'
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Packages
+
+```{r packages}
+require(here)
+require(boot)
+require(simpleboot)
+require(palmerpenguins)
+```
+
+
+
+# The data
+
+```{r load_data}
+catrate = read.csv(here("data", "catrate.csv"))
+veg = read.csv(here("data", "vegdata.csv"))
+disp = read.csv(here("data", "dispersal.csv"))
+birds   = read.csv(here("data", "bird.sta.csv"))
+hab     = read.csv(here("data", "hab.sta.csv"))
+birdhab = merge(birds, hab, by=c("basin", "sub", "sta"))
+
+```
+
+# Walkthrough
+
+## Binom Tests
+
+```{r binom_test_catrate}
+n_success = sum(catrate$success)
+n_years = sum(catrate$years)
+binom.test(n_success, n_years, p = 0.5)
+```
+
+```{r binom_test_catrate_late_fill}
+
+# We're given that the late fill rate is about 2/7
+late_fill_rate = 2/7
+normal_fill_rate = 1 - late_fill_rate
+
+binom.test(
+  x = n_success,
+  n = n_years,
+  p = normal_fill_rate) 
+
+binom.test(
+  x = n_success,
+  n = n_years,
+  p = normal_fill_rate,
+  alternative = "less") 
+
+```
+
+Conclusions:
+
+- Cannot conclude that the reproductive rate is different form 50%, based on high p-value from the first binomial test.
+- The reproductive rate does seem to be lower than the normal fill rate based on the low p-value for the tests comparing success rate with normal fill rate.
+
+```{r catrate_t_wilcoxon}
+t.test(catrate$cat.rate, mu = 2/7)
+wilcox.test(catrate$cat.rate, mu = 2/7)
+
+```
+
+
+### Compare Variances: F-test
+
+
+```{r veg_var_test}
+veg2 = droplevels(
+  subset(
+    veg,
+    treatment %in% c('control','clipped')
+  ))
+
+# verify that treatment is factorized
+veg2$treatment = factor(veg2$treatment)
+var.test(pine ~ treatment, data = veg2)
+```
+
+### Flingler Test
+
+```{r}
+fligner.test(pine ~ treatment, data = veg2)
+```
+
+### Multiple Variances
+
+```{r test_n_vars}
+bartlett.test(pine ~ treatment, data = veg)
+fligner.test(pine ~ treatment, data = veg)
+
+```
+
+- Both tests arrive at same qualitative conclusion, but p-value is much higher for non-parametric test.
+
+
+
+## Compare Means - Pine data
+
+```{r}
+t.test(
+  pine ~ treatment,
+  data = veg2)
+wilcox.test(
+  pine ~ treatment,
+  data = veg2)
+```
+
+
+## Paired Tests
+
+```{r}
+require(datarium)
+t.test(mice2$before, mice2$after, paired = TRUE)
+wilcox.test(mice2$before, mice2$after, paired = TRUE)
+```
+
+
+## Correlation
+
+```{r}
+cor.test(
+  disp$disp.rate.ftb,
+  disp$disp.rate.eb,
+  use='complete.obs')
+cor.test(
+  disp$disp.rate.ftb,
+  disp$disp.rate.eb,
+  use='complete.obs',
+  method = "spearman")
+```
+
+
+## Compare Distributions
+
+```{r ks_test}
+ks.test(disp$disp.rate.ftb,disp$disp.rate.eb)
+```
+
+## Compare Proportions
+
+```{r prop_test}
+
+prop.test(
+  x = c(4,16),
+  n = c(40,250))
+
+prop.test(
+  x = c(4,16) * 2,
+  n = c(40,250) * 2)
+
+
+```
+
+
+
+## Chi-sq: owls
+
+```{r}
+owls = matrix(c(16, 9, 4, 11), nrow=2)
+rownames(owls) = c("present", "absent")
+colnames(owls) = c("old", "young")
+chisq_owls = chisq.test(owls)
+chisq_owls
+fisher.test(owls)
+```
+
+```{r owl_resids}
+chisq_owls$observed - chisq_owls$expected
+```
+
+
+## Chi-sq - Bird data
+
+```{r}
+
+# Create a contingency table for edge/interior and brown creeper presence/absence
+table(birdhab$s.edge, birdhab$BRCR > 0)
+
+# set the presence to be in the first column
+br_creeper_table = table(birdhab$s.edge, birdhab$BRCR > 0)[, 2:1]
+
+
+br_creeper_table
+
+```
+
+
+# Q1-2
+
+```{r}
+
+
+br_creeper_table
+chisq.test(br_creeper_table)
+
+
+```
+
+
+# Q3-5
+
+```{r q_3_5}
+require(palmerpenguins)
+fit_fl_sp = 
+  lm(
+    formula = flipper_length_mm ~ species,
+    data = penguins)
+
+
+fit_species = lm(body_mass_g ~ species, data = penguins)
+fit_sex = lm(body_mass_g ~ sex, data = penguins)
+fit_both = lm(body_mass_g ~ sex * species)
+
+
+```
+
+
+# Q6-9
+
+```{r q_6_9}
+require(palmerpenguins)
+
+boxplot(body_mass_g ~ species, data = penguins)
+boxplot(body_mass_g ~ sex, data = penguins)
+boxplot(body_mass_g ~ sex * species, data = penguins)
+
+
+```
+
+The sex model might have trouble: the boxplot indicates skewed data.
+
+
+# Q10-12
+
+Bartlett Null: All variances are equal
+
+```{r q_10_12}
+
+bartlett.test(body_mass_g ~ species, data = penguins)
+bartlett.test(body_mass_g ~ sex, data = penguins)
+
+
+
+```
+
+# Q13-14
+
+```{r q_13_14}
+
+dat_groups = aggregate(body_mass_g ~ sex * species, FUN = c, data = penguins)
+
+
+dat_groups
+bartlett.test(dat_groups$body_mass_g)
+
+```
+
+
+
+# Q15
+
+```{r q_15}
+
+dat_fl = read.csv(here("data", "trees_FL.csv"))
+
+barplot(table(dat_fl$ProbabilityofFailure))
+barplot(table(dat_fl$Failure_Standardized))
+hist(dat_fl$DBH_in)
+plot(HeighttoTop_ft ~ DBH_in, data = dat_fl)
+
+```
+
+
+# Q16-17
+
+```{r q_16_17}
+dat_whole = subset(dat_fl, Failure_Standardized == "whole")
+dat_none = subset(dat_fl, Failure_Standardized == "none")
+dat_branch = subset(dat_fl, Failure_Standardized == "branch")
+
+ks.test(dat_whole$DBH_in, dat_none$DBH_in)
+
+
+
+```
+
+
+# Q18-20
+
+- Looks curved
+- Spearman
+- very very low
+
+```{r q_18_20}
+cor.test(dat_fl$DBH_in, dat_fl$HeighttoTop_ft, method = "spearman")
+
+
+```
+
+
+# Q21 - 25
+
+```{r q_21_25}
+dat_fl$fail = factor(dat_fl$Failure_Standardized != "none")
+levels(dat_fl$fail) = c("No Fail", "Fail")
+
+fl_table_2 = table(
+  dat_fl$ProbabilityofFailure,
+  dat_fl$fail)
+fl_table_2
+
+
+
+chisq_fl = chisq.test(fl_table_2)
+
+chisq_fl$statistic
+
+round(chisq_fl$observed - chisq_fl$expected, 0)
+
+```
+
+
+- Q22: -136.
+- Q23: fewer
+- Q24: more
+- Q25: yes: higher risk ratings resulted in more failures than expected by chance
+
