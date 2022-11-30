@@ -5,3 +5,27 @@ date: "2022-11-30"
 output: html_document
 ---
 
+This is my project homepage!
+
+
+# this is a header!
+
+## This is a sub-header!
+
+
+* this 
+* is
+* a 
+* bulleted
+* list
+
+
+1. this
+2. is
+3. a 
+4. numbered
+5. list
+
+this is in *italics*
+
+this is **BOLD**
