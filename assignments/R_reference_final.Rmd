@@ -17,8 +17,113 @@ require(here)
 ginkgo <- read.csv(here("data", "ginkgo_data_2021.csv"))
 ```
 
-##data structures
+## data structures
 ```{r}
 
+#this is used to concatenate vectors
+c()
+
+#this defines the length of the selected vector
+length()
+
+# This is used to create a matrix structure from a set of objects
+matrix()
+
+# This is used to create a data frame from a set of objects
+data.frame()
+
+
+# This returns the number of rows in the selected object
+nrow(ginkgo)
+
+# this returns the number of columns in the selected object
+ncol(ginkgo)
+
+# This returns the number of both rows and columns 
+dim(ginkgo)
+```
+
+## Subsetting
+```{r}
+# Subset by name
+ginkgo$seeds_present
+
+# Subset by position
+
+## first row
+ginkgo[1,]
+
+## row 2, column 3
+ginkgo[2,3]
+
+## Third column
+ginkgo[,3]
+
+# Subset by function
+subset(penguins, species == "Adelie")
+```
+
+# Numerical Data Exploration
+```{r}
+# Summary of all values by column
+
+summary(ginkgo)
+
+# mean value for selected column
+mean(ginkgo$max_width)
+
+# standard deviation value for selected column
+sd(ginkgo$max_width)
+
+```
+
+## Graphical Data Exploration
+```{r}
+par(mfrow = c(2,2))
+
+plot(ginkgo$max_depth, ginkgo$max_width,
+     col = c("blue", "red"),
+     pch = c(1, 2),
+     cex = c(1, 1.5),
+     main = "Ginkgo leaf Max depth vs Max width",
+     xlab = "Max Depth (mm)",
+     ylab = "Max width (mm)",
+     xlim = NULL,
+     ylim = NULL
+     )
+
+hist(penguins$flipper_length_mm,
+      breaks = 25,
+     xlab = "Flipper length (mm)",
+     main = "Penguin flipper length histogram")
+
+boxplot(ginkgo$petiole_length,
+        ylab = "Petiole length (mm)")
+
+boxplot(ginkgo$notch_depth ~ ginkgo$seeds_present,
+        xlab = "Seeds present? T/F",
+        ylab = "Notch Depth (mm)")
+```
+
+## Distribution functions
+```{r}
+
+# likelihood for single point on normally-distributed density function
+dnorm(x = 1, mean = 0, sd = 1)
+
+# cumulative likelihood percentage for single point in normally-distributed density function
+pnorm()
+
+# Inverse cumulative
+qnorm()
+
+# likelihood for single point on binomial density function
+dbinom()
+
+#cumulative likelihood percentage for single point in normally-distributed density function
+pbinom()
+
+# Inverse cumulative
+qbinom()
 ```
 
