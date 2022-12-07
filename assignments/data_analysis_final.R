@@ -7,16 +7,6 @@ delo <- read.csv(here("data", "delomys.csv"))
 summary(delo$body_mass)
 summary(delo$body_length)
 
-#normality tests
-shapiro.test(delo$body_mass)
-shapiro.test(delo$body_length)
-
-shapiro.test(resid(fit1))
-shapiro.test(resid(fit2))
-shapiro.test(resid(fit3))
-shapiro.test(resid(fit4))
-shapiro.test(resid(fit5))
-
 #linear models
 
 fit1 <- lm(delo$body_length ~ delo$body_mass)
@@ -33,6 +23,16 @@ anova(fit4)
 
 fit5 <- lm(delo$body_mass ~ delo$binomial * delo$sex) 
 anova(fit5)
+
+#normality tests
+shapiro.test(delo$body_mass)
+shapiro.test(delo$body_length)
+
+shapiro.test(resid(fit1))
+shapiro.test(resid(fit2))
+shapiro.test(resid(fit3))
+shapiro.test(resid(fit4))
+shapiro.test(resid(fit5))
 
 ##coefficient tables
 knitr::kable(coef(summary(fit1)))
@@ -109,6 +109,11 @@ hist(resid(fit5))
 # 
 
 #Q16
+# All tests other than the species:sex interactive predictor are below the level of significance. 
+#The p-values in the single predictor models of sex and species are low (1.951e-4 and <2.2e-16). 
+#In the additive models, body mass predicted by sex is more significant compared to the single-predictor model (1.942e-7), while body mass by species is similar.
+# In the interactive model, sex and species alone are increasingly significant compared to the previous models. The interactive component of this model has a p-value of 0.9504 suggesting that as a collective predictor of body mass, it is very poor.
+#
 
 #Q17
 # The models with the lowest AIC scores are the additive and interactive models using species and sex as predictors
