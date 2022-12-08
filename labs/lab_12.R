@@ -4,6 +4,12 @@ dat_1 = read.csv(here("data", "bird.sub.csv"))
 dat_2 = read.csv(here("data", "hab.sub.csv"))
 birdhab = merge(dat_1, dat_2, by = c("basin", "sub"))
 
+dat_dispersal <- read.csv(here("data", "dispersal.csv"))
+
+dat_bird = read.csv(here("data", "bird.sta.csv"))
+dat_habitat = read.csv(here("data", "hab.sta.csv"))
+dat_all = merge(dat_bird, dat_habitat)
+dat_all$GCKI_pres = dat_all$GCKI > 0
 
 #functions----
 
@@ -33,7 +39,16 @@ linear_sim_fit = function(x, slope, y_int, st_dev) {
   return(fit_sim)
 }
 
-#model and coefficients----
+ricker_fun = function(x, a, b) 
+{
+  return(a * x * exp(-b * x))
+}
+
+exp_fun <- function(a, b, x) {
+  return(a * exp(-b * x))
+}
+
+# linear model and coefficients----
 
 #fit the modeled data
 fit_1 <- lm(BRCR ~ ls, data = birdhab)
@@ -48,6 +63,17 @@ slope_obs <- fit_1_coef[2]
 fit_1_sum <- summary(fit_1)
 sd_obs <- fit_1_sum$sigma
 
+# Ricker model and coefs----
+
+fit_ricker_nls = nls(
+  disp.rate.ftb ~ ricker_fun(dist.class, a, b),
+  data = dat_dispersal,
+  start = list(b = 0, a = 1))
+summary(fit_ricker_nls)
+
+
+# logistic regression----
+
 
 
 #sample size simulation----
@@ -55,7 +81,7 @@ alpha = 0.05
 n_sims = 30
 p_vals = numeric(n_sims)
 
-sample_sizes = seq(1, 20)
+sample_sizes = seq(2, 21)
 sample_size_powers = numeric(length(sample_sizes))
 
 # The maximum x value in the simulation.
@@ -181,3 +207,101 @@ sim_3_dat =
     sample_size = sample_sizes,
     pop_sd      = pop_sds)
 
+
+
+# lowess modeling----
+fit_lowess_50 = loess(power ~ sample_size, data = sim_sample_size, span = 0.5)
+
+newdata_sample_size = data.frame(sample_size = seq(2, 20, length.out = 100)) 
+
+# exponential nls model ----
+
+#example
+curve(
+  exp_fun(2.2, 1/15, x),
+  from = 0,
+  to = 50,
+  add = F,
+  axes = T,
+  main = "Exponential function",
+  ylab = "f(x)",
+  xlab = "x"
+)
+
+fit_exp_nls = nls(
+  disp.rate.ftb ~ exp_fun(dist.class, a, b),
+  data = dat_dispersal,
+  start = list(b = 0, a = 1))
+summary(fit_ricker_nls)
+
+# logistic model----
+
+n = 500
+
+slope_newdata = data.frame(
+  slope = seq(
+    from = min(dat_all$slope, na.rm = T),
+    to = max(dat_all$slope, na.rm = T),
+    length.out = n
+  )
+)
+
+ba_newdata$gcki_predicted = 
+  predict(
+    fit_gcki_ba_tot,
+    newdata = ba_newdata,
+    type = "response"
+  )
+
+# Create model fits
+fit_gcki_slope = glm(GCKI_pres ~ slope, data = dat_all, family = binomial)
+fit_gcki_ba_tot = glm(GCKI_pres ~ ba.tot, data = dat_all, family = binomial)
+fit_gcki_both_additive = glm(GCKI_pres ~ slope + ba.tot, data = dat_all, family = binomial)
+fit_gcki_both_interactive = glm(GCKI_pres ~ slope * ba.tot, data = dat_all, family = binomial)
+
+slope_newdata$gcki_predicted = 
+  predict(
+    fit_gcki_slope,
+    newdata = slope_newdata,
+    type = "response"
+  )
+
+plot(
+  GCKI_pres ~ slope, data = dat_all,
+  xlab = "Percent Slope",
+  ylab = "GCKI presence/absence",
+  pch = 16, cex = 1.5, col = gray(0, 0.2)
+)
+lines(gcki_predicted ~ slope, data = slope_newdata)
+
+#AIC test
+AIC(fit_gcki_slope,
+    fit_gcki_ba_tot,
+    fit_gcki_both_additive,
+    fit_gcki_both_interactive)
+# plots ----
+
+#base plot
+plot(sim_sample_size$sample_size, sim_sample_size$power,
+     type = "l",
+     ylim = 0:1)
+
+#loess smoothing
+plot(
+  x = newdata_sample_size$sample_size,
+  y = predict(fit_lowess_50, newdata = newdata_sample_size),
+  type = "l",
+  ylab = "Statistical Power", xlab = "Sample Size",
+  main = "Statistical Power ~ Sample size (n)")
+points(sim_sample_size$sample_size, sim_sample_size$power,
+       col = "blue")
+legend("bottomright", legend = c("Smoothed", "Original"),
+       col = c("black", "blue"), lty = c(1,0), pch = c(-1, 1))
+
+
+#questions----
+
+
+#Q5
+# There is a stat-significant slight negative relationship between GCKI presence and slope with a p-value of 1.01e-4 suggesting that observed presence decreases at higher altitudes.
+# 

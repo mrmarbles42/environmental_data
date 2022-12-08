@@ -1,6 +1,6 @@
 require(here)
 
-#Functions
+#Functions----
 ricker_fun = function(x, a, b)
 {
   return(a * x * exp(-b * x))
@@ -25,11 +25,11 @@ line_point_slope = function(x, x1, y1, slope)
 }
 
 
-#Data import
+#Data import ----
 disp <- read.csv(here("data", "dispersal.csv"))
 
 
-#Exponential 
+#Exponential ----
 curve(
   exp_fun(2.2, 1/15, x),
   from = 0,
@@ -87,7 +87,7 @@ curve(
   ylab = "f(x)"
 )
 
-#Ricker
+#Ricker----
 
 curve(
   ricker_fun(x, 1, 1),
@@ -174,8 +174,7 @@ curve(
 )
 
 ftb_lm <- lm(disp$disp.rate.ftb ~ disp$dist.class)
-
-
+#plots----
 
 plot(x = disp$dist.class, 
      y = disp$disp.rate.ftb,
