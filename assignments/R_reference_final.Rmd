@@ -20,17 +20,17 @@ ginkgo <- read.csv(here("data", "ginkgo_data_2021.csv"))
 ## data structures
 ```{r}
 
-#this is used to concatenate vectors
-c()
+#this is used to concatenate a vector
+vec <- c("this", "is", "a", "concatenated", "vector")
 
 #this defines the length of the selected vector
-length()
+length(vec)
 
 # This is used to create a matrix structure from a set of objects
-matrix()
+matrix(vec)
 
 # This is used to create a data frame from a set of objects
-data.frame()
+data.frame(vec)
 
 
 # This returns the number of rows in the selected object
@@ -66,7 +66,6 @@ subset(penguins, species == "Adelie")
 # Numerical Data Exploration
 ```{r}
 # Summary of all values by column
-
 summary(ginkgo)
 
 # mean value for selected column
@@ -81,6 +80,7 @@ sd(ginkgo$max_width)
 ```{r}
 par(mfrow = c(2,2))
 
+#scatterplot
 plot(ginkgo$max_depth, ginkgo$max_width,
      col = c("blue", "red"),
      pch = c(1, 2),
@@ -92,11 +92,13 @@ plot(ginkgo$max_depth, ginkgo$max_width,
      ylim = NULL
      )
 
+#histogram
 hist(penguins$flipper_length_mm,
       breaks = 25,
      xlab = "Flipper length (mm)",
      main = "Penguin flipper length histogram")
 
+#boxplots
 boxplot(ginkgo$petiole_length,
         ylab = "Petiole length (mm)")
 
@@ -112,18 +114,18 @@ boxplot(ginkgo$notch_depth ~ ginkgo$seeds_present,
 dnorm(x = 1, mean = 0, sd = 1)
 
 # cumulative likelihood percentage for single point in normally-distributed density function
-pnorm()
+pnorm(q = 1, mean = 0, sd = 1)
 
 # Inverse cumulative
-qnorm()
+qnorm(p = c(0.25, 0.5, 0.75, 1), mean = 0, sd = 1)
 
 # likelihood for single point on binomial density function
-dbinom()
+dbinom(x = 50, 100, 0.5)
 
 #cumulative likelihood percentage for single point in normally-distributed density function
-pbinom()
+pbinom(q = 50, 100, 0.5)
 
 # Inverse cumulative
-qbinom()
+qbinom(p = c(0.25, 0.5, 0.75, 1), 100, 0.5)
 ```
 

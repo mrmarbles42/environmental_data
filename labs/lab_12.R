@@ -1,4 +1,6 @@
 require(here)
+library(minpack.lm)
+
 #data----
 dat_1 = read.csv(here("data", "bird.sub.csv"))
 dat_2 = read.csv(here("data", "hab.sub.csv"))
@@ -217,24 +219,37 @@ newdata_sample_size = data.frame(sample_size = seq(2, 20, length.out = 100))
 # exponential nls model ----
 
 #example
-curve(
-  exp_fun(2.2, 1/15, x),
-  from = 0,
-  to = 50,
-  add = F,
-  axes = T,
-  main = "Exponential function",
-  ylab = "f(x)",
-  xlab = "x"
-)
+# curve(
+#   exp_fun(2.2, 1/15, x),
+#   from = 0,
+#   to = 50,
+#   add = F,
+#   axes = T,
+#   main = "Exponential function",
+#   ylab = "f(x)",
+#   xlab = "x"
+# )
 
-fit_exp_nls = nls(
-  disp.rate.ftb ~ exp_fun(dist.class, a, b),
+fit_exp_nls = nls.lm(
+  disp.rate.eb ~ exp_fun(dist.class, a, b),
   data = dat_dispersal,
-  start = list(b = 0, a = 1))
-summary(fit_ricker_nls)
+  start = list(b = 1, a = 2))
+summary(fit_exp_nls)
+
+nls.lm(par = list(b = 1, a = 2), fn = exp_fun(dat_dispersal$dist.class, a, b))
+
+dist_newdata = data.frame(dist.class = seq(0, 1600, length.out = 1600))  
+
+lines(predict(fit_ricker_nls, newdata = dist_newdata))
+legend("topright", legend = c("nls fit"), lty = 1, col = c(1))
 
 # logistic model----
+
+# Create model fits
+fit_gcki_slope = glm(GCKI_pres ~ slope, data = dat_all, family = binomial)
+fit_gcki_ba_tot = glm(GCKI_pres ~ ba.tot, data = dat_all, family = binomial)
+fit_gcki_both_additive = glm(GCKI_pres ~ slope + ba.tot, data = dat_all, family = binomial)
+fit_gcki_both_interactive = glm(GCKI_pres ~ slope * ba.tot, data = dat_all, family = binomial)
 
 n = 500
 
@@ -246,6 +261,13 @@ slope_newdata = data.frame(
   )
 )
 
+ba_newdata = data.frame(
+  ba.tot = seq(
+    from = min(dat_all$ba.tot, na.rm = T),
+    to = max(dat_all$ba.tot, na.rm = T),
+    length.out = n
+  )
+)
 ba_newdata$gcki_predicted = 
   predict(
     fit_gcki_ba_tot,
@@ -253,11 +275,6 @@ ba_newdata$gcki_predicted =
     type = "response"
   )
 
-# Create model fits
-fit_gcki_slope = glm(GCKI_pres ~ slope, data = dat_all, family = binomial)
-fit_gcki_ba_tot = glm(GCKI_pres ~ ba.tot, data = dat_all, family = binomial)
-fit_gcki_both_additive = glm(GCKI_pres ~ slope + ba.tot, data = dat_all, family = binomial)
-fit_gcki_both_interactive = glm(GCKI_pres ~ slope * ba.tot, data = dat_all, family = binomial)
 
 slope_newdata$gcki_predicted = 
   predict(
@@ -274,11 +291,98 @@ plot(
 )
 lines(gcki_predicted ~ slope, data = slope_newdata)
 
+plot(
+  GCKI_pres ~ ba.tot, data = dat_all,
+  xlab = "Basal area",
+  ylab = "GCKI presence/absence",
+  pch = 16, cex = 1.5, col = gray(0, 0.2)
+)
+
+lines(gcki_predicted ~ ba.tot, data = ba_newdata)
+
+
 #AIC test
 AIC(fit_gcki_slope,
     fit_gcki_ba_tot,
     fit_gcki_both_additive,
     fit_gcki_both_interactive)
+# contour----
+
+n = 50
+
+ba.tot = seq(
+  from = min(dat_all$ba.tot, na.rm = T),
+  to = max(dat_all$ba.tot, na.rm = T),
+  length.out = n)
+slope = seq(
+  from = min(dat_all$slope, na.rm = T),
+  to = max(dat_all$slope, na.rm = T),
+  length.out = n)
+
+new_dat_all = expand.grid(
+  ba.tot = ba.tot,
+  slope = slope)
+
+new_dat_all$pred_add = predict(
+  fit_gcki_both_additive,
+  newdata = new_dat_all,
+  type = "response")
+
+z_gcki_add = matrix(
+  new_dat_all$pred_add,
+  nrow = length(ba.tot),
+  byrow = FALSE)
+
+
+new_dat_all$pred_int = predict(
+  fit_gcki_both_interactive,
+  newdata = new_dat_all,
+  type = "response")
+
+z_gcki_int = matrix(
+  new_dat_all$pred_int,
+  nrow = length(ba.tot),
+  byrow = FALSE)
+
+
+require(rgl)
+
+rgl::persp3d(
+  x = ba.tot,
+  y = slope,
+  z = z_gcki_add,
+  col = "steelblue",
+  xlab = "Basal Area",
+  ylab = "Slope",
+  zlab = "Pr(present)",
+  alpha = 0.4)
+rglwidget()
+
+rgl::persp3d(
+  x = ba.tot,
+  y = slope,
+  z = z_gcki_int,
+  col = "steelblue",
+  xlab = "Basal Area",
+  ylab = "Slope",
+  zlab = "Pr(present)",
+  alpha = 0.4)
+rglwidget()
+
+par(mfrow = c(1, 2))
+contour(
+  x = ba.tot, y = slope,
+  z = z_gcki_add,
+  xlab = "Total Basal Area",
+  ylab = "Percent Slope",
+  main = "Additive")
+contour(
+  x = ba.tot,
+  y = slope,
+  z = z_gcki_int,
+  xlab = "Total Basal Area",
+  ylab = "Percent Slope",
+  main = "Interactive")
 # plots ----
 
 #base plot
